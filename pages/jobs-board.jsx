@@ -1,0 +1,1 @@
+// Card design for each job listing with job description, contact person, salary range (optional), location (remote?), listing link
