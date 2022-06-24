@@ -41,17 +41,17 @@ export default function Home() {
           Connecting software engineers, developers, and coders in the
           Youngstown, OH area.
         </p>
-        <p>Join the ongoing chat via <a href="http://slack.codeyoungstown.com/">Slack</a> and attend our <a href="https://www.meetup.com/Code-Youngstown/">meetups</a>.</p>
-
-        
+        <p>
+          Join the ongoing chat via{" "}
+          <a href="http://slack.codeyoungstown.com/">Slack</a> and attend our{" "}
+          <a href="https://www.meetup.com/Code-Youngstown/">meetups</a>.
+        </p>
       </main>
 
       <footer className="max-w-screen-lg sm:flex text-xs print:hidden items-center">
         <div className="text-center sm:text-left flex-1">
           <FontAwesomeIcon icon={faCopyright} /> Code Youngstown{" "}
-          {new Date().getFullYear() == 2022
-            ? new Date().getFullYear()
-            : 2022 - new Date().getFullYear()}
+          {new Date().getFullYear()}
         </div>
 
         <div className="text-center flex-1">
