@@ -1,17 +1,23 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-
+import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faChartLine,
   faCodeBranch,
   faCopyright,
+  faFacebookOfficial,
+  faTwitter,
+  faGitHub,
+  faMeetup,
+  faPodcast,
+  faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-gray text-white text-center flex-1">
       <Head>
         <title>Code Youngstown</title>
         <meta
@@ -25,6 +31,18 @@ export default function Home() {
       </Head>
 
       <main>
+        <nav className="flex sm:justify-center space-x-4">
+          {[
+            ["Home", "/"],
+            ["Made In Youngstown", "/made-in-youngstown"],
+            ["Jobs Board", "/jobs-board"],
+            ["Jobs Board Form", "/jobs-board-form"],
+          ].map(([title, url]) => (
+            <Link href={url} key={title}>
+              <a>{title}</a>
+            </Link>
+          ))}
+        </nav>
         <Image
           src="/code-youngstown-white-background-final.png"
           alt="Code Youngstown Logo"
@@ -46,34 +64,8 @@ export default function Home() {
           <a href="http://slack.codeyoungstown.com/">Slack</a> and attend our{" "}
           <a href="https://www.meetup.com/Code-Youngstown/">meetups</a>.
         </p>
+        <Footer />
       </main>
-
-      <footer className="max-w-screen-lg sm:flex text-xs print:hidden items-center">
-        <div className="text-center sm:text-left flex-1">
-          <FontAwesomeIcon icon={faCopyright} /> Code Youngstown{" "}
-          {new Date().getFullYear()}
-        </div>
-
-        <div className="text-center flex-1">
-          <a
-            href="https://github.com/codeyoungstown/codeyoungstown.com"
-            className="m-1 hover:text-[#00FF33]"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faCodeBranch} />
-          </a>
-
-          <a
-            href="https://simpleanalytics.com/codeyoungstown.com?utm_source=codeyoungstown.com"
-            className="m-1 hover:text-[#00FF33]"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faChartLine} />
-          </a>
-        </div>
-      </footer>
     </div>
   );
 }
