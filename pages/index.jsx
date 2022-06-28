@@ -1,12 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faChartLine,
-  faCodeBranch,
-  faCopyright,
   faFacebookOfficial,
   faTwitter,
   faGitHub,
@@ -31,39 +29,32 @@ export default function Home() {
       </Head>
 
       <main>
-        <nav className="flex sm:justify-center space-x-4">
-          {[
-            ["Home", "/"],
-            ["Made In Youngstown", "/made-in-youngstown"],
-            ["Jobs Board", "/jobs-board"],
-            ["Jobs Board Form", "/jobs-board-form"],
-          ].map(([title, url]) => (
-            <Link href={url} key={title}>
-              <a>{title}</a>
-            </Link>
-          ))}
-        </nav>
+        <Header />
         <Image
           src="/code-youngstown-white-background-final.png"
           alt="Code Youngstown Logo"
           height={400}
           width={400}
         />
-        <h1>
-          <Link href="/made-in-youngstown">
-            <a>Made In Youngstown &rarr;</a>
-          </Link>
-        </h1>
 
-        <p>
+        <h1 className="text-3xl">
           Connecting software engineers, developers, and coders in the
           Youngstown, OH area.
-        </p>
-        <p>
+        </h1>
+        <h2 className="text-2xl">
           Join the ongoing chat via{" "}
-          <a href="http://slack.codeyoungstown.com/">Slack</a> and attend our{" "}
-          <a href="https://www.meetup.com/Code-Youngstown/">meetups</a>.
-        </p>
+          <a className="underline" href="http://slack.codeyoungstown.com/">
+            Slack
+          </a>{" "}
+          and attend our{" "}
+          <a
+            className="underline"
+            href="https://www.meetup.com/Code-Youngstown/"
+          >
+            meetups
+          </a>
+          .
+        </h2>
         <Footer />
       </main>
     </div>
