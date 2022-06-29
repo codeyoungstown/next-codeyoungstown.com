@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import Footer from "./Footer";
+import Header from "./Header";
 
 export default function Layout({ children }) {
   const router = useRouter();
@@ -50,10 +50,10 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="max-w-screen-lg m-auto p-4 pb-1 min-h-screen flex flex-col bg-gray text-white text-center flex-1">
+      <div className="bg-gray text-white text-center flex-1">
         <Header />
 
-        <main className="flex-grow flex flex-col">{children}</main>
+        <main>{children}</main>
 
         <Footer />
       </div>

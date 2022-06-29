@@ -39,12 +39,13 @@ export default function Home() {
         </a>
         .
       </h2>
-
-      <Script
-        async
-        defer
-        src="https://slack.codeyoungstown.com/slackin.js?large"
-      />
+      <div>
+        <Script
+          async
+          defer
+          src="https://slack.codeyoungstown.com/slackin.js?large"
+        />
+      </div>
     </Layout>
   );
 }
