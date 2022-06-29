@@ -3,48 +3,60 @@ import { useRouter } from "next/router";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
 
-export function Layout({ title, description, children }) {
+export default function Layout({ children }) {
   const router = useRouter();
+  const title = "Code Youngstown";
+  const description =
+    "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
 
   return (
-    <div className="max-w-screen-lg m-auto p-4 pb-1 min-h-screen flex flex-col">
+    <html lang="en">
       <Head>
+        {/*Thanks to https://megatags.co/ for generating these*/}
         <title>{title}</title>
-        <meta name="description" content={description} />
-
-        <link rel="icon" href="/favicon.ico" />
 
         {/* <!-- Primary Meta Tags --> */}
-        <title>{title}</title>
         <meta name="title" content={title} />
         <meta name="description" content={description} />
+        <link rel="icon" href="/code-youngstown-white-background-final.png" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content={"https://JoeDuncko.com" + router.asPath}
+          content={"https://codeyoungstown.com" + router.asPath}
         />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        {/* <meta property="og:image" content="" /> */}
+        <meta
+          property="og:image"
+          content="/code-youngstown-white-background-final.png"
+        />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content={"https://JoeDuncko.com" + router.asPath}
+          content={"https://codeyoungstown.com" + router.asPath}
         />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        {/* <meta property="twitter:image" content="" /> */}
+        <meta
+          property="twitter:image"
+          content="/code-youngstown-white-background-final.png"
+        />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <Header />
+      <div className="max-w-screen-lg m-auto p-4 pb-1 min-h-screen flex flex-col bg-gray text-white text-center flex-1">
+        <Header />
 
-      <main className="flex-grow flex flex-col">{children}</main>
+        <main className="flex-grow flex flex-col">{children}</main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </html>
   );
 }
