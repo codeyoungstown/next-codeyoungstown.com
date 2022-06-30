@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
 
   return (
-    <html lang="en" className="bg-gray text-white text-center flex-1">
+    <div className="bg-gray text-white text-center flex-1">
       <Head>
         {/*Thanks to https://megatags.co/ for generating these*/}
         <title>{title}</title>
@@ -57,6 +57,6 @@ export default function Layout({ children }) {
 
         <Footer />
       </div>
-    </html>
+    </div>
   );
 }

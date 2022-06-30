@@ -11,6 +11,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export const socials = [
+
+  // add slack
   {
     name: "Facebook",
     link: "https://www.facebook.com/codeyoungstown",

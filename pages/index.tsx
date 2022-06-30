@@ -35,13 +35,7 @@ export default function Home() {
       <div>
         <Socials />
       </div>
-      <div>
-        <Script
-          async
-          defer
-          src="https://slack.codeyoungstown.com/slackin.js?large"
-        />
-      </div>
+      {/* <img src="https://slack.codeyoungstown.com/badge.svg" /> */}
     </Layout>
   );
 }
