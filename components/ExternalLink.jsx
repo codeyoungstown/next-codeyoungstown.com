@@ -2,7 +2,7 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
-export function ExternalLink({ children, href, title }) {
+export default function ExternalLink({ children, href, title }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
