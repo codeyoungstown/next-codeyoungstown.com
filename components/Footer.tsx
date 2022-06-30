@@ -14,23 +14,30 @@ export default function Footer() {
       </div>
 
       <div>
-        <a
-          href="https://github.com/codeyoungstown/codeyoungstown.com"
-          className="m-2 hover:text-blue"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faCodeBranch} />
-        </a>
-
-        <a
-          href="https://simpleanalytics.com/codeyoungstown.com?utm_source=codeyoungstown.com"
-          className="m-2 hover:text-blue"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FontAwesomeIcon icon={faChartLine} />
-        </a>
+        <ul className="flex flex-row items-center text-center  justify-center mb-4">
+          <li>
+            <a
+              href="https://github.com/codeyoungstown/codeyoungstown.com"
+              className="m-2 hover:text-blue"
+              target="_blank"
+              rel="noreferrer"
+              title={`GitHub Link`}
+            >
+              <FontAwesomeIcon icon={faCodeBranch} />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://simpleanalytics.com/codeyoungstown.com?utm_source=codeyoungstown.com"
+              className="m-2 hover:text-blue"
+              target="_blank"
+              rel="noreferrer"
+              title={`Simple Analytics Link`}
+            >
+              <FontAwesomeIcon icon={faChartLine} />
+            </a>
+          </li>
+        </ul>
       </div>
     </footer>
   );
