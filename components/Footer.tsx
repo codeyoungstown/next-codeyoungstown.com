@@ -7,7 +7,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="p-4">
       <div>
         <FontAwesomeIcon icon={faCopyright} /> Code Youngstown{" "}
         {new Date().getFullYear()}

@@ -11,7 +11,7 @@ export default function Socials() {
                   rel = "noreferrer"
                   target="_blank"
                   title={`To Joe Duncko's ${social.name}`}
-                  className="hover:text-[#00FF33]"
+                  className="hover:text-blue"
                 >
                   <FontAwesomeIcon icon={social.icon} />
                 </a>
