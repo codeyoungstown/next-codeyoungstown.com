@@ -16,7 +16,7 @@ export default function Footer() {
       <div>
         <a
           href="https://github.com/codeyoungstown/codeyoungstown.com"
-          className="m-2 hover:text-[#338ee8]"
+          className="m-2 hover:text-blue"
           target="_blank"
           rel="noreferrer"
         >
@@ -25,7 +25,7 @@ export default function Footer() {
 
         <a
           href="https://simpleanalytics.com/codeyoungstown.com?utm_source=codeyoungstown.com"
-          className="m-2 hover:text-[#338ee8]"
+          className="m-2 hover:text-blue"
           target="_blank"
           rel="noreferrer"
         >

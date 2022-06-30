@@ -5,7 +5,7 @@
 // - salary range (optional)
 // - job listing and/or contact person
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function FirstPost() {
   return (

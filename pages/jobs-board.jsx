@@ -1,6 +1,6 @@
 // Card design for each job listing with job description, contact person, salary range (optional), location (remote?), listing link
 
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function FirstPost() {
   return (

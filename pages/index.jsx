@@ -1,17 +1,10 @@
 import Image from "next/image";
 import Script from "next/script";
 import Layout from "../components/Layout";
+import Socials from "../components/Socials";
 {
   /* 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookOfficial,
-  faTwitter,
-  faGitHub,
-  faMeetup,
-  faPodcast,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
+
 */
 }
 export default function Home() {
@@ -39,6 +32,9 @@ export default function Home() {
         </a>
         .
       </h2>
+      <div>
+        <Socials />
+      </div>
       <div>
         <Script
           async

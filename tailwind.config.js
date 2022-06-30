@@ -8,6 +8,7 @@ module.exports = {
     colors: {
       gray: "#222322",
       white: "#ffffff",
+      blue: "#338ee8",
     },
   },
   plugins: [],
