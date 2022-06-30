@@ -1,8 +1,11 @@
 import {
   faFacebook,
-  faTwitter,
   faGithub,
   faMeetup,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
+import {
   faPodcast,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
