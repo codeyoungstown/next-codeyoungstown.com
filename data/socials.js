@@ -1,4 +1,3 @@
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faFacebook,
   faTwitter,
@@ -12,31 +11,31 @@ export const socials = [
   {
     name: "Facebook",
     link: "https://www.facebook.com/codeyoungstown",
-    IconDefinition: faFacebook,
+    icon: faFacebook,
   },
   {
     name: "Twitter",
     link: "https://twitter.com/codeyoungstown",
-    IconDefinition: faTwitter,
+    icon: faTwitter,
   },
   {
     name: "GitHub",
     link: "https://github.com/codeyoungstown",
-    IconDefinition: faGithub,
+    icon: faGithub,
   },
   {
     name: "Meetup",
     link: "https://meetup.com/in/codeyoungstown",
-    IconDefinition: faMeetup,
+    icon: faMeetup,
   },
   {
     name: "Overcast",
     link: "https://overcast.fm/itunes1491969032/code-youngstown-podcast",
-    IconDefinition: faPodcast,
+    icon: faPodcast,
   },
   {
     name: "Email",
     link: "mailto:contact@codeyoungstown.com",
-    IconDefinition: faEnvelope,
+    icon: faEnvelope,
   },
 ];

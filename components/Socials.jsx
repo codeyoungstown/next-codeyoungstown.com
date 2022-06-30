@@ -13,7 +13,7 @@ export default function Socials() {
               href={social.link}
               title={`To Code Youngstown's ${social.name}`}
             >
-              <FontAwesomeIcon icon={social.IconDefinition} /> {social.name}
+              <FontAwesomeIcon icon={social.icon} /> {social.name}
             </ExternalLink>
           </li>
         ))}
