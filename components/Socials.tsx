@@ -1,23 +1,23 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import DataCard from "./DataCard";
 import { socials } from "../data/socials";
-import ExternalLink from "./ExternalLink";
 
 export default function Socials() {
   return (
-    <DataCard title="Socials">
-      <ul>
-        {socials.map((social) => (
-          <li key={social.name} className="mb-2">
-            <ExternalLink
-              href={social.link}
-              title={`To Code Youngstown's ${social.name}`}
-            >
-              <FontAwesomeIcon icon={social.icon} /> {social.name}
-            </ExternalLink>
-          </li>
-        ))}
-      </ul>
-    </DataCard>
+    <ul className="flex flex-row items-center text-center gap-8 justify-center text-4xl mb-4">
+            {socials.map((social) => (
+              <li key={social.name}>
+                <a
+                  href={social.link}
+                  rel = "noreferrer"
+                  target="_blank"
+                  title={`To Joe Duncko's ${social.name}`}
+                  className="hover:text-[#00FF33]"
+                >
+                  <FontAwesomeIcon icon={social.icon} />
+                </a>
+              </li>
+            ))}
+            
+          </ul>
   );
 }
