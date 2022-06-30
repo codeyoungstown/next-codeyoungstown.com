@@ -8,12 +8,3 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 npm install
 npm run dev
 ```
-
-## Future work
-- recreate the [current site](https://codeyoungstown.com) as the home page, add navbar
-- create Made In Youngstown page highlighting local tech companies
-    - filters: type of work done, consulting firm
-- create Jobs Board page to highlight local job opportunities
-    - create Jobs Board submission form to add new listings via Markdown or JSON
-- possibly create events page or integrate [Meetup feed](https://www.meetup.com/Code-Youngstown/)
-- dark/light mode toggle
