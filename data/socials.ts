@@ -1,4 +1,5 @@
 import {
+  faSlack,
   faFacebook,
   faGithub,
   faMeetup,
@@ -12,7 +13,11 @@ import {
 
 export const socials = [
 
-  // add slack
+  {
+    name: "Slack",
+    link: "http://slack.codeyoungstown.com/",
+    icon: faSlack,
+  },
   {
     name: "Facebook",
     link: "https://www.facebook.com/codeyoungstown",

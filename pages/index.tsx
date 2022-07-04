@@ -1,12 +1,7 @@
 import Image from "next/image";
-import Script from "next/script";
 import Layout from "../components/Layout";
 import Socials from "../components/Socials";
-{
-  /* 
 
-*/
-}
 export default function Home() {
   return (
     <Layout>
@@ -35,7 +30,6 @@ export default function Home() {
       <div>
         <Socials />
       </div>
-      {/* <img src="https://slack.codeyoungstown.com/badge.svg" /> */}
     </Layout>
   );
 }
