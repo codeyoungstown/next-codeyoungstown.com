@@ -1,16 +1,21 @@
 import Image from "next/image";
 import Layout from "../components/Layout";
 import Socials from "../components/Socials";
+import logo from "../public/code-youngstown-white-background-final.png"
 
 export default function Home() {
   return (
     <Layout>
-      <Image
-        src="/code-youngstown-white-background-final.png"
-        alt="Code Youngstown Logo"
-        height={600}
-        width={600}
-      />
+      <div className="">
+        <Image
+          src={logo}
+          alt="Code Youngstown Logo"
+          height={700}
+          width={700}
+          layout="intrinsic"
+          priority
+        />
+      </div>
 
       <h1 className="text-3xl p-4">
         Connecting software engineers, developers, and coders in the Youngstown,

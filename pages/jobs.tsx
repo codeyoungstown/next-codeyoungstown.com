@@ -1,18 +1,17 @@
 // Card design for each job listing with job description, contact person, salary range (optional), location (remote?), listing link
 
 import Link from "next/link";
+import Layout from "../components/Layout";
+import Companies from "../components/Companies";
 
-export default function FirstPost() {
+export default function Jobs() {
   return (
-    <>
-      <h1>First Post</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
-    </>
+    <Layout>
+      <h1 className="text-3xl p-2">Jobs</h1>
+      <h2 className="text-xl p-2">Community-sourced job opportunites</h2>
+      <Link href="/jobs-form">
+        <a>Add a job listing</a>
+      </Link>
+    </Layout>
   );
 }
-
-// Card design for each company with consulting badge

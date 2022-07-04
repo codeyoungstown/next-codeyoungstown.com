@@ -11,5 +11,3 @@ export default function MadeInYoungstown() {
     </Layout>
   );
 }
-
-// Card design for each company with consulting badge
