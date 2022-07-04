@@ -8,7 +8,7 @@ export default function Jobs() {
   return (
     <Layout>
       <h1 className="text-3xl p-2">Jobs</h1>
-      <h2 className="text-xl p-2">Community-sourced job opportunites</h2>
+      <h2 className="text-xl p-2">Community-sourced job opportunities</h2>
       <Link href="/jobs-form">
         <a>Add a job listing</a>
       </Link>
