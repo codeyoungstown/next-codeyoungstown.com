@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "@fontsource/open-sans"; // Defaults to weight 400.
 // font awesome config
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
