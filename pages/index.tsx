@@ -21,7 +21,7 @@ export default function Home() {
         Connecting software engineers, developers, and coders in the Youngstown,
         OH area.
       </h1>
-      <h2 className="text-2xl p-4 pb-4">
+      <h2 className="text-2xl p-2">
         Join the ongoing chat via{" "}
         <a className="underline" href="http://slack.codeyoungstown.com/">
           Slack
@@ -32,7 +32,7 @@ export default function Home() {
         </a>
         .
       </h2>
-      <div>
+      <div className="p-6">
         <Socials />
       </div>
     </Layout>

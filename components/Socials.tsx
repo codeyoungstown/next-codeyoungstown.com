@@ -10,7 +10,7 @@ export default function Socials() {
                   href={social.link}
                   rel = "noreferrer"
                   target="_blank"
-                  title={`To Joe Duncko's ${social.name}`}
+                  title={`To Code Youngstown's ${social.name}`}
                   className="hover:text-blue"
                 >
                   <FontAwesomeIcon icon={social.icon} />
