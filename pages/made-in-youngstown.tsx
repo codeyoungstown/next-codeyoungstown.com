@@ -2,6 +2,8 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Companies from "../components/Companies";
 
+// add filters for type of work done, consulting or not
+
 export default function MadeInYoungstown() {
   return (
     <Layout>

@@ -6,7 +6,7 @@ export default function Companies() {
     <div className="justify-center flex flex-wrap">
       {companies.map((company) => (
         <div
-          className="block rounded-lg shadow-lg max-w-sm text-center p-8 flex-none"
+          className="block rounded-lg shadow-lg max-w-sm text-center p-8 flex-none w-40"
           key={company.name}
         >
           <div className="py-3 px-6 border-b border-gray-300">
