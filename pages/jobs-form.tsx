@@ -11,6 +11,7 @@ export default function JobsForm() {
         className="text-blue"
         action="mailto:ryanlalchand@gmail.com"
         method="post"
+        encType="text/plain"
       >
         <div>
           <label htmlFor="name">Your Name: &nbsp;</label>
@@ -51,5 +52,3 @@ export default function JobsForm() {
     </Layout>
   );
 }
-
-// Card design for each company with consulting badge
