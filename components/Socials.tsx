@@ -11,7 +11,7 @@ export default function Socials() {
             rel="noreferrer"
             target="_blank"
             title={`To Code Youngstown's ${social.name}`}
-            className="hover:text-blue"
+            className="hover:text-gray-300"
           >
             <FontAwesomeIcon icon={social.icon} />
           </a>
