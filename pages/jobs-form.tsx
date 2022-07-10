@@ -9,7 +9,7 @@ export default function JobsForm() {
 
       <form
         className="p-4 flex-row"
-        action="mailto:contact@codeyoungstown.com?subject=New Job Listing"
+        action="https://mailto:contact@codeyoungstown.com?subject=New Job Listing"
         target="__blank"
         method="post"
         encType="text/plain"
