@@ -119,7 +119,7 @@ export default function JobsForm() {
         </div>
         <div>
           <button
-            className="p-4 outline rounded-full border-0 border-white hover:bg-gray-700"
+            className="p-4 outline rounded-full border-0 border-white hover:text-gray-300"
             type="submit"
           >
             Submit

@@ -3,24 +3,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Companies() {
   return (
-    <div className="justify-center flex flex-wrap">
+    <div className="">
       {companies.map((company) => (
         <div
-          className="block rounded-lg shadow-lg max-w-sm text-center p-8 flex-none w-40"
+          className="rounded-lg shadow-lg text-center outline-white outline-1 outline w-1/3"
           key={company.name}
         >
-          <div className="py-3 px-6 border-b border-gray-300">
+          <div className="py-3 px-6 border-b border-white">
             Consulting Firm?
           </div>
           <div className="p-6">
-            <h5 className="text-gray-900 text-xl font-medium mb-2">
-              {company.name}
-            </h5>
-            <p className="text-gray-700 text-base mb-4">{company.city}</p>
+            <h5 className="text-xl mb-2">{company.name}</h5>
+            <p className="mb-4">{company.city}</p>
             {company.careers != "" && (
               <button
                 type="button"
-                className="inline-block px-6 py-2.5  text-xs leading-tight uppercase rounded shadow-md hover:bg-blue hover:shadow-lg focus:bg-blue focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue active:shadow-lg transition duration-150 ease-in-out"
+                className="p-4 text-xs uppercase rounded shadow-md text-CYgray bg-white hover:bg-gray-300"
               >
                 <a
                   href={company.careers}
@@ -34,7 +32,7 @@ export default function Companies() {
             )}
             <button
               type="button"
-              className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+              className="p-4 bg-CYgray text-white text-xs uppercase rounded shadow-md hover:text-gray-300 outline-1 outline-white outline hover:outline-gray-300"
             >
               <a
                 href={company.website}
@@ -47,7 +45,7 @@ export default function Companies() {
               </a>
             </button>
           </div>
-          <div className="py-3 px-6 border-t border-gray-300 text-gray-600">
+          <div className="py-3 px-6 border-t border-white text-white">
             {company.servicesOrProduct}
           </div>
         </div>
