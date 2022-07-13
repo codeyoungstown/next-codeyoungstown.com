@@ -18,7 +18,7 @@ export default function Footer() {
           <li>
             <a
               href="https://github.com/codeyoungstown/codeyoungstown.com"
-              className="m-2 hover:text-blue"
+              className="m-2 hover:text-gray-300"
               target="_blank"
               rel="noreferrer"
               title={`GitHub Link`}
@@ -29,7 +29,7 @@ export default function Footer() {
           <li>
             <a
               href="https://simpleanalytics.com/codeyoungstown.com?utm_source=codeyoungstown.com"
-              className="m-2 hover:text-blue"
+              className="m-2 hover:text-gray-300"
               target="_blank"
               rel="noreferrer"
               title={`Simple Analytics Link`}
