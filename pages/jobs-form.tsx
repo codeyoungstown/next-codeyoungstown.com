@@ -1,4 +1,5 @@
 import Layout from "../components/Layout";
+import FormField from "../components/FormField";
 
 export default function JobsForm() {
   return (
@@ -8,45 +9,27 @@ export default function JobsForm() {
       </h1>
 
       <form
-        className="text-blue"
-        action="mailto:ryanlalchand@gmail.com"
+        className="p-4 flex-row"
+        action="mailto:contact@codeyoungstown.com?subject=New Job Listing"
+        target="__blank"
         method="post"
         encType="text/plain"
       >
+        <FormField name="name" label="Your Name:" />
+        <FormField name="email" label="Your Email:" type="email" />
+        <FormField name="jobTitle" label="Job Title:" />
+        <FormField name="company" label="Copmpany:" />
+        <FormField name="location" label="Location (City, State OR Remote):" />
+        <FormField name="salaryRange" label="Salary Range:" />
+        <FormField name="listingLink" label="Listing link or contact email:" />
+
         <div>
-          <label htmlFor="name">Your Name: &nbsp;</label>
-          <input type="text" id="name" name="name" required />
-        </div>
-        <div>
-          <label htmlFor="email">Your Email: &nbsp;</label>
-          <input type="email" id="email" name="email" required />
-        </div>
-        <div>
-          <label htmlFor="jobTitle">Job Title: &nbsp;</label>
-          <input type="text" id="jobTitle" name="jobTitle" required />
-        </div>
-        <div>
-          <label htmlFor="company">Company: &nbsp;</label>
-          <input type="text" id="company" name="company" required />
-        </div>
-        <div>
-          <label htmlFor="location">
-            Location (City, State OR Remote): &nbsp;
-          </label>
-          <input type="text" id="location" name="location" required />
-        </div>
-        <div>
-          <label htmlFor="salaryRange">Salary Range (optional): &nbsp;</label>
-          <input type="text" id="salaryRange" name="salaryRange" />
-        </div>
-        <div>
-          <label htmlFor="listingLink">
-            Listing link or contact email (optional): &nbsp;
-          </label>
-          <input type="text" id="listingLink" name="listingLink" />
-        </div>
-        <div>
-          <button type="submit">Submit</button>
+          <button
+            className="p-4 outline rounded-full border-0 border-white hover:bg-gray-700"
+            type="submit"
+          >
+            Submit
+          </button>
         </div>
       </form>
     </Layout>
