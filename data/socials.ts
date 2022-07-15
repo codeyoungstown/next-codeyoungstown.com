@@ -4,15 +4,13 @@ import {
   faGithub,
   faMeetup,
   faTwitter,
+  faLinkedin,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
-import {
-  faPodcast,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
+import { faPodcast, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const socials = [
-
   {
     name: "Slack",
     link: "http://slack.codeyoungstown.com/",
@@ -27,6 +25,16 @@ export const socials = [
     name: "Twitter",
     link: "https://twitter.com/codeyoungstown",
     icon: faTwitter,
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/company/code-youngstown/",
+    icon: faLinkedin,
+  },
+  {
+    name: "YouTube",
+    link: "https://www.youtube.com/channel/UCOAoZ5MDRa6115ZNnNVOefw",
+    icon: faYoutube,
   },
   {
     name: "GitHub",

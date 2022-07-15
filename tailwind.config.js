@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         CYgray: "#222322",
+        white: "#ffffff",
       },
     },
   },
