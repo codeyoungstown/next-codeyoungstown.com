@@ -1,5 +1,4 @@
 import { companies } from "../data/companies";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Companies() {
   return (
