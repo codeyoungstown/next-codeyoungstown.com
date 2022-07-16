@@ -17,7 +17,7 @@ export default function Companies() {
             {company.careers != "" && (
               <button
                 type="button"
-                className="p-4 text-xs uppercase rounded shadow-md text-CYgray bg-white hover:bg-gray-300"
+                className="p-4 text-xs uppercase rounded shadow-md text-cy-gray bg-white hover:bg-gray-300"
               >
                 <a
                   href={company.careers}
@@ -31,7 +31,7 @@ export default function Companies() {
             )}
             <button
               type="button"
-              className="p-4 bg-CYgray text-white text-xs uppercase rounded shadow-md hover:text-gray-300 outline-1 outline-white outline hover:outline-gray-300"
+              className="p-4 bg-cy-gray text-white text-xs uppercase rounded shadow-md hover:text-gray-300 outline-1 outline-white outline hover:outline-gray-300"
             >
               <a
                 href={company.website}
