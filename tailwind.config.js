@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        CYgray: "#222322",
+        "cy-gray": "#222322",
         white: "#ffffff",
       },
     },
