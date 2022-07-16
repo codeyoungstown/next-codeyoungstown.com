@@ -3,7 +3,7 @@ import FormField from "../components/FormField";
 
 export default function JobsForm() {
   return (
-    <Layout>
+    <Layout page="Jobs Form">
       <h1 className="text-3xl p-2">
         Add a listing to be featured on the Jobs Board
       </h1>

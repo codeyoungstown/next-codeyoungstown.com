@@ -5,7 +5,7 @@ import Companies from "../components/Companies";
 
 export default function MadeInYoungstown() {
   return (
-    <Layout>
+    <Layout page="Made In Youngstown">
       <h1 className="text-3xl p-2">Made In Youngstown</h1>
       <h2 className="text-2xl p-2">Local Tech Companies</h2>
       <Companies />
