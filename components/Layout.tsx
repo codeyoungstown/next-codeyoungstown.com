@@ -3,22 +3,24 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Layout({ children }) {
+export default function Layout({ children, page }) {
   const router = useRouter();
   const title = "Code Youngstown";
   const description =
     "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
+  const pageTitle = page == "Home" ? title : `${page} | ${title}`;
 
   return (
     <div className="bg-cy-gray text-white text-center flex-auto">
       <Head>
         {/*Thanks to https://megatags.co/ for generating these*/}
-        <title>{title}</title>
+        <title>{pageTitle}</title>
 
         {/* <!-- Primary Meta Tags --> */}
         <meta name="title" content={title} />
         <meta name="description" content={description} />
         <link rel="icon" href="/code-youngstown-white-background-final.png" />
+        <meta name="keywords" content="code, youngstown, code youngstown" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
@@ -51,7 +53,7 @@ export default function Layout({ children }) {
       </Head>
 
       <div className="min-h-screen">
-        <Header />
+        {/* add <Header /> when ready */}
 
         <main>{children}</main>
 

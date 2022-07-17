@@ -5,8 +5,8 @@ import logo from "../public/code-youngstown-white-background-final.png";
 
 export default function Home() {
   return (
-    <Layout>
-      <div className="">
+    <Layout page="Home">
+      <div>
         <Image
           src={logo}
           alt="Code Youngstown Logo"
