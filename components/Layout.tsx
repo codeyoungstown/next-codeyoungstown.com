@@ -8,9 +8,8 @@ export default function Layout({ children, page }) {
   const title = "Code Youngstown";
   const description =
     "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
+  const pageTitle = page == "Home" ? title : `${page} | ${title}`;
 
-  let pageName = page == "Home" ? "" : `${page} |`;
-  const pageTitle = `${pageName} ${title}`;
   return (
     <div className="bg-cy-gray text-white text-center flex-auto">
       <Head>
