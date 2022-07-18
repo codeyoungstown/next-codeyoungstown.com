@@ -53,7 +53,7 @@ export default function Layout({ children, page }) {
       </Head>
 
       <div className="min-h-screen">
-        {/* add <Header /> when ready */}
+        <Header />
 
         <main>{children}</main>
 
