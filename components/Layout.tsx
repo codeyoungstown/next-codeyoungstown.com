@@ -59,16 +59,6 @@ export default function Layout({ children, page }) {
 
         <Footer />
       </div>
-
-      {/* Simple Analytics */}
-      <script
-        async
-        defer
-        src="https://sa.codeyoungstown.com/latest.js"
-      ></script>
-      <noscript>
-        <img src="https://sa.codeyoungstown.com/noscript.gif" alt="" />
-      </noscript>
     </div>
   );
 }
