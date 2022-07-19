@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -59,6 +60,16 @@ export default function Layout({ children, page }) {
 
         <Footer />
       </div>
+
+      {/* Simple Analytics */}
+      <script
+        async
+        defer
+        src="https://sa.codeyoungstown.com/latest.js"
+      ></script>
+      <noscript>
+        <img src="https://sa.codeyoungstown.com/noscript.gif" alt="" />
+      </noscript>
     </div>
   );
 }
