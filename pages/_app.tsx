@@ -9,7 +9,7 @@ import Script from "next/script";
 function App({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
       <Script
         src="https://sa.codeyoungstown.com/latest.js"
         strategy="afterInteractive"
