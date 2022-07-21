@@ -3,25 +3,33 @@ import DataCard from "./DataCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
-// name, website, city, careers?, services/product
-
 export default function Companies() {
   const CareerPage = ({ link }) => {
     return (
-      <button className="bg-stone-500 hover:bg-stone-700 text-white font-bold py-1 px-2 rounded m-1">
-        <a href={link} target="_blank" className="text-white font-normal">
+      <a
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+        className="text-white font-normal flex"
+      >
+        <button className="w-full bg-stone-500 hover:bg-stone-700 text-white font-bold py-1 px-2 rounded m-1">
           Careers
-        </a>
-      </button>
+        </button>
+      </a>
     );
   };
   const Website = ({ link }) => {
     return (
-      <button className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-1 px-2 rounded m-1">
-        <a href={link} target="_blank" className="text-white font-normal">
+      <a
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+        className="text-white font-normal flex"
+      >
+        <button className="w-full bg-gray-600 hover:bg-gray-700 text-white font-bold py-1 px-2 rounded m-1">
           Website
-        </a>
-      </button>
+        </button>
+      </a>
     );
   };
   return (
@@ -35,8 +43,10 @@ export default function Companies() {
           </p>
           {company.careers ? <CareerPage link={company.careers} /> : <></>}
           <Website link={company.website} />
-          <hr />
-          <p>{company.servicesOrProduct}</p>
+          <div className="mt-auto ">
+            <hr />
+            <p>{company.servicesOrProduct}</p>
+          </div>
         </DataCard>
       ))}
     </div>

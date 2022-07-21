@@ -1,6 +1,5 @@
 import Layout from "../components/Layout";
 import Companies from "../components/Companies";
-import DataCard from "../components/DataCard";
 
 // add filters for type of work done, consulting or not
 
