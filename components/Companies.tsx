@@ -35,7 +35,7 @@ export default function Companies() {
   return (
     <div className="flex flex-col w-full sm:grid sm:grid-cols-3 sm:gap-4 sm:content-start">
       {companies.map((company) => (
-        <DataCard>
+        <DataCard key={company.name}>
           <p className="text-xl font-medium">{company.name}</p>
           <hr />
           <p>
