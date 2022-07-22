@@ -5,8 +5,10 @@
 
 export default function DataCard({ children }) {
   return (
-    <div className="rounded overflow-hidden shadow-lg border border-white m-4">
-      <div className="flex flex-col h-full p-2">{children}</div>
+    <div className="shadow-black shadow-md rounded overflow-hidden border border-white m-4">
+      <div className="flex flex-col h-full p-4 leading-8 text-left">
+        {children}
+      </div>
     </div>
   );
 }

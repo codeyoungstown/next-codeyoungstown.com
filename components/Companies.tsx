@@ -10,11 +10,9 @@ export default function Companies() {
         href={link}
         target="_blank"
         rel="noreferrer"
-        className="text-white font-normal flex"
+        className="text-colt hover:text-[#826e62] font-bold pl-4"
       >
-        <button className="w-full bg-stone-500 hover:bg-stone-700 text-white font-bold py-1 px-2 rounded m-1">
-          Careers
-        </button>
+        CAREERS
       </a>
     );
   };
@@ -24,28 +22,28 @@ export default function Companies() {
         href={link}
         target="_blank"
         rel="noreferrer"
-        className="text-white font-normal flex"
+        className="text-colt hover:text-[#826e62] font-bold"
       >
-        <button className="w-full bg-gray-600 hover:bg-gray-700 text-white font-bold py-1 px-2 rounded m-1">
-          Website
-        </button>
+        WEBSITE
       </a>
     );
   };
   return (
-    <div className="flex flex-col w-full sm:grid sm:grid-cols-3 sm:gap-4 sm:content-start">
+    <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
       {companies.map((company) => (
         <DataCard key={company.name}>
           <p className="text-xl font-medium">{company.name}</p>
-          <hr />
-          <p>
+          <p className="text-gray-400">
             <FontAwesomeIcon icon={faLocationDot} /> {company.city}
           </p>
-          {company.careers ? <CareerPage link={company.careers} /> : <></>}
-          <Website link={company.website} />
-          <div className="mt-auto ">
-            <hr />
-            <p>{company.servicesOrProduct}</p>
+          <div className="grid grid-cols-2 mt-auto">
+            <div className="col-span-1">
+              <Website link={company.website} />
+              {company.careers ? <CareerPage link={company.careers} /> : <></>}
+            </div>
+            <p className="italic text-gray-400 text-right col-span-2 sm:col-span-1">
+              {company.servicesOrProduct}
+            </p>
           </div>
         </DataCard>
       ))}
