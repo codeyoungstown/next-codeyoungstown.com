@@ -28,6 +28,15 @@ export default function Companies() {
       </a>
     );
   };
+  const Tag = ({ children }) => {
+    return (
+      <div className="bg-stone-900 rounded-md px-2 py-[2px] mr-2 min-w-max">
+        <p className="font-thin text-xs text-gray-400 text-center">
+          {children}
+        </p>
+      </div>
+    );
+  };
   return (
     <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
       {companies.map((company) => (
@@ -36,6 +45,14 @@ export default function Companies() {
           <p className="text-gray-400">
             <FontAwesomeIcon icon={faLocationDot} /> {company.city}
           </p>
+          <p className="leading-5 my-2">{company.desc}</p>
+          <div className="flex overflow-auto my-1">
+            {company.tags ? (
+              company.tags.map((item) => <Tag>{item}</Tag>)
+            ) : (
+              <></>
+            )}
+          </div>
           <div className="grid grid-cols-2 mt-auto">
             <div className="col-span-1">
               <Website link={company.website} />

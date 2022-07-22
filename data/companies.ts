@@ -67,6 +67,8 @@ export const companies = [
     city: "Youngstown",
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
+    desc: "We are an engineering company that provides technical solutions and strategies for our partners based on the Drund (c) platform.",
+    tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
     servicesOrProduct: "Product",
   },
   {
@@ -223,8 +225,7 @@ export const companies = [
     name: "WernerCo",
     city: "West Middlesex, PA",
     website: "https://www.wernerworldwide.com/",
-    careers:
-      "https://www.wernerworldwide.com/en/careers/job-postings/usa",
+    careers: "https://www.wernerworldwide.com/en/careers/job-postings/usa",
     servicesOrProduct: "Product",
   },
   {
