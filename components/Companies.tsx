@@ -48,7 +48,7 @@ export default function Companies() {
           <p className="leading-5 my-2">{company.desc}</p>
           <div className="flex overflow-auto my-1">
             {company.tags ? (
-              company.tags.map((item) => <Tag>{item}</Tag>)
+              company.tags.map((item) => <Tag key={item}>{item}</Tag>)
             ) : (
               <></>
             )}
