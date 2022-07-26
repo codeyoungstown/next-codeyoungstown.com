@@ -4,7 +4,7 @@ export const companies = [
     city: "Canfield",
     website: "https://45press.com/",
     careers: "",
-    desc: "We provide design, development and hosting expertise on-demand to help you build and host your next digital product, platform, or app.",
+    desc: "45Press provide design, development and hosting expertise to help build and host digital products, platforms, or apps.",
     servicesOrProduct: "Services",
   },
   {
@@ -12,7 +12,7 @@ export const companies = [
     city: "Youngstown",
     website: "https://www.atpohio.com/",
     careers: "",
-    desc: "Advanced Technology Partners serves the IT needs of customers of all sizes all over the country with a core base of customers in Ohio and Pennsylvania.",
+    desc: "Advanced Technology Partners provides customers with advanced IT solutions.",
     servicesOrProduct: "Services",
   },
   {
@@ -20,7 +20,7 @@ export const companies = [
     city: "Girard",
     website: "https://www.aimntls.com/",
     careers: "http://www.jobsataim.com/",
-    desc: "At Aim, our highly skilled and dedicated team has the experience and technology to provide you with elite, award-winning commercial truck services that keep you and your business moving now and into the future.",
+    desc: "Aim Transportation Solutions offers award-winning comercial truck services.",
     servicesOrProduct: "Product",
   },
   {
@@ -28,7 +28,7 @@ export const companies = [
     city: "West Middlesex, PA",
     website: "https://autosoftdms.com/",
     careers: "https://autosoftdms.com/career-opportunities/",
-    desc: "Autosoft aims to support and empower dealerships of any size with proven solutions and practical knowledge to face the challenges and opportunities of the future.",
+    desc: "Autosoft aims to support and empower dealerships of any size with proven solutions.",
     servicesOrProduct: "Product",
   },
   {
@@ -36,7 +36,7 @@ export const companies = [
     city: "Warren",
     website: "https://www.avifoodsystems.com/",
     careers: "https://www.avifoodsystems.com/career-opportunities/",
-    desc: "We’re America’s largest, family-owned and operated food and hospitality provider, serving prestigious clients in the business, education, healthcare and leisure sectors.",
+    desc: "AVI Foodsystems is America's largest family-owned and operated food and hospitality provider.",
     servicesOrProduct: "Product",
   },
   {
@@ -44,7 +44,7 @@ export const companies = [
     city: "Sharon, PA",
     website: "https://www.blackknightinc.com/",
     careers: "https://www.blackknightinc.com/careers/",
-    desc: "Black Knight is a leading provider of integrated software, data and analytics solutions that facilitate and automate many of the business processes across the homeownership life cycle.",
+    desc: "Black Knight is a leading provider of integrated software, data and analytics solutions.",
     servicesOrProduct: "Services",
   },
   {
@@ -52,7 +52,7 @@ export const companies = [
     city: "Poland",
     website: "https://cboss.com/",
     careers: "",
-    desc: "We specialize in the design and implementation of industry leading gateway solutions for e-payment processing.",
+    desc: "CBOSS specializes in the design and implementation of industry leading gateway solutions for e-payment processing.",
     servicesOrProduct: "Product",
   },
   {
@@ -60,7 +60,7 @@ export const companies = [
     city: "Youngstown (& NE Ohio)",
     website: "https://cohenandcompany.com/",
     careers: "https://www.cohencpa.jobs/",
-    desc: "Top accounting and consulting firm specializing in audits and tax issues.",
+    desc: "Cohen & Company is a top accounting and consulting firm specializing in audits and tax issues.",
     servicesOrProduct: "Services",
   },
   {
@@ -68,7 +68,7 @@ export const companies = [
     city: "Boardman",
     website: "https://creativestreammarketing.com/",
     careers: "",
-    desc: "We’re a marketing and creative agency, partnering with B2B and Retail Technology companies.",
+    desc: "Creative Stream Marketing is a marketing and creative agency, partnering with B2B and Retail Technology companies.",
     servicesOrProduct: "Services",
   },
   {
@@ -76,7 +76,7 @@ export const companies = [
     city: "Youngstown",
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
-    desc: "We are an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
+    desc: "Drun is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
     tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
     servicesOrProduct: "Product",
   },
