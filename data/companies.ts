@@ -77,7 +77,7 @@ export const companies = [
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
     desc: "Drun is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
-    tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
+    // tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
     servicesOrProduct: "Product",
   },
   {
