@@ -53,7 +53,7 @@ export default function Layout({ children, page }) {
       </Head>
 
       <div className="min-h-screen m-auto">
-        <Header />
+        {/* <Header /> */}
 
         {/* Page Container */}
         <div className="flex justify-center ">
