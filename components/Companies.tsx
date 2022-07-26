@@ -1,54 +1,74 @@
 import { companies } from "../data/companies";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import DataCard from "./DataCard";
 
 export default function Companies() {
   return (
-    <div className="">
+    <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
       {companies.map((company) => (
-        <div
-          className="rounded-lg shadow-lg text-center outline-white outline-1 outline w-1/3"
-          key={company.name}
-        >
-          <div className="py-3 px-6 border-b border-white">
-            Consulting Firm?
-          </div>
-          <div className="p-6">
-            <h5 className="text-xl mb-2">{company.name}</h5>
-            <p className="mb-4">{company.city}</p>
-            {company.careers != "" && (
-              <button
-                type="button"
-                className="p-4 text-xs uppercase rounded shadow-md text-cy-gray bg-white hover:bg-gray-300"
-              >
-                <a
-                  href={company.careers}
-                  rel="noreferrer"
-                  target="_blank"
-                  title={`${company.name}'s website`}
-                >
-                  Careers Page
-                </a>
-              </button>
-            )}
-            <button
-              type="button"
-              className="p-4 bg-cy-gray text-white text-xs uppercase rounded shadow-md hover:text-gray-300 outline-1 outline-white outline hover:outline-gray-300"
-            >
-              <a
-                href={company.website}
-                rel="noreferrer"
-                target="_blank"
-                title={`${company.name}'s website`}
-                className="hover:text-blue"
-              >
-                Website
-              </a>
-            </button>
-          </div>
-          <div className="py-3 px-6 border-t border-white text-white">
-            {company.servicesOrProduct}
-          </div>
-        </div>
+        <Company key={company.name} company={company} />
       ))}
     </div>
   );
 }
+
+const Company = ({ company }) => {
+  return (
+    <DataCard>
+      <h3 className="text-xl font-medium">{company.name}</h3>
+      <p className="text-gray-400">
+        <FontAwesomeIcon icon={faLocationDot} /> {company.city}
+      </p>
+      <p className="leading-5 my-2">{company.desc}</p>
+      <div className="flex overflow-auto my-1">
+        {company.tags
+          ? company.tags.map((item) => <Tag key={item}>{item}</Tag>)
+          : null}
+      </div>
+      <div className="grid grid-cols-2 mt-auto">
+        <div className="col-span-1">
+          <WebsiteLink link={company.website} />
+          {company.careers ? <CareerLink link={company.careers} /> : null}
+        </div>
+        <p className="italic text-gray-400 text-right col-span-2 sm:col-span-1">
+          {company.servicesOrProduct}
+        </p>
+      </div>
+    </DataCard>
+  );
+};
+
+const CareerLink = ({ link }) => {
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="text-colt hover:text-[#826e62] font-bold pl-4"
+    >
+      CAREERS
+    </a>
+  );
+};
+
+const WebsiteLink = ({ link }) => {
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="text-colt hover:text-[#826e62] font-bold"
+    >
+      WEBSITE
+    </a>
+  );
+};
+
+const Tag = ({ children }) => {
+  return (
+    <div className="bg-stone-900 rounded-md px-2 py-[2px] mr-2 min-w-max">
+      <p className="font-thin text-xs text-gray-400 text-center">{children}</p>
+    </div>
+  );
+};
