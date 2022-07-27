@@ -2,11 +2,27 @@ import { companies } from "../data/companies";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import DataCard from "./DataCard";
+import Search from "./Search";
+import { useState } from "react";
 
 export default function Companies() {
+  const [search, setSearch] = useState("");
+  const [filteredCompanies, setFilteredCompanies] = useState(companies);
+
+  const handleSearch = (e) => {
+    setSearch(e.target.value);
+  };
+  const handleSubmit = () => {
+    const testCompanies = companies.filter((company) =>
+      company.name.includes(search)
+    );
+    setFilteredCompanies(testCompanies);
+  };
+
   return (
     <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
-      {companies.map((company) => (
+      <Search handleSearch={handleSearch} handleSubmit={handleSubmit} />
+      {filteredCompanies.map((company) => (
         <Company key={company.name} company={company} />
       ))}
     </div>
