@@ -35,7 +35,7 @@ export const companies = [
     name: "AVI Foodsystems",
     city: "Warren",
     website: "https://www.avifoodsystems.com/",
-    careers: "https://www.avifoodsystems.com/career-opportunities/",
+    careers: "https://avi-foodsystems.jobs.net/",
     desc: "AVI Foodsystems is America's largest family-owned and operated food and hospitality provider.",
     servicesOrProduct: "Product",
   },

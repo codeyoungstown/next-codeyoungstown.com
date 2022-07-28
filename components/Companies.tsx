@@ -12,19 +12,30 @@ export default function Companies() {
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
-  const handleSubmit = () => {
-    const testCompanies = companies.filter((company) =>
-      company.name.includes(search)
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const filter = companies.filter((company) =>
+      company.name.toLowerCase().includes(search.toLocaleLowerCase())
     );
-    setFilteredCompanies(testCompanies);
+    setFilteredCompanies(filter);
   };
 
   return (
-    <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
-      <Search handleSearch={handleSearch} handleSubmit={handleSubmit} />
-      {filteredCompanies.map((company) => (
-        <Company key={company.name} company={company} />
-      ))}
+    <div>
+      <Search
+        handleSearch={handleSearch}
+        handleSubmit={handleSubmit}
+        placeHolder="Company Name"
+      />
+      <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
+        {filteredCompanies.length ? (
+          filteredCompanies.map((company) => (
+            <Company key={company.name} company={company} />
+          ))
+        ) : (
+          <NoResult />
+        )}
+      </div>
     </div>
   );
 }
@@ -85,6 +96,14 @@ const Tag = ({ children }) => {
   return (
     <div className="bg-stone-900 rounded-md px-2 py-[2px] mr-2 min-w-max">
       <p className="font-thin text-xs text-gray-400 text-center">{children}</p>
+    </div>
+  );
+};
+
+const NoResult = () => {
+  return (
+    <div className="col-span-full p-5">
+      <h4 className="text-center text-2xl">No Results Found</h4>
     </div>
   );
 };
