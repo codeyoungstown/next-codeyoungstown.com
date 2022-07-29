@@ -6,18 +6,29 @@ import Search from "./Search";
 import { useState } from "react";
 
 export default function Companies() {
-  // SEARCH HANDLER
+  // SEARCH HANDLER //
   const [search, setSearch] = useState("");
+  const [select, setSelect] = useState("");
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
   };
-  const filteredCompanies = companies.filter((company) =>
-    company.name.toLowerCase().includes(search.toLocaleLowerCase())
+  const handleSelect = (e) => {
+    setSelect(e.target.value);
+  };
+  const filterTags = ({ company }) => {
+    if (select == "") {
+      return true;
+    } else return company.tags?.includes(select);
+  };
+  const filteredCompanies = companies.filter(
+    (company) =>
+      company.name.toLowerCase().includes(search.toLocaleLowerCase()) &&
+      filterTags({ company })
   );
-  //
+  // *SEARCH HANDLER* //
 
   return (
     <div className="w-full">
@@ -26,6 +37,7 @@ export default function Companies() {
         handleSubmit={handleSubmit}
         placeHolder="Company Name"
       />
+      <SelectTags onChange={handleSelect} />
       <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
         {filteredCompanies.length ? (
           filteredCompanies.map((company) => (
@@ -96,6 +108,24 @@ const Tag = ({ children }) => {
     <div className="bg-stone-900 rounded-md px-2 py-[2px] mr-2 min-w-max">
       <p className="font-thin text-xs text-gray-400 text-center">{children}</p>
     </div>
+  );
+};
+
+const SelectTags = ({ onChange }) => {
+  return (
+    <select
+      className="text-black my-3 rounded-lg"
+      name="tags"
+      id="tags"
+      onChange={onChange}
+    >
+      <option value="">--Select Tag--</option>
+      <option value="Web Dev">Web Dev</option>
+      <option value="App Dev">App Dev</option>
+      <option value="UI/UX">UI/UX</option>
+      <option value="Design">Design</option>
+      <option value="Marketing">Marketing</option>
+    </select>
   );
 };
 

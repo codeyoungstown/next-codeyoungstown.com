@@ -5,6 +5,7 @@ export const companies = [
     website: "https://45press.com/",
     careers: "",
     desc: "45Press provide design, development and hosting expertise to help build and host digital products, platforms, or apps.",
+    tags: ["Web Dev", "Design"],
     servicesOrProduct: "Services",
   },
   {
@@ -93,7 +94,7 @@ export const companies = [
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
     desc: "Drun is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
-    // tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
+    tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
     servicesOrProduct: "Product",
   },
   {
