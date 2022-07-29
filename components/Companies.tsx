@@ -6,22 +6,21 @@ import Search from "./Search";
 import { useState } from "react";
 
 export default function Companies() {
+  // SEARCH HANDLER
   const [search, setSearch] = useState("");
-  const [filteredCompanies, setFilteredCompanies] = useState(companies);
-
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    const filter = companies.filter((company) =>
-      company.name.toLowerCase().includes(search.toLocaleLowerCase())
-    );
-    setFilteredCompanies(filter);
   };
+  const filteredCompanies = companies.filter((company) =>
+    company.name.toLowerCase().includes(search.toLocaleLowerCase())
+  );
+  //
 
   return (
-    <div>
+    <div className="w-full">
       <Search
         handleSearch={handleSearch}
         handleSubmit={handleSubmit}
