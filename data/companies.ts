@@ -5,7 +5,7 @@ export const companies = [
     website: "https://45press.com/",
     careers: "",
     desc: "45Press provide design, development and hosting expertise to help build and host digital products, platforms, or apps.",
-    tags: ["Web Dev", "Design"],
+    tags: ["Websites", "Design"],
     servicesOrProduct: "Services",
   },
   {
@@ -14,6 +14,7 @@ export const companies = [
     website: "https://www.atpohio.com/",
     careers: "",
     desc: "Advanced Technology Partners provides customers with advanced IT solutions.",
+    tags: ["Data", "Consulting", "Network"],
     servicesOrProduct: "Services",
   },
   {
@@ -46,6 +47,7 @@ export const companies = [
     website: "https://www.blackknightinc.com/",
     careers: "https://www.blackknightinc.com/careers/",
     desc: "Black Knight is a leading provider of integrated software, data and analytics solutions.",
+    tags: ["Data", "Consulting", "Software"],
     servicesOrProduct: "Services",
   },
   {
@@ -62,6 +64,7 @@ export const companies = [
     website: "https://cohenandcompany.com/",
     careers: "https://www.cohencpa.jobs/",
     desc: "Cohen & Company is a top accounting and consulting firm specializing in audits and tax issues.",
+    tags: ["Consulting", "Financial"],
     servicesOrProduct: "Services",
   },
   {
@@ -70,6 +73,7 @@ export const companies = [
     website: "https://creativestreammarketing.com/",
     careers: "",
     desc: "Creative Stream Marketing is a marketing and creative agency, partnering with B2B and Retail Technology companies.",
+    tags: ["Websites", "Design", "Marketing"],
     servicesOrProduct: "Services",
   },
   {
@@ -78,6 +82,7 @@ export const companies = [
     website: "https://www2.deloitte.com/us/en.html",
     careers: "https://www2.deloitte.com/us/en/careers/careers.html",
     desc: "Deloitte provides industry-leading audit, consulting, tax, and advisory services.",
+    tags: ["Consulting", "Financial"],
     servicesOrProduct: "Services",
   },
   {
@@ -86,6 +91,7 @@ export const companies = [
     website: "https://deltatelecomohio.com",
     careers: "330.757.8276 fax",
     desc: "Delta Telecom is your local choice for business telephone services, internet, fiber optics, and more.",
+    tags: ["Network"],
     servicesOrProduct: "Services",
   },
   {
@@ -94,7 +100,6 @@ export const companies = [
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
     desc: "Drun is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
-    tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
     servicesOrProduct: "Product",
   },
   {
@@ -112,6 +117,7 @@ export const companies = [
     website: "https://www.fnb-online.com/",
     careers: "https://fnbcorp.wd1.myworkdayjobs.com/FNBCORP",
     desc: "FNB provides a full range of commercial banking, consumer banking and wealth management services.",
+    tags: ["Financial"],
     servicesOrProduct: "Services",
   },
   {
@@ -136,6 +142,7 @@ export const companies = [
     website: "https://idmi.net/",
     careers: "https://idmi.net/careers",
     desc: "IDMI.Net provides comprehensive, customized digital footprints for businesses and organizations large and small.",
+    tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
   },
   {
@@ -152,6 +159,7 @@ export const companies = [
     website: "https://www.involta.com/",
     careers: "https://www.involta.com/careers",
     desc: "Involta offers cloud solutions, infrastructure, consulting and data centers.",
+    tags: ["Data", "Network", "Consulting"],
     servicesOrProduct: "Services",
   },
   {
@@ -160,6 +168,7 @@ export const companies = [
     website: "https://jetcreative.com/",
     careers: "",
     desc: "Jet is a creative design and marketing agency dedicated to the growth of businesses and organizations in Northeast Ohio.",
+    tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
   },
   {
@@ -185,6 +194,7 @@ export const companies = [
     website: "https://www.palocreative.com/",
     careers: "https://www.palocreative.com/careers",
     desc: "PALO Creative is a advertising and digital media agency specializing in traditional and digital marketing solutions.",
+    tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
   },
   {

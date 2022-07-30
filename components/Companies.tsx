@@ -120,11 +120,14 @@ const SelectTags = ({ onChange }) => {
       onChange={onChange}
     >
       <option value="">--Select Tag--</option>
-      <option value="Web Dev">Web Dev</option>
-      <option value="App Dev">App Dev</option>
-      <option value="UI/UX">UI/UX</option>
+      <option value="Websites">Websites</option>
       <option value="Design">Design</option>
+      <option value="Network">Network</option>
+      <option value="SEO">SEO</option>
       <option value="Marketing">Marketing</option>
+      <option value="Consulting">Consulting</option>
+      <option value="Software">Software</option>
+      <option value="Financial">Financial</option>
     </select>
   );
 };
