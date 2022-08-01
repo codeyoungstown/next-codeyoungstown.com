@@ -2,13 +2,44 @@ import { companies } from "../data/companies";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import DataCard from "./DataCard";
+import Search from "./Search";
+import { useState } from "react";
 
 export default function Companies() {
+  // SEARCH HANDLER //
+  const [search, setSearch] = useState("");
+  const [select, setSelect] = useState("");
+  const handleSearch = (e) => {
+    setSearch(e.target.value);
+  };
+  const handleSelect = (e) => {
+    setSelect(e.target.value);
+  };
+  const filterTags = ({ company }) => {
+    if (select == "") {
+      return true;
+    } else return company.tags?.includes(select);
+  };
+  const filteredCompanies = companies.filter(
+    (company) =>
+      company.name.toLowerCase().includes(search.toLocaleLowerCase()) &&
+      filterTags({ company })
+  );
+  // *SEARCH HANDLER* //
+
   return (
-    <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
-      {companies.map((company) => (
-        <Company key={company.name} company={company} />
-      ))}
+    <div className="w-full">
+      <Search handleSearch={handleSearch} placeHolder="Company Name" />
+      <SelectTags onChange={handleSelect} />
+      <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
+        {filteredCompanies.length ? (
+          filteredCompanies.map((company) => (
+            <Company key={company.name} company={company} />
+          ))
+        ) : (
+          <NoResult />
+        )}
+      </div>
     </div>
   );
 }
@@ -69,6 +100,34 @@ const Tag = ({ children }) => {
   return (
     <div className="bg-stone-900 rounded-md px-2 py-[2px] mr-2 min-w-max">
       <p className="font-thin text-xs text-gray-400 text-center">{children}</p>
+    </div>
+  );
+};
+
+const SelectTags = ({ onChange }) => {
+  return (
+    <select
+      className="text-black my-3 rounded-lg"
+      name="tags"
+      id="tags"
+      onChange={onChange}
+    >
+      <option value="">--Select Tag--</option>
+      <option value="Consulting">Consulting</option>
+      <option value="Design">Design</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Networking">Networking</option>
+      <option value="SEO">SEO</option>
+      <option value="Software">Software</option>
+      <option value="Websites">Websites</option>
+    </select>
+  );
+};
+
+const NoResult = () => {
+  return (
+    <div className="col-span-full p-5">
+      <p className="text-center text-2xl">No Results Found</p>
     </div>
   );
 };

@@ -5,6 +5,7 @@ export const companies = [
     website: "https://45press.com/",
     careers: "",
     desc: "45Press provide design, development and hosting expertise to help build and host digital products, platforms, or apps.",
+    tags: ["Websites", "Design"],
     servicesOrProduct: "Services",
   },
   {
@@ -13,6 +14,7 @@ export const companies = [
     website: "https://www.atpohio.com/",
     careers: "",
     desc: "Advanced Technology Partners provides customers with advanced IT solutions.",
+    tags: ["Data", "Consulting", "Networking"],
     servicesOrProduct: "Services",
   },
   {
@@ -35,7 +37,7 @@ export const companies = [
     name: "AVI Foodsystems",
     city: "Warren",
     website: "https://www.avifoodsystems.com/",
-    careers: "https://www.avifoodsystems.com/career-opportunities/",
+    careers: "https://avi-foodsystems.jobs.net/",
     desc: "AVI Foodsystems is America's largest family-owned and operated food and hospitality provider.",
     servicesOrProduct: "Product",
   },
@@ -45,6 +47,7 @@ export const companies = [
     website: "https://www.blackknightinc.com/",
     careers: "https://www.blackknightinc.com/careers/",
     desc: "Black Knight is a leading provider of integrated software, data and analytics solutions.",
+    tags: ["Data", "Consulting", "Software"],
     servicesOrProduct: "Services",
   },
   {
@@ -61,6 +64,7 @@ export const companies = [
     website: "https://cohenandcompany.com/",
     careers: "https://www.cohencpa.jobs/",
     desc: "Cohen & Company is a top accounting and consulting firm specializing in audits and tax issues.",
+    tags: ["Consulting"],
     servicesOrProduct: "Services",
   },
   {
@@ -69,6 +73,25 @@ export const companies = [
     website: "https://creativestreammarketing.com/",
     careers: "",
     desc: "Creative Stream Marketing is a marketing and creative agency, partnering with B2B and Retail Technology companies.",
+    tags: ["Websites", "Design", "Marketing"],
+    servicesOrProduct: "Services",
+  },
+  {
+    name: "Deloitte",
+    city: "Hermitage, PA",
+    website: "https://www2.deloitte.com/us/en.html",
+    careers: "https://www2.deloitte.com/us/en/careers/careers.html",
+    desc: "Deloitte provides industry-leading audit, consulting, tax, and advisory services.",
+    tags: ["Consulting"],
+    servicesOrProduct: "Services",
+  },
+  {
+    name: "Delta Telecom",
+    city: "Poland, OH",
+    website: "https://deltatelecomohio.com",
+    careers: "330.757.8276 fax",
+    desc: "Delta Telecom is your local choice for business telephone services, internet, fiber optics, and more.",
+    tags: ["Networking"],
     servicesOrProduct: "Services",
   },
   {
@@ -77,7 +100,6 @@ export const companies = [
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
     desc: "Drun is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
-    // tags: ["Web Dev", "App Dev", "UI/UX", "Marketing"],
     servicesOrProduct: "Product",
   },
   {
@@ -87,6 +109,14 @@ export const companies = [
     careers:
       "https://factset.wd1.myworkdayjobs.com/FactSetcareers/2/refreshFacet/318c8bb6f553100021d223d9780d30be?__hstc=&__hssc=&hsCtaTracking=5bad2784-dc05-40fe-a68d-fee1a12cdc9b%7C397e76f1-32f7-4fbf-bd20-d38c0c14c7a9",
     desc: "FactSet creates data and software solutions for tens of thousands of investment professionals around the world.",
+    servicesOrProduct: "Product",
+  },
+  {
+    name: "FNB Corp",
+    city: "Hermitage, PA",
+    website: "https://www.fnb-online.com/",
+    careers: "https://fnbcorp.wd1.myworkdayjobs.com/FNBCORP",
+    desc: "FNB provides a full range of commercial banking, consumer banking and wealth management services.",
     servicesOrProduct: "Product",
   },
   {
@@ -111,6 +141,7 @@ export const companies = [
     website: "https://idmi.net/",
     careers: "https://idmi.net/careers",
     desc: "IDMI.Net provides comprehensive, customized digital footprints for businesses and organizations large and small.",
+    tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
   },
   {
@@ -127,6 +158,7 @@ export const companies = [
     website: "https://www.involta.com/",
     careers: "https://www.involta.com/careers",
     desc: "Involta offers cloud solutions, infrastructure, consulting and data centers.",
+    tags: ["Data", "Networking", "Consulting"],
     servicesOrProduct: "Services",
   },
   {
@@ -135,6 +167,7 @@ export const companies = [
     website: "https://jetcreative.com/",
     careers: "",
     desc: "Jet is a creative design and marketing agency dedicated to the growth of businesses and organizations in Northeast Ohio.",
+    tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
   },
   {
@@ -160,6 +193,7 @@ export const companies = [
     website: "https://www.palocreative.com/",
     careers: "https://www.palocreative.com/careers",
     desc: "PALO Creative is a advertising and digital media agency specializing in traditional and digital marketing solutions.",
+    tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
   },
   {
@@ -228,30 +262,6 @@ export const companies = [
     servicesOrProduct: "Product",
   },
   {
-    name: "Youngstown State University",
-    city: "Youngstown",
-    website: "https://ysu.edu/",
-    careers: "https://ysu.edu/human-resources/",
-    desc: "Youngstown State University is a public university in Youngstown, Ohio.",
-    servicesOrProduct: "Product",
-  },
-  {
-    name: "FNB Corp",
-    city: "Hermitage, PA",
-    website: "https://www.fnb-online.com/",
-    careers: "https://fnbcorp.wd1.myworkdayjobs.com/FNBCORP",
-    desc: "FNB provides a full range of commercial banking, consumer banking and wealth management services.",
-    servicesOrProduct: "Services",
-  },
-  {
-    name: "Deloitte",
-    city: "Hermitage, PA",
-    website: "https://www2.deloitte.com/us/en.html",
-    careers: "https://www2.deloitte.com/us/en/careers/careers.html",
-    desc: "Deloitte provides industry-leading audit, consulting, tax, and advisory services.",
-    servicesOrProduct: "Services",
-  },
-  {
     name: "WernerCo",
     city: "West Middlesex, PA",
     website: "https://www.wernerworldwide.com/",
@@ -260,11 +270,11 @@ export const companies = [
     servicesOrProduct: "Product",
   },
   {
-    name: "Delta Telecom",
-    city: "Poland, OH",
-    website: "https://deltatelecomohio.com",
-    careers: "330.757.8276 fax",
-    desc: "Delta Telecom is your local choice for business telephone services, internet, fiber optics, and more.",
-    servicesOrProduct: "Services",
+    name: "Youngstown State University",
+    city: "Youngstown",
+    website: "https://ysu.edu/",
+    careers: "https://ysu.edu/human-resources/",
+    desc: "Youngstown State University is a public university in Youngstown, Ohio.",
+    servicesOrProduct: "Product",
   },
 ];

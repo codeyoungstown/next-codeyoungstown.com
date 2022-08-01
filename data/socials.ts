@@ -47,8 +47,8 @@ export const socials = [
     icon: faMeetup,
   },
   {
-    name: "Overcast",
-    link: "https://overcast.fm/itunes1491969032/code-youngstown-podcast",
+    name: "Podcast",
+    link: "https://podcasts.apple.com/us/podcast/code-youngstown-podcast/id1491969032",
     icon: faPodcast,
   },
   {
