@@ -14,7 +14,7 @@ export const companies = [
     website: "https://www.atpohio.com/",
     careers: "",
     desc: "Advanced Technology Partners provides customers with advanced IT solutions.",
-    tags: ["Data", "Consulting", "Network"],
+    tags: ["Data", "Consulting", "Networking"],
     servicesOrProduct: "Services",
   },
   {
@@ -64,7 +64,7 @@ export const companies = [
     website: "https://cohenandcompany.com/",
     careers: "https://www.cohencpa.jobs/",
     desc: "Cohen & Company is a top accounting and consulting firm specializing in audits and tax issues.",
-    tags: ["Consulting", "Financial"],
+    tags: ["Consulting"],
     servicesOrProduct: "Services",
   },
   {
@@ -82,7 +82,7 @@ export const companies = [
     website: "https://www2.deloitte.com/us/en.html",
     careers: "https://www2.deloitte.com/us/en/careers/careers.html",
     desc: "Deloitte provides industry-leading audit, consulting, tax, and advisory services.",
-    tags: ["Consulting", "Financial"],
+    tags: ["Consulting"],
     servicesOrProduct: "Services",
   },
   {
@@ -91,7 +91,7 @@ export const companies = [
     website: "https://deltatelecomohio.com",
     careers: "330.757.8276 fax",
     desc: "Delta Telecom is your local choice for business telephone services, internet, fiber optics, and more.",
-    tags: ["Network"],
+    tags: ["Networking"],
     servicesOrProduct: "Services",
   },
   {
@@ -117,8 +117,7 @@ export const companies = [
     website: "https://www.fnb-online.com/",
     careers: "https://fnbcorp.wd1.myworkdayjobs.com/FNBCORP",
     desc: "FNB provides a full range of commercial banking, consumer banking and wealth management services.",
-    tags: ["Financial"],
-    servicesOrProduct: "Services",
+    servicesOrProduct: "Product",
   },
   {
     name: "GBS Corp",
@@ -159,7 +158,7 @@ export const companies = [
     website: "https://www.involta.com/",
     careers: "https://www.involta.com/careers",
     desc: "Involta offers cloud solutions, infrastructure, consulting and data centers.",
-    tags: ["Data", "Network", "Consulting"],
+    tags: ["Data", "Networking", "Consulting"],
     servicesOrProduct: "Services",
   },
   {

@@ -12,9 +12,6 @@ export default function Companies() {
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
   const handleSelect = (e) => {
     setSelect(e.target.value);
   };
@@ -32,11 +29,7 @@ export default function Companies() {
 
   return (
     <div className="w-full">
-      <Search
-        handleSearch={handleSearch}
-        handleSubmit={handleSubmit}
-        placeHolder="Company Name"
-      />
+      <Search handleSearch={handleSearch} placeHolder="Company Name" />
       <SelectTags onChange={handleSelect} />
       <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
         {filteredCompanies.length ? (
@@ -120,14 +113,13 @@ const SelectTags = ({ onChange }) => {
       onChange={onChange}
     >
       <option value="">--Select Tag--</option>
-      <option value="Websites">Websites</option>
-      <option value="Design">Design</option>
-      <option value="Network">Network</option>
-      <option value="SEO">SEO</option>
-      <option value="Marketing">Marketing</option>
       <option value="Consulting">Consulting</option>
+      <option value="Design">Design</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Networking">Networking</option>
+      <option value="SEO">SEO</option>
       <option value="Software">Software</option>
-      <option value="Financial">Financial</option>
+      <option value="Websites">Websites</option>
     </select>
   );
 };
@@ -135,7 +127,7 @@ const SelectTags = ({ onChange }) => {
 const NoResult = () => {
   return (
     <div className="col-span-full p-5">
-      <h4 className="text-center text-2xl">No Results Found</h4>
+      <p className="text-center text-2xl">No Results Found</p>
     </div>
   );
 };
