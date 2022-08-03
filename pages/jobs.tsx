@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Layout from "../components/Layout";
-import Companies from "../components/Companies";
+import JobListings from "../components/Jobs";
 
 export default function Jobs() {
   return (
@@ -12,6 +12,7 @@ export default function Jobs() {
       <Link href="/jobs-form">
         <a className="hover:text-gray-300 underline">Submit a Job</a>
       </Link>
+      <JobListings />
     </Layout>
   );
 }

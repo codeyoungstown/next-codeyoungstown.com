@@ -7,7 +7,7 @@ export default function Header() {
         {[
           ["HOME", "/"],
           ["MADE IN YOUNGSTOWN", "/made-in-youngstown"],
-          // ["Jobs", "/jobs"],
+          ["JOBS", "/jobs"],
         ].map(([title, url]) => (
           <Link href={url} key={title}>
             <a className="hover:underline hover:text-gray-300 text-gray-400 text-xl">
