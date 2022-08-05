@@ -8,9 +8,9 @@ export default function JobsForm() {
         Add a listing to be featured on the Jobs Board
       </h1>
 
-      <div className="flex justify-center mt-2">
+      <div className="flex w-full justify-center">
         <form
-          className="flex-row"
+          className="w-full max-w-screen-md m-2"
           action="https://mailto:contact@codeyoungstown.com?subject=New Job Listing"
           target="__blank"
           method="post"
