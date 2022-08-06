@@ -29,8 +29,8 @@ export default function JobListings() {
 
       {filteredJobs.length ? (
         filteredJobs.map((job) => (
-          <div className="flex justify-center ">
-            <Job key={job.company + job.title} job={job} />
+          <div className="flex justify-center" key={job.company + job.title}>
+            <Job job={job} />
           </div>
         ))
       ) : (
