@@ -11,11 +11,15 @@ export default function JobsForm() {
       <div className="flex w-full justify-center">
         <form
           className="w-full max-w-screen-md m-2"
-          action="https://mailto:contact@codeyoungstown.com?subject=New Job Listing"
-          target="__blank"
-          method="post"
-          encType="text/plain"
+          action="https://formsubmit.co/garretthugs@gmail.com"
+          method="POST"
         >
+          <input type="hidden" name="_subject" value="New Job Listing!" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://codeyoungstown.com/submission-thank-you"
+          />
           <FormField name="name" label="Your Name:" />
           <FormField name="email" label="Your Email:" type="email" />
           <FormField name="jobTitle" label="Job Title:" />
