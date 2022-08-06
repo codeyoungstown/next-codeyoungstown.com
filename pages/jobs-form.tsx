@@ -19,7 +19,7 @@ export default function JobsForm() {
           <FormField name="name" label="Your Name:" />
           <FormField name="email" label="Your Email:" type="email" />
           <FormField name="jobTitle" label="Job Title:" />
-          <FormField name="description" label="Job Description:" />
+          <FormField name="description" label="Job Description:" textarea />
           <FormField name="company" label="Company:" />
           <FormField
             name="location"

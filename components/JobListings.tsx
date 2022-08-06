@@ -15,17 +15,23 @@ export default function JobListings() {
   const orderedJobs = jobs.sort((a, b) => {
     return a.date > b.date ? -1 : 1;
   });
-  const filteredJobs = orderedJobs.filter((job) =>
-    job.title.toLowerCase().includes(search.toLocaleLowerCase())
+  const filteredJobs = orderedJobs.filter(
+    (job) =>
+      job.title.toLowerCase().includes(search.toLocaleLowerCase()) ||
+      job.company.toLowerCase().includes(search.toLocaleLowerCase()) ||
+      job.desc.toLowerCase().includes(search.toLocaleLowerCase())
   );
   // *SEARCH HANDLER* //
 
   return (
     <div className="w-full mt-4">
-      <Search handleSearch={handleSearch} placeHolder="Job Title" />
+      <Search handleSearch={handleSearch} placeHolder="Search Jobs" />
+
       {filteredJobs.length ? (
         filteredJobs.map((job) => (
-          <Job key={job.company + job.date} job={job} />
+          <div className="flex justify-center ">
+            <Job key={job.company + job.title} job={job} />
+          </div>
         ))
       ) : (
         <NoResult />
@@ -44,21 +50,23 @@ const Job = ({ job }) => {
   if (dateTracker < 60) {
     return (
       <DataCard>
-        <h3 className="text-xl font-medium">{job.title}</h3>
-        <p>@ {job.company}</p>
-        <p className="text-gray-400">
-          <FontAwesomeIcon icon={faLocationDot} /> {job.location}
-        </p>
-        <p className="text-gray-400">
-          <FontAwesomeIcon icon={faDollarSign} /> {job.salary}
-        </p>
-        <p className="leading-5 my-2">{job.desc}</p>
-        <div className="grid grid-cols-2 mt-auto">
-          <div className="col-span-1">
-            <JobContact link={job.contact} />
-          </div>
-          <div className="col-span-1 text-right">
-            <p className="text-gray-400">{timePassed}</p>
+        <div className="leading-6">
+          <h3 className="text-xl font-medium">{job.title}</h3>
+          <p>@ {job.company}</p>
+          <p className="text-gray-400">
+            <FontAwesomeIcon icon={faLocationDot} /> {job.location}
+          </p>
+          <p className="text-gray-400">
+            <FontAwesomeIcon icon={faDollarSign} /> {job.salary}
+          </p>
+          <p>{job.desc}</p>
+          <div className="grid grid-cols-2">
+            <div className="col-span-1">
+              <JobContact link={job.contact} />
+            </div>
+            <div className="col-span-1 text-right">
+              <p className="text-gray-400">{timePassed}</p>
+            </div>
           </div>
         </div>
       </DataCard>
