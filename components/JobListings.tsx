@@ -50,8 +50,8 @@ const Job = ({ job }) => {
   if (dateTracker < 60) {
     return (
       <DataCard>
+        <h3 className="text-xl font-medium mb-1">{job.title}</h3>
         <div className="leading-6">
-          <h3 className="text-xl font-medium">{job.title}</h3>
           <p>@ {job.company}</p>
           <p className="text-gray-400">
             <FontAwesomeIcon icon={faLocationDot} /> {job.location}
