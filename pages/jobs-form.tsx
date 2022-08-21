@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import FormField from "../components/FormField";
 
 export default function JobsForm() {
+  const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
     <Layout page="Submit a Job">
       <h1 className="text-3xl p-2">
@@ -11,14 +12,14 @@ export default function JobsForm() {
       <div className="flex w-full justify-center">
         <form
           className="w-full max-w-screen-md m-2"
-          action="https://formsubmit.co/contact@codeyoungstown.com"
+          action="https://formsubmit.co/garretthugs@gmail.com"
           method="POST"
         >
           <input type="hidden" name="_subject" value="New Job Listing!" />
           <input
             type="hidden"
             name="_next"
-            value="https://codeyoungstown.com/submission-thank-you"
+            value={`https://${BASE_URL}/submission-thank-you`}
           />
           <FormField name="name" label="Your Name:" />
           <FormField name="email" label="Your Email:" type="email" />
@@ -31,7 +32,7 @@ export default function JobsForm() {
           />
           <FormField name="salaryRange" label="Salary Range:" />
           <FormField
-            name="listingLink"
+            name="Contact/Listing"
             label="Listing link or contact email:"
           />
 

@@ -61,9 +61,15 @@ const Job = ({ job }) => {
           </p>
           <p>{job.desc}</p>
           <div className="grid grid-cols-2">
-            <div className="col-span-1">
-              <JobContact link={job.contact} />
-            </div>
+            {job.contact ? (
+              <div className="col-span-1">
+                <JobContact link={job.contact} />
+              </div>
+            ) : (
+              <div className="col-span-1">
+                <JobListing link={job.listing} />
+              </div>
+            )}
             <div className="col-span-1 text-right">
               <p className="text-gray-400">{timePassed}</p>
             </div>
@@ -83,6 +89,19 @@ const JobContact = ({ link }) => {
       className="text-colt hover:text-[#826e62] font-bold"
     >
       CONTACT
+    </a>
+  );
+};
+
+const JobListing = ({ link }) => {
+  return (
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="text-colt hover:text-[#826e62] font-bold"
+    >
+      LISTING
     </a>
   );
 };
