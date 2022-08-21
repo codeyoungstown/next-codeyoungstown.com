@@ -56,9 +56,11 @@ const Job = ({ job }) => {
           <p className="text-gray-400">
             <FontAwesomeIcon icon={faLocationDot} /> {job.location}
           </p>
-          <p className="text-gray-400">
-            <FontAwesomeIcon icon={faDollarSign} /> {job.salary}
-          </p>
+          {job.salary ? (
+            <p className="text-gray-400">
+              <FontAwesomeIcon icon={faDollarSign} /> {job.salary}
+            </p>
+          ) : null}
           <p>{job.desc}</p>
           <div className="grid grid-cols-2">
             {job.contact ? (

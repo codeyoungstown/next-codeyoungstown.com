@@ -21,6 +21,7 @@ export default function JobsForm() {
             name="_next"
             value={`https://${BASE_URL}/submission-thank-you`}
           />
+          <input type="hidden" name="_captcha" value="false" />
           <FormField name="name" label="Your Name:" />
           <FormField name="email" label="Your Email:" type="email" />
           <FormField name="jobTitle" label="Job Title:" />
