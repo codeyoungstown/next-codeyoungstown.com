@@ -1,16 +1,19 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
+
+const Pages = [
+  ["HOME", "/"],
+  ["MADE IN YOUNGSTOWN", "/made-in-youngstown"],
+  ["JOBS", "/jobs"],
+];
 
 export default function Header() {
-  const Pages = [
-    ["HOME", "/"],
-    ["MADE IN YOUNGSTOWN", "/made-in-youngstown"],
-    ["JOBS", "/jobs"],
-  ];
+  const [menuLinks, setMenuLinks] = useState("hidden");
+
   const ToggleMenu = () => {
-    const pages = document.getElementById("mobile-nav-links");
-    pages.classList.toggle("hidden");
+    menuLinks == "hidden" ? setMenuLinks("block") : setMenuLinks("hidden");
   };
 
   return (
@@ -35,7 +38,10 @@ export default function Header() {
           <FontAwesomeIcon icon={faAngleDown} className="ml-2" />
         </button>
 
-        <div id="mobile-nav-links" className="bg-slate-600 w-full mt-2 hidden">
+        <div
+          id="mobile-nav-links"
+          className={`bg-slate-600 w-full mt-2 ${menuLinks}`}
+        >
           <ul className="w-full">
             {Pages.map(([title, url]) => (
               <Link key={title} href={url}>

@@ -20,7 +20,7 @@ export const jobs = [
   {
     title: "Multiple Positions and Internships",
     company: "Ultiumcells",
-    desc: "Hello, I am Austin Bacho Senior IT specialist for infrastructure out at Ultiumcells. We're looking for 4-5 fulltime people with experience. If you're still a student and looking for part time please also reach out. Please send me resumes at austin.bacho1@gmail.com and send me a text with your information and I can get it expedited. We're looking for people willing to learn global manufacturing system and application based support. If you speak Korean this is also a plus. Please reach out directly via my phone as I don't check my email account often. Thank you",
+    desc: "UltiumCells is looking for 4-5 fulltime people with experience. If you're still a student and looking for part time please also reach out. We're looking for people willing to learn global manufacturing system and application based support. If you speak Korean this is also a plus.",
     location: "Warren, OH",
     contact: "austin.bacho1@gmail.com",
     date: "2022-08-20",
