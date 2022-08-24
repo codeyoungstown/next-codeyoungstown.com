@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 const Pages = [
@@ -29,13 +29,12 @@ export default function Header() {
       </nav>
 
       {/* Mobile Menu */}
-      <nav className="sm:hidden my-3 items-center w-full">
+      <nav className="sm:hidden m-2 w-full">
         <button
-          className="hover:bg-slate-600 bg-slate-700 text-gray-400 text-xl py-1 px-4 rounded-md"
+          className="hover:bg-slate-600 bg-slate-700 text-gray-400 text-xl py-1 px-4 rounded-md w-full"
           onClick={ToggleMenu}
         >
-          Menu
-          <FontAwesomeIcon icon={faAngleDown} className="ml-2" />
+          <FontAwesomeIcon icon={faBars} />
         </button>
 
         <div
