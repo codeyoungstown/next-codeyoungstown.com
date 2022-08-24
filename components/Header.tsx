@@ -17,7 +17,7 @@ export default function Header() {
   };
 
   return (
-    <header className="flex justify-center">
+    <header className="flex justify-center mb-3">
       <nav className="sm:flex justify-center space-x-4 p-3 items-center hidden">
         {Pages.map(([title, url]) => (
           <Link href={url} key={title}>
@@ -29,17 +29,26 @@ export default function Header() {
       </nav>
 
       {/* Mobile Menu */}
-      <nav className="sm:hidden m-2 w-full">
-        <button
-          className="hover:bg-slate-600 bg-slate-700 text-gray-400 text-xl py-1 px-4 rounded-md w-full"
-          onClick={ToggleMenu}
-        >
-          <FontAwesomeIcon icon={faBars} />
-        </button>
+      <nav className="sm:hidden w-full p-2">
+        <div className="grid grid-cols-5">
+          <div className="flex justify-start col-span-4">
+            <a href="/" className="text-2xl text-gray-400 ">
+              Code Youngstown
+            </a>
+          </div>
+          <div className="flex justify-end col-span-1">
+            <button
+              className="text-gray-400 text-xl py-1 px-4 rounded-md"
+              onClick={ToggleMenu}
+            >
+              <FontAwesomeIcon icon={faBars} />
+            </button>
+          </div>
+        </div>
 
         <div
           id="mobile-nav-links"
-          className={`bg-slate-600 w-full mt-2 ${menuLinks}`}
+          className={`bg-gray-600 w-full mt-2 ${menuLinks}`}
         >
           <ul className="w-full">
             {Pages.map(([title, url]) => (
