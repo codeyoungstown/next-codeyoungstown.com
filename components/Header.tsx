@@ -32,8 +32,8 @@ export default function Header() {
       <nav className="sm:hidden w-full p-2">
         <div className="grid grid-cols-5">
           <div className="flex justify-start col-span-4">
-            <Link href="/" className="text-2xl text-gray-400 ">
-              Code Youngstown
+            <Link href="/">
+              <a className="text-2xl text-gray-400">Code Youngstown</a>
             </Link>
           </div>
           <div className="flex justify-end col-span-1">
