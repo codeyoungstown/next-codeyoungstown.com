@@ -46,14 +46,11 @@ export default function Header() {
           </div>
         </div>
 
-        <div
-          id="mobile-nav-links"
-          className={`bg-gray-600 w-full mt-2 ${menuLinks}`}
-        >
+        <div id="mobile-nav-links" className={`w-full mt-2 ${menuLinks}`}>
           <ul className="w-full">
             {Pages.map(([title, url]) => (
               <Link key={title} href={url}>
-                <li className="hover:underline hover:text-gray-300 border">
+                <li className="hover:underline hover:text-gray-300 border p-2">
                   <a className="text-gray-400 text-xl">{title}</a>
                 </li>
               </Link>
