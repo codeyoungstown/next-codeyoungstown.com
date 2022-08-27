@@ -3,11 +3,9 @@ import { useRouter } from "next/router";
 import Footer from "./Footer";
 import Header from "./Header";
 
-export default function Layout({ children, page }) {
+export default function Layout({ children, page, description }) {
   const router = useRouter();
   const title = "Code Youngstown";
-  const description =
-    "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
   const pageTitle = page == "Home" ? title : `${page} | ${title}`;
 
   return (

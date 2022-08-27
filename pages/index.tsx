@@ -3,9 +3,12 @@ import Layout from "../components/Layout";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
 
+const pageDescription =
+  "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
+
 export default function Home() {
   return (
-    <Layout page="Home">
+    <Layout page="Home" description={pageDescription}>
       <div>
         <Image
           src={logo}
