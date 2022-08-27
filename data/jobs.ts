@@ -2,7 +2,7 @@ export const jobs = [
   {
     title: "Backend Engineer",
     company: "Pollytech",
-    desc: "Pollytech is looking for someone to build out a public API for their custom ecommerce plugin. The API is a completely greenfield project, so there's flexibility to use the tools you enjoy, but python is preferred.",
+    desc: "Pollytech is looking for someone to build out a public API for their custom e-commerce plugin. The API is a completely greenfield project, so there's flexibility to use the tools you enjoy, but python is preferred.",
     location: "Youngstown, OH",
     salary: "Negotiable",
     contact: "Joe@CodeYoungstown.com",
@@ -19,8 +19,8 @@ export const jobs = [
   },
   {
     title: "Multiple Positions and Internships",
-    company: "Ultiumcells",
-    desc: "UltiumCells is looking for 4-5 fulltime people with experience. If you're still a student and looking for part time please also reach out. We're looking for people willing to learn global manufacturing system and application based support. If you speak Korean this is also a plus.",
+    company: "Ultium Cells",
+    desc: "Ultium Cells is looking for 4-5 fulltime people with experience. If you're still a student and looking for part time please also reach out. We're looking for people willing to learn global manufacturing system and application based support. If you speak Korean this is also a plus.",
     location: "Warren, OH",
     contact: "austin.bacho1@gmail.com",
     date: "2022-08-20",
@@ -54,5 +54,14 @@ export const jobs = [
     listing:
       "https://jobs.lever.co/marcopolo/aae88960-3323-4a73-ba78-38e8cad20498",
     date: "2022-08-20",
+  },
+  {
+    title: "Data Engineer",
+    company: "BlastPoint",
+    desc: "We are looking for a talented Data Engineer to join our growing engineering team. The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint’s data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
+    location: "Remote",
+    salary: "$120,000 - $140,000 per year",
+    listing: "https://blastpoint.com/about/careers",
+    date: "2022-08-27",
   },
 ];
