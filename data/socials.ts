@@ -43,7 +43,7 @@ export const socials = [
   },
   {
     name: "Meetup",
-    link: "https://meetup.com/in/codeyoungstown",
+    link: "https://www.meetup.com/Code-Youngstown/",
     icon: faMeetup,
   },
   {
