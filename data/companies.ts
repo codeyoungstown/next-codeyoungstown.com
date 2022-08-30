@@ -4,7 +4,7 @@ export type Company = {
   website: string;
   careers?: string;
   desc: string;
-  tags?: Array<string>;
+  tags?: string[];
   servicesOrProduct: string;
 };
 
