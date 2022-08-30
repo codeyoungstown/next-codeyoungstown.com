@@ -1,4 +1,15 @@
-export const jobs = [
+export type Job = {
+  title: string;
+  company: string;
+  desc: string;
+  location: string;
+  salary?: string;
+  contact?: string;
+  listing?: string;
+  date: string;
+};
+
+export const jobs: Job[] = [
   {
     title: "Backend Engineer",
     company: "Pollytech",
