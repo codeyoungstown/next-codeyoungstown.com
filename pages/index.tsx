@@ -4,7 +4,7 @@ import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
 
 const pageDescription =
-  "Connecting software engineers, developers, and coders in the Youngstown, OH area. Join the ongoing chat via Slack and attend our meetups.";
+  "Code Youngstown, connecting software engineers, developers, and coders in the Youngstown, OH area.";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           priority
         />
       </div>
-
+      <h1 className="text-3xl p-4">Welcome to Code Youngstown</h1>
       <h1 className="text-3xl p-4">
         Connecting software engineers, developers, and coders in the Youngstown,
         OH area.
