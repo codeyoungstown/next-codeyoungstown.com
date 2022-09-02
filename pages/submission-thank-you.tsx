@@ -7,7 +7,7 @@ export default function JobsForm() {
   return (
     <Layout page="Form Submitted" description={pageDescription}>
       <div className="m-8">
-        <p className="text-2xl">Thank you for your submission!</p>
+        <p className="sm:text-xl text-md">{pageDescription}</p>
       </div>
     </Layout>
   );

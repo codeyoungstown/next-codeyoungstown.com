@@ -9,9 +9,7 @@ export default function JobsForm() {
   return (
     <Layout page="Submit a Job" description={pageDescription}>
       <h1 className="text-3xl p-2">Submit a job</h1>
-      <p className="sm:text-2xl text-xl p-2">
-        Submit a job to be featured on the Code Youngstown Job Board
-      </p>
+      <p className="sm:text-xl text-md p-2">{pageDescription}</p>
 
       <div className="flex w-full justify-center">
         <form

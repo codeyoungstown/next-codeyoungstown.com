@@ -4,7 +4,7 @@ import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
 
 const pageDescription =
-  "Code Youngstown, connecting software engineers, developers, and coders in the Youngstown, OH area.";
+  "Connecting software engineers, developers, and coders in the Youngstown, OH area.";
 
 export default function Home() {
   return (
@@ -19,11 +19,11 @@ export default function Home() {
           priority
         />
       </div>
-      <h1 className="sm:text-3xl text-2xl p-4">
+      <h1 className="sm:text-2xl text-xl p-4">
         Connecting software engineers, developers, and coders in the Youngstown,
         OH area.
       </h1>
-      <p className="sm:text-2xl text-xl p-2">
+      <p className="sm:text-xl text-md p-2">
         Join the ongoing chat via{" "}
         <a
           className="underline hover:text-gray-300"
