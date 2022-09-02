@@ -10,7 +10,13 @@ import {
 
 import { faPodcast, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-export const socials = [
+export type Social = {
+  name: string;
+  link: string;
+  icon: any;
+};
+
+export const socials: Social[] = [
   {
     name: "Slack",
     link: "http://slack.codeyoungstown.com/",
@@ -43,7 +49,7 @@ export const socials = [
   },
   {
     name: "Meetup",
-    link: "https://meetup.com/in/codeyoungstown",
+    link: "https://www.meetup.com/Code-Youngstown/",
     icon: faMeetup,
   },
   {
