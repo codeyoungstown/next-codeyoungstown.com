@@ -19,12 +19,11 @@ export default function Home() {
           priority
         />
       </div>
-      <h1 className="text-3xl p-4">Welcome to Code Youngstown</h1>
-      <h1 className="text-3xl p-4">
+      <h1 className="sm:text-3xl text-2xl p-4">
         Connecting software engineers, developers, and coders in the Youngstown,
         OH area.
       </h1>
-      <h2 className="text-2xl p-2">
+      <p className="sm:text-2xl text-xl p-2">
         Join the ongoing chat via{" "}
         <a
           className="underline hover:text-gray-300"
@@ -40,7 +39,7 @@ export default function Home() {
           meetups
         </a>
         .
-      </h2>
+      </p>
       <div className="p-6">
         <Socials />
       </div>

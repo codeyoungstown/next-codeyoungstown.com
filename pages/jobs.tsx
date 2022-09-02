@@ -5,15 +5,16 @@ import Layout from "../components/Layout";
 import JobListings from "../components/JobListings";
 
 const pageDescription =
-  "Local job opportunities in and around the Youngstown OH area.";
+  "Local and remote job opportunities curated by the Code Youngstown community";
 
 export default function Jobs() {
   return (
     <Layout page="Jobs" description={pageDescription}>
       <h1 className="text-3xl p-2">Jobs</h1>
-      <h2 className="sm:text-2xl text-xl p-2">
-        View community-sourced job opportunities near the Youngstown, OH area.
-      </h2>
+      <p className="sm:text-2xl text-xl p-2">
+        Local and remote job opportunities curated by the Code Youngstown
+        community
+      </p>
       <Link href="/jobs-form">
         <a className="hover:text-gray-300 underline">Submit a Job</a>
       </Link>

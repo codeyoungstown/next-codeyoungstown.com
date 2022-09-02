@@ -2,15 +2,16 @@ import Layout from "../components/Layout";
 import FormField from "../components/FormField";
 
 const pageDescription =
-  "Add a job opportunity and have it featured on the Jobs Board to get in touch with local talent.";
+  "Submit a job to be featured on the Code Youngstown Job Board";
 
 export default function JobsForm() {
   const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
     <Layout page="Submit a Job" description={pageDescription}>
-      <h1 className="text-3xl p-2">
-        Add a listing to be featured on the Code Youngstown jobs board
-      </h1>
+      <h1 className="text-3xl p-2">Submit a job</h1>
+      <p className="sm:text-2xl text-xl p-2">
+        Submit a job to be featured on the Code Youngstown Job Board
+      </p>
 
       <div className="flex w-full justify-center">
         <form
