@@ -19,10 +19,7 @@ export default function Home() {
           priority
         />
       </div>
-      <h1 className="sm:text-2xl text-xl p-4">
-        Connecting software engineers, developers, and coders in the Youngstown,
-        OH area.
-      </h1>
+      <h1 className="sm:text-2xl text-xl p-4">{pageDescription}</h1>
       <p className="sm:text-xl text-md p-2">
         Join the ongoing chat via{" "}
         <a
