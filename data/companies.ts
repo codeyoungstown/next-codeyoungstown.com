@@ -1,9 +1,18 @@
-export const companies = [
+export type Company = {
+  name: string;
+  city: string;
+  website: string;
+  careers?: string;
+  desc: string;
+  tags?: string[];
+  servicesOrProduct: string;
+};
+
+export const companies: Company[] = [
   {
     name: "45Press",
     city: "Canfield",
     website: "https://45press.com/",
-    careers: "",
     desc: "45Press provide design, development and hosting expertise to help build and host digital products, platforms, or apps.",
     tags: ["Websites", "Design"],
     servicesOrProduct: "Services",
@@ -12,7 +21,6 @@ export const companies = [
     name: "Advanced Technology Partners",
     city: "Youngstown",
     website: "https://www.atpohio.com/",
-    careers: "",
     desc: "Advanced Technology Partners provides customers with advanced IT solutions.",
     tags: ["Data", "Consulting", "Networking"],
     servicesOrProduct: "Services",
@@ -54,7 +62,6 @@ export const companies = [
     name: "CBOSS",
     city: "Poland",
     website: "https://cboss.com/",
-    careers: "",
     desc: "CBOSS specializes in the design and implementation of industry leading gateway solutions for e-payment processing.",
     servicesOrProduct: "Product",
   },
@@ -71,7 +78,6 @@ export const companies = [
     name: "Creative Stream Marketing",
     city: "Boardman",
     website: "https://creativestreammarketing.com/",
-    careers: "",
     desc: "Creative Stream Marketing is a marketing and creative agency, partnering with B2B and Retail Technology companies.",
     tags: ["Websites", "Design", "Marketing"],
     servicesOrProduct: "Services",
@@ -131,7 +137,6 @@ export const companies = [
     name: "Grace Industries",
     city: "Fredonia, PA",
     website: "https://www.graceindustries.com/",
-    careers: "",
     desc: "Grace Industries, Inc. is a manufacturing company who produces safety and life saving equipment.",
     servicesOrProduct: "Product",
   },
@@ -148,7 +153,6 @@ export const companies = [
     name: "Intellitech Corporation",
     city: "Poland",
     website: "https://intellitechcorporation.com/",
-    careers: "",
     desc: "Intellitech is a provider of innovative Jail and public safety software solutions.",
     servicesOrProduct: "Product",
   },
@@ -165,7 +169,6 @@ export const companies = [
     name: "Jet Creative",
     city: "Youngstown",
     website: "https://jetcreative.com/",
-    careers: "",
     desc: "Jet is a creative design and marketing agency dedicated to the growth of businesses and organizations in Northeast Ohio.",
     tags: ["Websites", "Design", "Marketing", "SEO"],
     servicesOrProduct: "Services",
@@ -183,7 +186,6 @@ export const companies = [
     name: "New Era Technology, Inc",
     city: "Boardman",
     website: "https://www.neweratech.com/us/",
-    careers: "",
     desc: "New Era Technology works with customers as a trusted technology adviser.",
     servicesOrProduct: "Product",
   },
@@ -200,7 +202,6 @@ export const companies = [
     name: "PDMI",
     city: "Poland",
     website: "https://www.pdmi.com/",
-    careers: "",
     desc: "Provides technology and other specialized industry solutions for managing health.",
     servicesOrProduct: "Product",
   },
@@ -208,7 +209,6 @@ export const companies = [
     name: "Phantom Fireworks",
     city: "Youngstown",
     website: "https://fireworks.com/",
-    careers: "",
     desc: "Phantom Fireworks is America's premier consumer firework retailer.",
     servicesOrProduct: "Product",
   },
@@ -216,7 +216,6 @@ export const companies = [
     name: "Sensource",
     city: "Youngstown",
     website: "https://sensourceinc.com/",
-    careers: "",
     desc: "SenSource provides people counting solutions and traffic analytics software solutions.",
     servicesOrProduct: "Product",
   },
@@ -224,7 +223,6 @@ export const companies = [
     name: "ServeRight",
     city: "Poland",
     website: "http://serverightsoftware.com/",
-    careers: "",
     desc: "ServeRight provides advanced online ordering solutions.",
     servicesOrProduct: "Product",
   },
@@ -257,7 +255,6 @@ export const companies = [
     name: "Ving",
     city: "Youngstown",
     website: "https://www.vingapp.com/",
-    careers: "",
     desc: "Ving is a compliance and training monitoring platform.",
     servicesOrProduct: "Product",
   },

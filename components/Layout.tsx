@@ -50,12 +50,12 @@ export default function Layout({ children, page, description }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="min-h-screen m-auto">
+      <div className="min-h-screen m-auto relative">
         <Header />
 
         {/* Page Container */}
-        <div className="flex justify-center ">
-          <main className="w-full max-w-7xl">{children}</main>
+        <div className="flex justify-center h-full">
+          <main className="w-full max-w-7xl pb-28">{children}</main>
         </div>
 
         <Footer />
