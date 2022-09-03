@@ -3,9 +3,12 @@ import Layout from "../components/Layout";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
 
+const pageDescription =
+  "Connecting software engineers, developers, and coders in the Youngstown, OH area.";
+
 export default function Home() {
   return (
-    <Layout page="Home">
+    <Layout page="Home" description={pageDescription}>
       <div>
         <Image
           src={logo}
@@ -16,12 +19,8 @@ export default function Home() {
           priority
         />
       </div>
-
-      <h1 className="text-3xl p-4">
-        Connecting software engineers, developers, and coders in the Youngstown,
-        OH area.
-      </h1>
-      <h2 className="text-2xl p-2">
+      <h1 className="sm:text-2xl text-xl p-4">{pageDescription}</h1>
+      <p className="sm:text-xl text-md p-2">
         Join the ongoing chat via{" "}
         <a
           className="underline hover:text-gray-300"
@@ -37,7 +36,7 @@ export default function Home() {
           meetups
         </a>
         .
-      </h2>
+      </p>
       <div className="p-6">
         <Socials />
       </div>
