@@ -2,7 +2,6 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import Image from "next/image";
 
 const Pages = [
   ["HOME", "/"],
@@ -47,7 +46,7 @@ export default function Header() {
           <ul className="w-full">
             {Pages.map(([title, url]) => (
               <Link key={title} href={url}>
-                <li className="hover:underline hover:text-gray-300 border p-1">
+                <li className="border p-1">
                   <a className="text-gray-400 text-xl">{title}</a>
                 </li>
               </Link>
