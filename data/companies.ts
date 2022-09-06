@@ -114,6 +114,7 @@ export const companies: Company[] = [
     website: "https://www.ecmsi.com/",
     careers: "https://www.ecmsi.com/careers/",
     desc: "ECMSI is a highly trusted and accountable managed IT service provider delivering IT best practices to small and medium sized businesses.",
+    tags: ["Websites", "Consulting", "Networking"],
     servicesOrProduct: "Services",
   },
   {
