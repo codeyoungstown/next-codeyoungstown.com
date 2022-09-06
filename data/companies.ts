@@ -30,7 +30,7 @@ export const companies: Company[] = [
     city: "Girard",
     website: "https://www.aimntls.com/",
     careers: "http://www.jobsataim.com/",
-    desc: "Aim Transportation Solutions offers award-winning comercial truck services.",
+    desc: "Aim Transportation Solutions offers award-winning commercial truck services.",
     servicesOrProduct: "Product",
   },
   {
@@ -105,8 +105,17 @@ export const companies: Company[] = [
     city: "Youngstown",
     website: "https://www.drund.com/",
     careers: "https://www.drund.com/careers/",
-    desc: "Drun is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
+    desc: "Drund is an engineering company that provides technical solutions and strategies for our partners based on the Drund platform.",
     servicesOrProduct: "Product",
+  },
+  {
+    name: "ECMSI",
+    city: "Struthers",
+    website: "https://www.ecmsi.com/",
+    careers: "https://www.ecmsi.com/careers/",
+    desc: "ECMSI is a highly trusted and accountable managed IT service provider delivering IT best practices to small and medium sized businesses.",
+    tags: ["Websites", "Consulting", "Networking"],
+    servicesOrProduct: "Services",
   },
   {
     name: "FactSet",
@@ -190,7 +199,7 @@ export const companies: Company[] = [
     servicesOrProduct: "Product",
   },
   {
-    name: "Palo Creative",
+    name: "PALO Creative",
     city: "Youngstown",
     website: "https://www.palocreative.com/",
     careers: "https://www.palocreative.com/careers",
@@ -213,7 +222,7 @@ export const companies: Company[] = [
     servicesOrProduct: "Product",
   },
   {
-    name: "Sensource",
+    name: "SenSource",
     city: "Youngstown",
     website: "https://sensourceinc.com/",
     desc: "SenSource provides people counting solutions and traffic analytics software solutions.",
