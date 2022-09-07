@@ -11,6 +11,7 @@ export default function Home() {
     <Layout page="Home" description={pageDescription}>
       <div>
         <Image
+          className = 'img--spin'
           src={logo}
           alt="Code Youngstown Logo"
           height={700}
