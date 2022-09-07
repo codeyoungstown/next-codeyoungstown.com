@@ -47,7 +47,9 @@ export default function Header() {
             {Pages.map(([title, url]) => (
               <Link key={title} href={url}>
                 <li className="border p-1">
-                  <a className="text-gray-400 text-xl">{title}</a>
+                  <a className="text-gray-400 text-xl hover:underline hover:text-gray-300 hover:cursor-pointer">
+                    {title}
+                  </a>
                 </li>
               </Link>
             ))}
