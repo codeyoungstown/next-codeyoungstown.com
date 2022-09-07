@@ -6,26 +6,32 @@ import Search from "./Search";
 import { useState } from "react";
 
 export default function Companies() {
-  // SEARCH HANDLER //
+  // FILTERS //
   const [search, setSearch] = useState("");
   const [select, setSelect] = useState("");
+
+  // SEARCH AND SELECT HANDLERS //
   const handleSearch = (e) => {
     setSearch(e.target.value);
   };
   const handleSelect = (e) => {
     setSelect(e.target.value);
   };
+  const tagSelect = (tag) => {
+    setSelect(tag);
+  };
   const filterTags = ({ company }) => {
     if (select == "") {
       return true;
     } else return company.tags?.includes(select);
   };
+
+  // APPLY BOTH FILTERS //
   const filteredCompanies = companies.filter(
     (company) =>
       company.name.toLowerCase().includes(search.toLocaleLowerCase()) &&
       filterTags({ company })
   );
-  // *SEARCH HANDLER* //
 
   return (
     <div className="w-full">
@@ -34,7 +40,11 @@ export default function Companies() {
       <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
         {filteredCompanies.length ? (
           filteredCompanies.map((company) => (
-            <Company key={company.name} company={company} />
+            <Company
+              tagSelect={tagSelect}
+              key={company.name}
+              company={company}
+            />
           ))
         ) : (
           <NoResult />
@@ -44,7 +54,7 @@ export default function Companies() {
   );
 }
 
-const Company = ({ company }) => {
+const Company = ({ company, tagSelect }) => {
   return (
     <DataCard>
       <h3 className="text-xl font-medium">{company.name}</h3>
@@ -54,7 +64,11 @@ const Company = ({ company }) => {
       <p className="leading-5 my-2">{company.desc}</p>
       <div className="flex overflow-auto my-1">
         {company.tags
-          ? company.tags.map((item) => <Tag key={item}>{item}</Tag>)
+          ? company.tags.map((item) => (
+              <Tag tagSelect={() => tagSelect(item)} key={item}>
+                {item}
+              </Tag>
+            ))
           : null}
       </div>
       <div className="grid grid-cols-2 mt-auto">
@@ -96,11 +110,14 @@ const WebsiteLink = ({ link }) => {
   );
 };
 
-const Tag = ({ children }) => {
+const Tag = ({ children, tagSelect }) => {
   return (
-    <div className="bg-stone-900 rounded-md px-2 py-[2px] mr-2 min-w-max">
+    <button
+      onClick={tagSelect}
+      className="bg-stone-900 hover:bg-stone-700 rounded-md px-2 py-[2px] mr-2 min-w-max"
+    >
       <p className="font-thin text-xs text-gray-400 text-center">{children}</p>
-    </div>
+    </button>
   );
 };
 
