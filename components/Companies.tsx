@@ -7,41 +7,41 @@ import { useState } from "react";
 
 export default function Companies() {
   // FILTERS //
-  const [search, setSearch] = useState("");
-  const [select, setSelect] = useState("");
+  const [userSearch, setUserSearch] = useState("");
+  const [selectedFilter, setSelectedFilter] = useState("");
 
   // SEARCH AND SELECT HANDLERS //
   const handleSearch = (e) => {
-    setSearch(e.target.value);
+    setUserSearch(e.target.value);
   };
   const handleSelect = (e) => {
-    setSelect(e.target.value);
+    setSelectedFilter(e.target.value);
   };
-  const tagSelect = (tag) => {
-    setSelect(tag);
+  const handleFilterByTag = (tag) => {
+    setSelectedFilter(tag);
   };
   const filterTags = ({ company }) => {
-    if (select == "") {
+    if (selectedFilter == "") {
       return true;
-    } else return company.tags?.includes(select);
+    } else return company.tags?.includes(selectedFilter);
   };
 
   // APPLY BOTH FILTERS //
   const filteredCompanies = companies.filter(
     (company) =>
-      company.name.toLowerCase().includes(search.toLocaleLowerCase()) &&
+      company.name.toLowerCase().includes(userSearch.toLocaleLowerCase()) &&
       filterTags({ company })
   );
 
   return (
     <div className="w-full">
       <Search handleSearch={handleSearch} placeHolder="Company Name" />
-      <SelectTags onChange={handleSelect} />
+      <SelectTags filter={selectedFilter} onChange={handleSelect} />
       <div className="flex flex-col w-full sm:grid sm:grid-cols-2 sm:gap-4 sm:content-start lg:grid-cols-3">
         {filteredCompanies.length ? (
           filteredCompanies.map((company) => (
             <Company
-              tagSelect={tagSelect}
+              tagSelect={handleFilterByTag}
               key={company.name}
               company={company}
             />
@@ -114,23 +114,27 @@ const Tag = ({ children, tagSelect }) => {
   return (
     <button
       onClick={tagSelect}
-      className="bg-stone-900 hover:bg-stone-700 rounded-md px-2 py-[2px] mr-2 min-w-max"
+      className="bg-stone-900 hover:bg-stone-700 rounded-md py-1 px-2 mr-2 min-w-max"
     >
-      <p className="font-thin text-xs text-gray-400 text-center">{children}</p>
+      <span className="font-thin text-xs text-gray-400 text-center block">
+        {children}
+      </span>
     </button>
   );
 };
 
-const SelectTags = ({ onChange }) => {
+const SelectTags = ({ onChange, filter }) => {
   return (
     <select
       className="text-black my-3 rounded-lg"
       name="tags"
       id="tags"
       onChange={onChange}
+      value={filter}
     >
       <option value="">--Select Tag--</option>
       <option value="Consulting">Consulting</option>
+      <option value="Data">Data</option>
       <option value="Design">Design</option>
       <option value="Marketing">Marketing</option>
       <option value="Networking">Networking</option>
