@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Companies from "../components/Companies";
-import SuggestChange from "../components/SuggestChange";
+import AddCompanyForm from "../components/AddCompanyForm";
 import { useState } from "react";
 
 const pageDescription =
@@ -19,22 +19,22 @@ export default function MadeInYoungstown() {
     <Layout page="Made In Youngstown" description={pageDescription}>
       <h1 className="text-3xl p-2">Made In Youngstown</h1>
       <p className="sm:text-xl text-md p-2">{pageDescription}</p>
+      <ToggleCompanyForm toggle={toggleFormModal} />
+      <AddCompanyForm display={formVisibility} toggleClose={toggleFormModal} />
       <div className="flex justify-center">
         <Companies />
       </div>
-      <ToggleChangesForm toggle={toggleFormModal} />
-      <SuggestChange display={formVisibility} toggleClose={toggleFormModal} />
     </Layout>
   );
 }
 
-const ToggleChangesForm = ({ toggle }) => {
+const ToggleCompanyForm = ({ toggle }) => {
   return (
     <button
-      className="px-6 py-2 bg-gray-600 text-white text-sm uppercase rounded hover:bg-gray-700 hover:shadow-lg"
+      className="px-6 py-2 mb-4 bg-gray-600 text-white text-sm uppercase rounded hover:bg-gray-700 hover:shadow-lg"
       onClick={toggle}
     >
-      Suggest A Change
+      Add Company
     </button>
   );
 };
