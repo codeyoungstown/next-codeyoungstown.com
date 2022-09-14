@@ -17,7 +17,7 @@ export default function Layout({ children, page, description }) {
         {/* <!-- Primary Meta Tags --> */}
         <meta name="title" content={pageTitle} />
         <meta name="description" content={description} />
-        <link rel="icon" href="/code-youngstown-white-background-final.png" />
+        <link rel="icon" href="/code-youngstown-white-fill.png" />
         <meta name="keywords" content="code, youngstown, code youngstown" />
 
         {/* <!-- Open Graph / Facebook --> */}
