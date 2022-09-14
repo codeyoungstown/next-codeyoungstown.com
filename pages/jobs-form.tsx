@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import FormField from "../components/FormField";
+import FormField from "../components/Globals/FormField";
 
 const pageDescription =
   "Submit a job to be featured on the Code Youngstown Job Board";

@@ -1,10 +1,10 @@
 import { jobs } from "../data/jobs";
-import DataCard from "./DataCard";
+import DataCard from "./Globals/DataCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { faLocationDot, faDollarSign } from "@fortawesome/free-solid-svg-icons";
 import { parseISO, formatDistanceToNow, differenceInDays } from "date-fns";
-import Search from "./Search";
+import Search from "./Globals/Search";
 
 export default function JobListings() {
   // SEARCH HANDLER //
