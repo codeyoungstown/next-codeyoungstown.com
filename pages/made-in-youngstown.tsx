@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
-import Companies from "../components/Companies";
-import AddCompanyForm from "../components/AddCompanyForm";
+import Companies from "../components/MadeInYoungstown/Companies";
+import AddCompanyForm from "../components/MadeInYoungstown/AddCompanyForm";
 import { useState } from "react";
 
 const pageDescription =
