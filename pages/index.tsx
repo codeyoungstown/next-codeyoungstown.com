@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/future/image";
 import Layout from "../components/Layout";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
@@ -9,13 +9,12 @@ const pageDescription =
 export default function Home() {
   return (
     <Layout page="Home" description={pageDescription}>
-      <div>
+      <div className="flex justify-center">
         <Image
           src={logo}
           alt="Code Youngstown Logo"
           height={700}
           width={700}
-          layout="intrinsic"
           priority
         />
       </div>
