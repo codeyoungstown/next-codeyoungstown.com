@@ -42,7 +42,7 @@ export default function CompanyForm() {
           />
 
           <div className="flex space-x-2 text-black">
-            <BackButton href="/jobs" />
+            <BackButton href="/made-in-youngstown" />
             <SubmitButton />
           </div>
         </form>
