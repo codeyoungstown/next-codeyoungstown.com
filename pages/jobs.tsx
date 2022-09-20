@@ -1,4 +1,4 @@
-import FormButton from "../components/Globals/FormButton";
+import { FormButton } from "../components/Globals/FormButtons";
 
 import Link from "next/link";
 import Layout from "../components/Layout";

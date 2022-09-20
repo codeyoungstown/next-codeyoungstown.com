@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import FormField from "../components/Globals/FormField";
-import Link from "next/link";
+import { BackButton, SubmitButton } from "../components/Globals/FormButtons";
 
 const pageDescription =
   "Submit a job to be featured on the Code Youngstown Job Board";
@@ -41,19 +41,8 @@ export default function JobsForm() {
           />
 
           <div className="flex space-x-2 text-black">
-            <Link
-              href="/jobs"
-              className="rounded-md bg-slate-300 hover:bg-slate-400 px-3 py-1 hover:cursor-pointer"
-            >
-              Back
-            </Link>
-
-            <button
-              type="submit"
-              className="rounded-md bg-zinc-300 hover:bg-zinc-400 px-3 py-1"
-            >
-              Submit
-            </button>
+            <BackButton href="/jobs" />
+            <SubmitButton />
           </div>
         </form>
       </div>
