@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 
 const pageDescription =
-  "Thank you for submitting to the Code Youngstown Job Board. Please be patient, as we manually approve every submission. We may reach out if we have any questions.";
+  "Thank you for submitting to Code Youngstown. Please be patient, as we manually approve every submission. We may reach out if we have any questions.";
 
 export default function JobsForm() {
   return (

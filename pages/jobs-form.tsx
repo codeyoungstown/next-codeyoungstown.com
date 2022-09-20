@@ -39,10 +39,17 @@ export default function JobsForm() {
             label="Listing link or contact email:"
           />
 
-          <div>
+          <div className="flex space-x-2 text-black">
+            <a
+              href="/jobs"
+              className="rounded-md bg-slate-300 hover:bg-slate-400 px-3 py-1 hover:cursor-pointer"
+            >
+              Back
+            </a>
+
             <button
-              className="px-4 py-1 mt-2  outline rounded-full border-0 border-white hover:bg-gray-700"
               type="submit"
+              className="rounded-md bg-zinc-300 hover:bg-zinc-400 px-3 py-1"
             >
               Submit
             </button>
