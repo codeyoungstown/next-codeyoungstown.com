@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import FormField from "../components/Globals/FormField";
+import Link from "next/link";
 
 const pageDescription =
   "Add a company to the Code Youngstown local tech company directory.";
@@ -41,12 +42,12 @@ export default function CompanyForm() {
           />
 
           <div className="flex space-x-2 text-black">
-            <a
+            <Link
               href="/made-in-youngstown"
               className="rounded-md bg-slate-300 hover:bg-slate-400 px-3 py-1 hover:cursor-pointer"
             >
               Back
-            </a>
+            </Link>
 
             <button
               type="submit"
