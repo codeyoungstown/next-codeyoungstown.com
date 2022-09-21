@@ -17,7 +17,7 @@ export default function Footer() {
         <ul className="flex flex-row items-center text-center  justify-center mb-4">
           <li>
             <a
-              href="https://github.com/codeyoungstown/codeyoungstown.com"
+              href="https://github.com/codeyoungstown/next-codeyoungstown.com"
               className="m-2 hover:text-gray-300"
               target="_blank"
               rel="noreferrer"
