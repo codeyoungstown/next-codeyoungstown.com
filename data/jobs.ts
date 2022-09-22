@@ -75,4 +75,22 @@ export const jobs: Job[] = [
     listing: "https://blastpoint.com/about/careers",
     date: "2022-08-27",
   },
+  {
+    title: "Director of Software Engineering",
+    company: "Youngstown Business Incubator",
+    desc: "As a Director of Software Development at YBI, you’ll apply both your technical and entrepreneurial skills as part of a cross-functional team, leading the technical effort and managing a small group of apprentice developers while building consumer and/or business-facing SaaS-based products for companies in the YBI Startup Portfolio.",
+    location: "Hybrid (Remote + Youngstown, OH)",
+    salary: "Based upon experience",
+    listing: "https://www.linkedin.com/jobs/view/3279879799/",
+    date: "2022-09-22",
+  },
+  {
+    title: "Project Coordinator and Website Content Creator",
+    company: "Youngstown State University",
+    desc: "Leads and assists in the planning, implementation, and development of YSU’s websites, content strategy, and content management system (CMS) training program by establishing and maintaining an effective presence on the Internet. Focuses on meeting project commitments, including communications with sponsors, stakeholders, etc. Spends significant time on project management responsibilities.",
+    location: "Youngstown, OH",
+    salary: "$42,055 - $45,000",
+    listing: "https://jobs.ysu.edu/postings/8731",
+    date: "2022-09-22",
+  },
 ];
