@@ -10,7 +10,7 @@ export default function MadeInYoungstown() {
     <Layout page="Made In Youngstown" description={pageDescription}>
       <h1 className="text-3xl m-2">Made In Youngstown</h1>
       <p className="sm:text-xl text-md mb-2">{pageDescription}</p>
-      <FormButton formLink="/add-company-form">add company</FormButton>
+      <FormButton formLink="/add-a-company">add company</FormButton>
       <div className="flex justify-center mt-4">
         <Companies />
       </div>

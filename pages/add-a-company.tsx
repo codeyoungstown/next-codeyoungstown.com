@@ -5,7 +5,7 @@ import { BackButton, SubmitButton } from "../components/Globals/FormButtons";
 const pageDescription =
   "Add a company to the Code Youngstown local tech company directory.";
 
-export default function CompanyForm() {
+export default function AddACompany() {
   const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
     <Layout page="Add Company Form" description={pageDescription}>
@@ -29,10 +29,16 @@ export default function CompanyForm() {
           />
           <input type="hidden" name="_captcha" value="false" />
           <FormField name="company" label="Company:" />
-          <FormField name="company-link" label="Company Link:" />
+          <FormField name="company-link" label="Company Link:" type="url" />
+          <FormField
+            name="company-link"
+            label="Company's Careers Link: (optional)"
+            type="url"
+            notRequired
+          />
           <FormField
             name="email"
-            label="Your Email: (incase we have any questions)"
+            label="Your Email: (in case we have any questions)"
             type="email"
           />
           <FormField
