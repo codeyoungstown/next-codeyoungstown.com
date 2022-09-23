@@ -27,24 +27,30 @@ export default function AddACompany() {
             name="_next"
             value={`https://${BASE_URL}/submission-thank-you`}
           />
-          <input type="hidden" name="_captcha" value="false" />
-          <FormField name="company" label="Company:" />
-          <FormField name="company-link" label="Company Link:" type="url" />
+          <input type="hidden" name="_captcha" value="false" required />
+          <FormField name="company" label="Company:" required />
           <FormField
             name="company-link"
+            label="Company Link:"
+            type="url"
+            required
+          />
+          <FormField
+            name="careers-link"
             label="Company's Careers Link: (optional)"
             type="url"
-            notRequired
           />
           <FormField
             name="email"
             label="Your Email: (in case we have any questions)"
             type="email"
+            required
           />
           <FormField
             name="company-description"
             label="Company Description:"
             textarea
+            required
           />
 
           <div className="flex space-x-2 text-black">

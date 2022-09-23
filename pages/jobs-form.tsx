@@ -25,19 +25,26 @@ export default function JobsForm() {
             value={`https://${BASE_URL}/submission-thank-you`}
           />
           <input type="hidden" name="_captcha" value="false" />
-          <FormField name="name" label="Your Name:" />
-          <FormField name="email" label="Your Email:" type="email" />
-          <FormField name="jobTitle" label="Job Title:" />
-          <FormField name="description" label="Job Description:" textarea />
-          <FormField name="company" label="Company:" />
+          <FormField name="name" label="Your Name:" required />
+          <FormField name="email" label="Your Email:" type="email" required />
+          <FormField name="jobTitle" label="Job Title:" required />
+          <FormField
+            name="description"
+            label="Job Description:"
+            textarea
+            required
+          />
+          <FormField name="company" label="Company:" required />
           <FormField
             name="location"
             label="Location (City, State, OR Remote):"
+            required
           />
-          <FormField name="salaryRange" label="Salary Range:" />
+          <FormField name="salaryRange" label="Salary Range:" required />
           <FormField
             name="Contact/Listing"
             label="Listing link or contact email:"
+            required
           />
 
           <div className="flex space-x-2 text-black">
