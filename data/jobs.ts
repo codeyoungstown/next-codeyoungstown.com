@@ -93,4 +93,13 @@ export const jobs: Job[] = [
     listing: "https://jobs.ysu.edu/postings/8731",
     date: "2022-09-22",
   },
+  {
+    title: "Data Warehouse Engineer",
+    company: "Youngstown State University",
+    desc: "Identifies, designs, implements, and supports technology solutions including campus-wide technology environments, systems, and services that meet strategic business requirements in a secure manner. Generates, develops, and communicates strategic technical directions and decisions for existing and new client computing technologies.",
+    location: "Youngstown, OH",
+    salary: "$64,000 - $84,000",
+    listing: "https://jobs.ysu.edu/postings/8672",
+    date: "2022-09-24",
+  },
 ];
