@@ -11,6 +11,7 @@ export default function JobsForm() {
     <Layout page="Submit a Job" description={pageDescription}>
       <h1 className="text-3xl p-2">Submit a job</h1>
       <p className="sm:text-xl text-md p-2">{pageDescription}</p>
+      <BackButton href="/jobs" />
 
       <div className="flex w-full justify-center">
         <form
@@ -47,8 +48,7 @@ export default function JobsForm() {
             required
           />
 
-          <div className="flex space-x-2 text-black">
-            <BackButton href="/jobs" />
+          <div className="flex justify-start">
             <SubmitButton />
           </div>
         </form>
