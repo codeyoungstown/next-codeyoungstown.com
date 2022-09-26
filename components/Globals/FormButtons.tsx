@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 export function FormButton({ formLink, children }) {
   return (
@@ -14,8 +16,8 @@ export function FormButton({ formLink, children }) {
 export function BackButton({ href }) {
   return (
     <Link href={href}>
-      <a className="rounded-md bg-slate-300 hover:bg-slate-400 px-3 py-1 hover:cursor-pointer">
-        Back
+      <a className="rounded-md text-black bg-slate-300 hover:bg-slate-400 px-3 py-1 hover:cursor-pointer">
+        <FontAwesomeIcon icon={faArrowLeft} /> Back
       </a>
     </Link>
   );
@@ -25,7 +27,7 @@ export function SubmitButton() {
   return (
     <button
       type="submit"
-      className="rounded-md bg-zinc-300 hover:bg-zinc-400 px-3 py-1"
+      className="rounded-md text-black bg-zinc-300 hover:bg-zinc-400 px-3 py-1"
     >
       Submit
     </button>
