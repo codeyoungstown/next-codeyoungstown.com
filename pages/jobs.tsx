@@ -1,4 +1,4 @@
-// Card design for each job listing with job description, contact person, salary range (optional), location (remote?), listing link
+import { FormButton } from "../components/Globals/FormButtons";
 
 import Link from "next/link";
 import Layout from "../components/Layout";
@@ -13,7 +13,7 @@ export default function Jobs() {
       <h1 className="text-3xl p-2">Jobs</h1>
       <p className="sm:text-xl text-md p-2">{pageDescription}</p>
       <Link href="/jobs-form">
-        <a className="hover:text-gray-300 underline">Submit a Job</a>
+        <FormButton formLink="/jobs-form">Submit a Job</FormButton>
       </Link>
       <JobListings />
     </Layout>

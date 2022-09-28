@@ -3,16 +3,16 @@ import FormField from "../components/Globals/FormField";
 import { BackButton, SubmitButton } from "../components/Globals/FormButtons";
 
 const pageDescription =
-  "Submit a job to be featured on the Code Youngstown Job Board";
+  "Add a company to the Code Youngstown local tech company directory.";
 
-export default function JobsForm() {
+export default function AddACompany() {
   const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
-    <Layout page="Submit a Job" description={pageDescription}>
+    <Layout page="Add a Company" description={pageDescription}>
       <div className="max-w-screen-md m-auto flex justify-start">
-        <BackButton href="/jobs" />
+        <BackButton href="/made-in-youngstown" />
       </div>
-      <h1 className="text-3xl p-2">Submit a job</h1>
+      <h1 className="text-3xl p-2">Add a Company</h1>
       <p className="sm:text-xl text-md p-2">{pageDescription}</p>
 
       <div className="flex w-full justify-center">
@@ -21,35 +21,41 @@ export default function JobsForm() {
           action="https://formsubmit.co/contact@codeyoungstown.com"
           method="POST"
         >
-          <input type="hidden" name="_subject" value="New Job Listing!" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Company Suggestion!"
+          />
           <input
             type="hidden"
             name="_next"
             value={`https://${BASE_URL}/submission-thank-you`}
           />
-          <input type="hidden" name="_captcha" value="false" />
-          <FormField name="name" label="Your Name:" required />
-          <FormField name="email" label="Your Email:" type="email" required />
-          <FormField name="jobTitle" label="Job Title:" required />
+          <input type="hidden" name="_captcha" value="false" required />
+          <FormField name="company" label="Company:" required />
           <FormField
-            name="description"
-            label="Job Description:"
+            name="company-link"
+            label="Company Link:"
+            type="url"
+            required
+          />
+          <FormField
+            name="careers-link"
+            label="Company's Careers Link: (optional)"
+            type="url"
+          />
+          <FormField
+            name="email"
+            label="Your Email: (in case we have any questions)"
+            type="email"
+            required
+          />
+          <FormField
+            name="company-description"
+            label="Company Description:"
             textarea
             required
           />
-          <FormField name="company" label="Company:" required />
-          <FormField
-            name="location"
-            label="Location (City, State, OR Remote):"
-            required
-          />
-          <FormField name="salaryRange" label="Salary Range:" required />
-          <FormField
-            name="Contact/Listing"
-            label="Listing link or contact email:"
-            required
-          />
-
           <SubmitButton />
         </form>
       </div>
