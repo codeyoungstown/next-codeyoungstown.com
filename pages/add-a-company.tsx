@@ -9,9 +9,11 @@ export default function AddACompany() {
   const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
     <Layout page="Add a Company" description={pageDescription}>
+      <div className="max-w-screen-md m-auto flex justify-start">
+        <BackButton href="/made-in-youngstown" />
+      </div>
       <h1 className="text-3xl p-2">Add a Company</h1>
       <p className="sm:text-xl text-md p-2">{pageDescription}</p>
-      <BackButton href="/made-in-youngstown" />
 
       <div className="flex w-full justify-center">
         <form
@@ -54,9 +56,7 @@ export default function AddACompany() {
             textarea
             required
           />
-          <div className="flex justify-start">
-            <SubmitButton />
-          </div>
+          <SubmitButton />
         </form>
       </div>
     </Layout>
