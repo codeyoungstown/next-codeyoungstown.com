@@ -103,7 +103,7 @@ export const jobs: Job[] = [
     date: "2022-09-24",
   },
     {
-    title: "Data Warehouse Engineer",
+    title: "Software Engineer / Web Developer",
     company: "Trumbull Industries",
     desc: "We are looking for an experienced Full Stack PHP Developer with MVC frameworks experiences such as CodeIgniter or Laravel to fill our Developer Lead/Project Manager position.",
     location: "Warren, OH",
