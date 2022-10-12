@@ -102,4 +102,13 @@ export const jobs: Job[] = [
     listing: "https://jobs.ysu.edu/postings/8672",
     date: "2022-09-24",
   },
+    {
+    title: "Data Warehouse Engineer",
+    company: "Trumbull Industries",
+    desc: "We are looking for an experienced Full Stack PHP Developer with MVC frameworks experiences such as CodeIgniter or Laravel to fill our Developer Lead/Project Manager position.",
+    location: "Warren, OH",
+    salary: "$65,000 - $90,000 a year",
+    listing: "https://jobsearcher.com/j/software-engineer-web-developer-at-trumbull-industries-in-warren-oh-1bn2oJM",
+    date: "2022-10-11",
+  },
 ];
