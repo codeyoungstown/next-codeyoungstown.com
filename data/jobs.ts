@@ -102,13 +102,24 @@ export const jobs: Job[] = [
     listing: "https://jobs.ysu.edu/postings/8672",
     date: "2022-09-24",
   },
-    {
+  {
     title: "Software Engineer / Web Developer",
     company: "Trumbull Industries",
     desc: "We are looking for an experienced Full Stack PHP Developer with MVC frameworks experiences such as CodeIgniter or Laravel to fill our Developer Lead/Project Manager position.",
     location: "Warren, OH",
     salary: "$65,000 - $90,000 a year",
-    listing: "https://jobsearcher.com/j/software-engineer-web-developer-at-trumbull-industries-in-warren-oh-1bn2oJM",
+    listing:
+      "https://jobsearcher.com/j/software-engineer-web-developer-at-trumbull-industries-in-warren-oh-1bn2oJM",
     date: "2022-10-11",
+  },
+  {
+    title: "Database Administrator/Software Developer",
+    company: "AVI Foodsystems Inc.",
+    desc: "The ideal candidate will have 3-5 years experience in Database Administration (Microsoft SQL Server, PostgreSQL, and others) as well as experience with developing desktop applications in C# and VBA.",
+    location: "Warren, OH",
+    salary: "Unlisted",
+    listing:
+      "https://avi-foodsystems-en.jobs.net/job/mid-level-database-administrator-full-stack-developer/J3V8626B0GTNR3C9Q1J",
+    date: "2022-10-26",
   },
 ];
