@@ -59,6 +59,14 @@ export const companies: Company[] = [
     servicesOrProduct: "Services",
   },
   {
+    name: "Canfield Industries, Inc.",
+    city: "Youngstown, OH",
+    website: "https://www.canfieldindustries.net/",
+    desc: "Canfield Industries, Inc. is a manufacturing company that produces and sells products related to the Fluid Power, Electronics, Plastics and Industrial marketplaces.",
+    tags: ["Applications", "Design", "Manufacture", "Test"],
+    servicesOrProduct: "Product",
+  },
+  {
     name: "CBOSS",
     city: "Poland",
     website: "https://cboss.com/",
