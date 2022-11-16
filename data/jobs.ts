@@ -32,7 +32,7 @@ export const jobs: Job[] = [
     title: "Web Developer Internship",
     company: "898 Marketing",
     desc: "898 Marketing looking for a 12-week intern to develop websites, landing pages, and marketing emails. Analyze data to improve SEO and add content to existing sites using WordPress, Shopify, or other CMS platforms.",
-    location: "5721 Shields Rd, Canfield, OH 44406",
+    location: "Canfield, OH",
     salary: "Unlisted",
     listing: "https://www.indeed.com/viewjob?t=web%20developer%20internship&jk=fd153f765ae4ac7b&_ga=2.210765788.874613173.1668091844-1524075580.1656525213&fbclid=IwAR0kiLlZOw5X-KKJAOZWSCQHdvTPQa2va9HNykSoVQpuq1ghgjrNOGxsJuY",
     date: "2022-11-02",
