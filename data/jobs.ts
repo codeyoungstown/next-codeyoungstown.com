@@ -11,6 +11,42 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Data Engineer",
+    company: "BlastPoint",
+    desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
+    location: "Remote - Pittsburgh, PA",
+    salary: "$120,000 - $150,000",
+    listing: "https://blastpoint.rippling-ats.com/job/476802/data-engineer",
+    date: "2022-11-17",
+  },
+  {
+    title: "Software Engineer - Backend",
+    company: "BlastPoint",
+    desc: "We are looking for a talented Back-End Engineer to join our growing Platform Engineering team.  The ideal candidate for this position is knowledgeable about the entire web application stack, but prefers to focus on server-side components that deliver data to clients.",
+    location: "Remote - Pittsburgh, PA",
+    salary: "$100,000 - $140,000",
+    listing: "https://blastpoint.rippling-ats.com/job/521159/software-engineer-backend",
+    date: "2022-11-17",
+  },
+  {
+    title: "DevOps Engineer",
+    company: "BlastPoint",
+    desc: "We are looking for a talented Development Operations (DevOps) Engineer to join our growing engineering team. The ideal candidate for this position is able to ensure smooth and timely delivery of actionable insights to customers by contributing repeatable and maintainable cloud deployment workflows to our infrastructure as code repository, monitoring and maintaining existing infrastructure, and enhancing our Continuous Integration / Continuous Deployment (CI/CD) workflows, ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
+    location: "Remote - Pittsburgh, PA",
+    salary: "$90,000 - $110,000",
+    listing: "https://blastpoint.rippling-ats.com/job/521150/devops-engineer",
+    date: "2022-11-17", 
+  },
+  {
+    title: "Data Scientist",
+    company: "BlastPoint",
+    desc: "We’re looking for a thoughtful, curious, and resourceful Data Scientist to join our growing team. This role is the technical face that accompanies our clients’ experience working with us, meaning that you will be the person leading them to solutions by presenting project results, interacting with clients in a consultative manner, and supporting overall customer success.",
+    location: "Remote - Pittsburgh, PA",
+    salary: "$100,000 - $140,000",
+    listing: "https://blastpoint.rippling-ats.com/job/521140/data-scientist",
+    date: "2022-11-17",
+  },
+  {
     title: "Digital Specialist",
     company: "FactSet",
     desc: "The key objective for the role is to optimize the use of varied and consistent training vehicles across a variety of channels with the appropriate frequency to build and demostrate product offerings.",
