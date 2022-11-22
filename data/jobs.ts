@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Cloud Engineer",
+    company: "Robert Half",
+    desc: "We are looking for an experienced cloud engineer (either AWS or Azure) to work with our professional service team to develop, implement, optimize, and maintain cloud-based solutions for our clients.",
+    location: "Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://www.linkedin.com/jobs/view/3364416753/",
+    date: "2022-11-22",
+  },
+  {
     title: "Data Engineer",
     company: "BlastPoint",
     desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
