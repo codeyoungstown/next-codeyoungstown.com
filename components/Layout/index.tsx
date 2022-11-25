@@ -30,8 +30,7 @@ export default function Layout({ children, page, description }) {
         <meta property="og:description" content={description} />
         <meta
           property="og:image"
-          content="/code-youngstown-white-background-final.png"
-        />
+          content="https://codeyoungstown.com//code-youngstown-white-background-final.png" />
 
         {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
