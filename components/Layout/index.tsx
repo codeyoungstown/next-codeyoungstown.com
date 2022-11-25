@@ -34,17 +34,10 @@ export default function Layout({ children, page, description }) {
         />
 
         {/* <!-- Twitter --> */}
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content={"https://codeyoungstown.com" + router.asPath}
-        />
-        <meta property="twitter:title" content={pageTitle} />
-        <meta property="twitter:description" content={description} />
-        <meta
-          property="twitter:image"
-          content="/code-youngstown-white-background-final.png"
-        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Code Youngstown" />
+        <meta name="twitter:description" content="Connecting software engineers, developers, and coders in the Youngstown, OH area." />
+        <meta name="twitter:image" content="https://codeyoungstown.com//code-youngstown-white-background-final.png" />
 
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
