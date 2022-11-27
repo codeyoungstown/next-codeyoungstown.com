@@ -30,7 +30,8 @@ export default function Layout({ children, page, description }) {
         <meta property="og:description" content={description} />
         <meta
           property="og:image"
-          content="https://codeyoungstown.com//code-youngstown-white-background-final.png" />
+          content="https://codeyoungstown.com/code-youngstown-white-background-final.png"
+        />
 
         {/* <!-- Twitter --> */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -38,7 +39,8 @@ export default function Layout({ children, page, description }) {
         <meta name="twitter:description" content={description} />
         <meta
           name="twitter:image"
-          content="https://codeyoungstown.com//code-youngstown-white-background-final.png" />
+          content="https://codeyoungstown.com/code-youngstown-white-background-final.png"
+        />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
