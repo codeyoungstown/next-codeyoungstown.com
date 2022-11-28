@@ -30,22 +30,17 @@ export default function Layout({ children, page, description }) {
         <meta property="og:description" content={description} />
         <meta
           property="og:image"
-          content="/code-youngstown-white-background-final.png"
+          content="https://codeyoungstown.com/code-youngstown-white-background-final.png"
         />
 
         {/* <!-- Twitter --> */}
-        <meta property="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={description} />
         <meta
-          property="twitter:url"
-          content={"https://codeyoungstown.com" + router.asPath}
+          name="twitter:image"
+          content="https://codeyoungstown.com/code-youngstown-white-background-final.png"
         />
-        <meta property="twitter:title" content={pageTitle} />
-        <meta property="twitter:description" content={description} />
-        <meta
-          property="twitter:image"
-          content="/code-youngstown-white-background-final.png"
-        />
-
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
