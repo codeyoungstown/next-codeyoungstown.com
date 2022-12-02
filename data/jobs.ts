@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "IT Support Specialist",
+    company: "Millwood, Inc.",
+    desc: "Millwood is looking for IT support specialist that will work closely with other IT Team members to ensure the security and stability of the company network, to support the Company and its objectives, mission, and values.",
+    location: "Vienna, OH",
+    salary: "Unlisted",
+    listing: "https://www.indeed.com/cmp/Millwood,-Inc./jobs?jk=ca5ec8dfe0868d07&q=&l=Vienna%2C%20OH&start=0",
+    date: "2022-11-30",
+  },
+  {
     title: "Cloud Engineer",
     company: "Robert Half",
     desc: "We are looking for an experienced cloud engineer (either AWS or Azure) to work with our professional service team to develop, implement, optimize, and maintain cloud-based solutions for our clients.",
