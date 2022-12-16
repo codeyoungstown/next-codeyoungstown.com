@@ -11,6 +11,34 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Information Technology Specialist",
+    company: "Youngstown Oak Hill Collaborative Facility",
+    desc: "This role will be primarily at the Youngstown Oak Hill Collaborative Facility, with the express interest of training additional IT personnel. Initially this will be a trained role, with the intent of addressing immediate technical needs when the Director of IT isn’t available, with a potential of advancement when the Director of IT moves on.",
+    location: "Youngstown, OH",
+    salary: "$16.50 - $18.00 per hour",
+    contact: "anthony@oakhillcollaborative.org",
+    date: "2022-12-15",
+  },
+  {
+    title: "Senior Security Operations Engineer",
+    company: "Malwarebytes",
+    desc: "We’re searching for a motivated and experienced security professional who is looking to take on the challenge of improving the security operations and incident response at a Security company. This colleague will join our security team and apply their experience with tools and technologies in identifying and addressing security issues.  Previous experience as a Security Operations or Incident Response Engineer is a must, as well as the drive to learn new products/tools and ability to work independently with little guidance.",
+    location: "Remote",
+    salary: "Unlisted",
+    listing: "https://www.malwarebytes.com/jobs?p=job%2FoYGQlfwz",
+    date: "2022-12-15",
+  },
+  {
+    title: "Technical Support Engineer",
+    company: "Malwarebytes",
+    desc: "The Technical Support Engineer L1 is a highly organized self-starter looking for a challenge and ready to join a company in a rapid period of growth.  The successful candidate will have the ability to drive impactful B2B post-sale technical support case triage activities and work closely with other global support team members to convert customers into brand advocates.",
+    location: "Remote",
+    salary: "Unlisted",
+    listing: "https://www.malwarebytes.com/jobs?p=job%2Fo12NlfwV",
+    date: "2022-12-15",
+
+  },
+  {
     title: "IT Support Specialist",
     company: "Millwood, Inc.",
     desc: "Millwood is looking for IT support specialist that will work closely with other IT Team members to ensure the security and stability of the company network, to support the Company and its objectives, mission, and values.",
