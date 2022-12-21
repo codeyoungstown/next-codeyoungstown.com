@@ -10,6 +10,14 @@ export type Company = {
 
 export const companies: Company[] = [
   {
+    name: "Rocket Republic",
+    city: "Youngstown, OH",
+    website: "https://rocketrepublic.com/",
+    desc: "Rocket Republic is a full-service creative studio specializing in branding, website design & development, print design, and photography",
+    tags: ["Design", "Websites"],
+    servicesOrProduct: "Services",
+  },
+  {
     name: "45Press",
     city: "Canfield",
     website: "https://45press.com/",
