@@ -10,7 +10,7 @@ export default function AddACompany() {
   return (
     <Layout page="Add a Company" description={pageDescription}>
       <div className="max-w-screen-md m-auto flex justify-start">
-        <BackButton href="/made-in-youngstown" />
+        <BackButton href="/directory" />
       </div>
       <h1 className="text-3xl p-2">Add a Company</h1>
       <p className="sm:text-xl text-md p-2">{pageDescription}</p>
