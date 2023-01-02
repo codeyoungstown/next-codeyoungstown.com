@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Lecturer, Computer Science and Information Systems",
+    company: "Youngstown State University",
+    desc: "Youngstown State Unversity is looking for candidates that have a passion for teaching, excellent written and verbal communication skills, and enthusiasm for developing new courses and programs. Additional services will include student advisement, program assessment initiatives, and continuous course and program development and revision.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing: "https://jobs.ysu.edu/postings/8727",
+    date: "2023-01-02",
+  },
+  {
     title: "Information Technology Specialist",
     company: "Youngstown Oak Hill Collaborative Facility",
     desc: "This role will be primarily at the Youngstown Oak Hill Collaborative Facility, with the express interest of training additional IT personnel. Initially this will be a trained role, with the intent of addressing immediate technical needs when the Director of IT isn’t available, with a potential of advancement when the Director of IT moves on.",
