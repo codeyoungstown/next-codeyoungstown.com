@@ -1,11 +1,11 @@
 import { FormButton } from "../components/Globals/FormButtons";
 
 import Link from "next/link";
-import Layout from "../components/Layout";
 import JobListings from "../components/JobListings";
+import Layout from "../components/Layout";
 
 const pageDescription =
-  "Local and remote job opportunities curated by the Code Youngstown community";
+  "Local and remote job opportunities curated by the Code Youngstown community.";
 
 export default function Jobs() {
   return (
