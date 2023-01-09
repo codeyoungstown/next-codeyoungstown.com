@@ -1,9 +1,9 @@
-import { companies } from "../../data/companies";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import { companies } from "../../data/companies";
 import DataCard from "../Globals/DataCard";
 import Search from "../Globals/Search";
-import { useState } from "react";
 
 export default function Companies() {
   // FILTERS //
