@@ -1,9 +1,9 @@
-import Layout from "../components/Layout";
 import Companies from "../components/Companies/Companies";
 import { FormButton } from "../components/Globals/FormButtons";
+import Layout from "../components/Layout";
 
 const pageDescription =
-  "Local tech companies in and around the Youngstown OH area.";
+  "A directory of local tech companies in and around the Youngstown, OH area.";
 
 export default function Directory() {
   return (
