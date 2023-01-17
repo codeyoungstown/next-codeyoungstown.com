@@ -11,6 +11,36 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Data Engineer - Automation Engineering",
+    company: "FactSet",
+    desc: "As a Software Engineer in Content Engineering, you will be part of our Digital Transformation, a mission to automate our data acquisition, quality assurance, content creation and analytics in a scalable cloud environment.  With the guidance of financial experts, you will leverage these large data sets to improve the quality and extend the scope of FactSet's existing and next generation products.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/details/Data-Engineer---Automation-Engineering_R17988?locations=e45ee8093d5901a1533a3a439312262f",
+    date: "2023-01-16",
+  },
+  {
+    title: "Lead Backend Software Engineer / Data Scientist",
+    company: "FactSet",
+    desc: "As a Lead Software Engineer in Content Engineering, you will be part of our Digital Transformation, a mission to automate our data acquisition, quality assurance, content creation and analytics in a scalable cloud environment.  With the guidance of financial experts, you will leverage these large data sets to improve the quality and extend the scope of FactSet's existing and next generation products.",
+    location: "Youngstown, OH / Remote",
+    salary: "Unlisted",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/details/Lead-Backend-Software-Engineer---Data-Scientist--Hybrid-CT-NYC-or-Remote-EST-CST--Python--Pandas--Numpy---NLP_R17961?locations=e45ee8093d5901a1533a3a439312262f",
+    date: "2023-01-16",
+  },
+  {
+    title: "QA / QC Analyst (PM)",
+    company: "FactSet",
+    desc: "Looking for a Quality Analyst to provide support to all Content Quality processes. The Quality Analyst takes on the responsibility for communication, research, and analytics. Responsibilities include: providing weekly/monthly reports on activities, assist with required product/content maintenance quality tasks, and identify issues.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/details/QA---QC-Analyst--PM--1_R16204?locations=e45ee8093d5901a1533a3a439312262f",
+    date: "2023-01-16",
+  },
+  {
     title: "Lecturer, Computer Science and Information Systems",
     company: "Youngstown State University",
     desc: "Youngstown State Unversity is looking for candidates that have a passion for teaching, excellent written and verbal communication skills, and enthusiasm for developing new courses and programs. Additional services will include student advisement, program assessment initiatives, and continuous course and program development and revision.",
@@ -45,7 +75,6 @@ export const jobs: Job[] = [
     salary: "Unlisted",
     listing: "https://www.malwarebytes.com/jobs?p=job%2Fo12NlfwV",
     date: "2022-12-15",
-
   },
   {
     title: "IT Support Specialist",
@@ -53,7 +82,8 @@ export const jobs: Job[] = [
     desc: "Millwood is looking for IT support specialist that will work closely with other IT Team members to ensure the security and stability of the company network, to support the Company and its objectives, mission, and values.",
     location: "Vienna, OH",
     salary: "Unlisted",
-    listing: "https://www.indeed.com/cmp/Millwood,-Inc./jobs?jk=ca5ec8dfe0868d07&q=&l=Vienna%2C%20OH&start=0",
+    listing:
+      "https://www.indeed.com/cmp/Millwood,-Inc./jobs?jk=ca5ec8dfe0868d07&q=&l=Vienna%2C%20OH&start=0",
     date: "2022-11-30",
   },
   {
@@ -80,7 +110,8 @@ export const jobs: Job[] = [
     desc: "We are looking for a talented Back-End Engineer to join our growing Platform Engineering team.  The ideal candidate for this position is knowledgeable about the entire web application stack, but prefers to focus on server-side components that deliver data to clients.",
     location: "Remote - Pittsburgh, PA",
     salary: "$100,000 - $140,000",
-    listing: "https://blastpoint.rippling-ats.com/job/521159/software-engineer-backend",
+    listing:
+      "https://blastpoint.rippling-ats.com/job/521159/software-engineer-backend",
     date: "2022-11-17",
   },
   {
@@ -90,7 +121,7 @@ export const jobs: Job[] = [
     location: "Remote - Pittsburgh, PA",
     salary: "$90,000 - $110,000",
     listing: "https://blastpoint.rippling-ats.com/job/521150/devops-engineer",
-    date: "2022-11-17", 
+    date: "2022-11-17",
   },
   {
     title: "Data Scientist",
@@ -107,7 +138,8 @@ export const jobs: Job[] = [
     desc: "The key objective for the role is to optimize the use of varied and consistent training vehicles across a variety of channels with the appropriate frequency to build and demostrate product offerings.",
     location: "Youngstown, OH",
     salary: "$64,000 - $90,000",
-    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Digital-Specialist_R13656?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Digital-Specialist_R13656?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
     date: "2022-11-09",
   },
   {
@@ -116,7 +148,8 @@ export const jobs: Job[] = [
     desc: "CTS is looking to hire a Relationship Manager to help drive the success of existing clients within the Americas book of business. Familiar with SQL or Python and Cloud service providers.",
     location: "Remote",
     salary: "$87,000 - $135,000",
-    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Account-Manager_R17352?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Account-Manager_R17352?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
     date: "2022-11-04",
   },
   {
@@ -125,7 +158,8 @@ export const jobs: Job[] = [
     desc: "898 Marketing looking for a 12-week intern to develop websites, landing pages, and marketing emails. Analyze data to improve SEO and add content to existing sites using WordPress, Shopify, or other CMS platforms.",
     location: "Canfield, OH",
     salary: "Unlisted",
-    listing: "https://www.indeed.com/viewjob?t=web%20developer%20internship&jk=fd153f765ae4ac7b&_ga=2.210765788.874613173.1668091844-1524075580.1656525213&fbclid=IwAR0kiLlZOw5X-KKJAOZWSCQHdvTPQa2va9HNykSoVQpuq1ghgjrNOGxsJuY",
+    listing:
+      "https://www.indeed.com/viewjob?t=web%20developer%20internship&jk=fd153f765ae4ac7b&_ga=2.210765788.874613173.1668091844-1524075580.1656525213&fbclid=IwAR0kiLlZOw5X-KKJAOZWSCQHdvTPQa2va9HNykSoVQpuq1ghgjrNOGxsJuY",
     date: "2022-11-02",
   },
   {
@@ -143,7 +177,8 @@ export const jobs: Job[] = [
     desc: "You will be working on private market data; these are heterogeneous and voluminous datasets. Familiar with python, pandas, and numpy.",
     location: "Youngstown, OH",
     salary: "Unlisted",
-    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Data-Engineer---Automation-Engineering_R17988?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Data-Engineer---Automation-Engineering_R17988?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
     date: "2022-10-15",
   },
   {

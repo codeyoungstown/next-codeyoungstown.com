@@ -138,7 +138,7 @@ export const companies: Company[] = [
     city: "Youngstown",
     website: "https://www.factset.com/",
     careers:
-      "https://factset.wd1.myworkdayjobs.com/FactSetcareers/2/refreshFacet/318c8bb6f553100021d223d9780d30be?__hstc=&__hssc=&hsCtaTracking=5bad2784-dc05-40fe-a68d-fee1a12cdc9b%7C397e76f1-32f7-4fbf-bd20-d38c0c14c7a9",
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers?locations=e45ee8093d5901a1533a3a439312262f",
     desc: "FactSet creates data and software solutions for tens of thousands of investment professionals around the world.",
     servicesOrProduct: "Product",
   },
