@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Information Technology (IT) Specialist",
+    company: "Oak Hill Collaborative",
+    desc: "As a Information Technology (IT) Specialist, you will maintain a central repository of pertinent current information, studies, and reports. Coordinate markerspace activities/functions, identify strategic acquisitions of new hardware, equipment, and tools. Along with performing regular maintenance on equipment within the Oak Hill Facility.",
+    location: "Youngstown, OH",
+    salary: "$16.50 - $18.00 per hour (Part-Time)",
+    listing: "https://www.indeed.com/job/information-technology-it-specialist-97d7dabe7b3e6442?_ga=2.3012208.1156334125.1675024603-1939398693.1674858041",
+    date: "2023-01-31",
+  },
+  {
     title: "Data Engineer - Automation Engineering",
     company: "FactSet",
     desc: "As a Software Engineer in Content Engineering, you will be part of our Digital Transformation, a mission to automate our data acquisition, quality assurance, content creation and analytics in a scalable cloud environment.  With the guidance of financial experts, you will leverage these large data sets to improve the quality and extend the scope of FactSet's existing and next generation products.",
