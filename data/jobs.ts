@@ -11,6 +11,34 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Junior Sector Specialist (Business & Public Services PM)",
+    company: "FactSet",
+    desc: "The Junior Sector Specialist will provide research and support of the FactSet Revere products. Quantitative and qualitative analysis of companies and levels within the sector, and along with collaboratively work with the broader content organization including the Revere and Private Markets team, sales, consulting, and other FactSet SBUs",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Business---Public-Services-PM-_R19547?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    date: "2023-02-03",
+  },
+  {
+    title: "Junior Sector Specialist (Industrial & Materials PM)",
+    company: "FactSet",
+    desc: "The Junior Sector Specialist within FactSet Revere Strategy will become familiar with both quantitative and qualitative research processes to provide in-depth support to various FactSet Content teams and clients. The individual will contribute to the development of future FactSet products in collaboration with the FactSet Revere Strategy team.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Industrial---Materials-PM-_R19850?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    date: "2023-02-03",
+  },
+  {
+    title: "Product Data Owner - Private Markets",
+    company: "FactSet",
+    desc: "As the product data manager, you will convert business strategy and client needs into the vision that powers our data and a product roadmap and work closely with our AI/ML Engineering teams to execute on that roadmap. You will translate stakeholder needs into a backlog of work refine these backlogs, along with providing leadership skills by understanding how our internal and external clients plan to use our content.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Product-Data-Owner---Private-Markets_R17858?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    date: "2023-02-03",
+
+  },
+  {
     title: "Information Technology (IT) Specialist",
     company: "Oak Hill Collaborative",
     desc: "As a Information Technology (IT) Specialist, you will maintain a central repository of pertinent current information, studies, and reports. Coordinate markerspace activities/functions, identify strategic acquisitions of new hardware, equipment, and tools. Along with performing regular maintenance on equipment within the Oak Hill Facility.",
