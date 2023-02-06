@@ -13,7 +13,7 @@ export const jobs: Job[] = [
   {
     title: "Junior Sector Specialist (Business & Public Services PM)",
     company: "FactSet",
-    desc: "The Junior Sector Specialist will provide research and support of the FactSet Revere products. Quantitative and qualitative analysis of companies and levels within the sector, and along with collaboratively work with the broader content organization including the Revere and Private Markets team, sales, consulting, and other FactSet SBUs",
+    desc: "The Junior Sector Specialist will provide research and support of the FactSet Revere products. Quantitative and qualitative analysis of companies and levels within the sector, and along with collaboratively work with the broader content organization including the Revere and Private Markets team, sales, consulting, and other FactSet SBUs.",
     location: "Youngstown, OH",
     salary: "Unlisted",
     listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Business---Public-Services-PM-_R19547?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
