@@ -11,6 +11,24 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Senior Software Engineer",
+    company: "Intellihealth",
+    desc: "Intellihealth is a healthtech startup that recently launched their mobile app, Flyte. They are looking for a Senior Software Engineer that will work with the Product Manager on breaking down project ideas into executable tasks for the team. Mentor other engineers on becoming better through Code Reviews, join Provider-focused team to improve the efficiency and efficacy of their medical service organization and their ability to treat patients, and lastly, working with the team to migrate the current stack to TypeScript.",
+    location: "Remote",
+    salary: "Unlisted",
+    contact: "magicpat2010@gmail.com",
+    date: "2023-02-23",
+  },
+  {
+    title: "IT Programmer Intern",
+    company: "Simon Roofing",
+    desc: "Simon Roofing is looking for an IT programmer intern that will provide software requirements by developing and maintaining applications and database.",
+    location: "Youngstown, OH",
+    salary: "$15.00 per hour",
+    listing: "https://www.simonroofing.com/careers/join-our-team/",
+    date: "2023-02-23",
+  },
+  {
     title: "Junior Sector Specialist (Business & Public Services PM)",
     company: "FactSet",
     desc: "The Junior Sector Specialist will provide research and support of the FactSet Revere products. Quantitative and qualitative analysis of companies and levels within the sector, and work collaboratively with the broader content organization including the Revere and Private Markets team, sales, consulting, and other FactSet SBUs.",
@@ -44,8 +62,8 @@ export const jobs: Job[] = [
     desc: "As a Information Technology (IT) Specialist, you will maintain a central repository of pertinent current information, studies, and reports. Coordinate markerspace activities/functions, identify strategic acquisitions of new hardware, equipment, and tools. Along with performing regular maintenance on equipment within the Oak Hill Facility.",
     location: "Youngstown, OH",
     salary: "$16.50 - $18.00 per hour (Part-Time)",
-    listing: "https://www.indeed.com/job/information-technology-it-specialist-97d7dabe7b3e6442?_ga=2.3012208.1156334125.1675024603-1939398693.1674858041",
-    date: "2023-01-31",
+    listing: "https://www.linkedin.com/jobs/view/3455163746/",
+    date: "2023-02-23",
   },
   {
     title: "Data Engineer - Automation Engineering",
