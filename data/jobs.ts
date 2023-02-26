@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Unity Developer",
+    company: "Xploro",
+    desc: "Xploro is an award winning, tech-4-good start up, who use augmented reality and games to help reduce anxiety for children going through medical treatment. We are searching for a talented Unity Developer who will play an instrumental role at Xploro and believes in our vision. The position is posted as a UK job but it's fully remote and no need to travel there.  Pay ranges are a little different in the UK but there is flexibility for the right candidate.",
+    location: "United Kingdom (Remote) ",
+    salary: "£45,000/yr - £55,000/yr",
+    listing: "https://www.linkedin.com/jobs/view/3487652006/",
+    date: "2023-02-25",
+  },
+  {
     title: "Senior Software Engineer",
     company: "Intellihealth",
     desc: "Intellihealth is a healthtech startup that recently launched their mobile app, Flyte. They are looking for a Senior Software Engineer that will work with the Product Manager on breaking down project ideas into executable tasks for the team. Mentor other engineers on becoming better through Code Reviews, join Provider-focused team to improve the efficiency and efficacy of their medical service organization and their ability to treat patients, and lastly, working with the team to migrate the current stack to TypeScript.",
@@ -34,7 +43,8 @@ export const jobs: Job[] = [
     desc: "The Junior Sector Specialist will provide research and support of the FactSet Revere products. Quantitative and qualitative analysis of companies and levels within the sector, and work collaboratively with the broader content organization including the Revere and Private Markets team, sales, consulting, and other FactSet SBUs.",
     location: "Youngstown, OH",
     salary: "Unlisted",
-    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Business---Public-Services-PM-_R19547?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Business---Public-Services-PM-_R19547?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
     date: "2023-02-03",
   },
   {
@@ -43,7 +53,8 @@ export const jobs: Job[] = [
     desc: "The Junior Sector Specialist within FactSet Revere Strategy will become familiar with both quantitative and qualitative research processes to provide in-depth support to various FactSet Content teams and clients. The individual will contribute to the development of future FactSet products in collaboration with the FactSet Revere Strategy team.",
     location: "Youngstown, OH",
     salary: "Unlisted",
-    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Industrial---Materials-PM-_R19850?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/Youngstown-OH-USA/Junior-Sector-Specialist--Industrial---Materials-PM-_R19850?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
     date: "2023-02-03",
   },
   {
@@ -52,9 +63,9 @@ export const jobs: Job[] = [
     desc: "As the product data manager, you will convert business strategy and client needs into the vision that powers our data and a product roadmap and work closely with our AI/ML Engineering teams to execute on that roadmap. You will translate stakeholder needs into a backlog of work refine these backlogs, along with providing leadership skills by understanding how our internal and external clients plan to use our content.",
     location: "Youngstown, OH",
     salary: "Unlisted",
-    listing: "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Product-Data-Owner---Private-Markets_R17858?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
+    listing:
+      "https://factset.wd1.myworkdayjobs.com/en-US/FactSetCareers/job/New-York-NY-USA/Product-Data-Owner---Private-Markets_R17858?locations=e45ee8093d5901a1533a3a439312262f&locations=2457530f5bed01689182c16aae019a74",
     date: "2023-02-03",
-
   },
   {
     title: "Information Technology (IT) Specialist",
