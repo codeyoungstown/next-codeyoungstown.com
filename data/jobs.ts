@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Diversity & Inclusion Technology Internship Program",
+    company: "Ohio Department of Development",
+    desc: "The Diversity & Inclusion Technology Internship Program is a great opportunity to work at some of Ohio's most innovative companies! These paid internships give college students great experience in business and entrepreneurship, while companies get great young, diverse talent to help them compete and grow. If accepted, you will be working on cloud based software application with two experienced lead developers. Technologies are React, Angular, C#, Python, and Javascript. Experience working with API's is a requirement.",
+    location: "Boardman, OH",
+    salary: "$22.00 - $26.00 per hour",
+    listing: "https://development.ohio.gov/business/third-frontier-and-technology/diversity-inclusion-technology-internship-program",
+    date: "2023-02-28",
+  },
+  {
     title: "Unity Developer",
     company: "Xploro",
     desc: "Xploro is an award winning, tech-4-good start up, who use augmented reality and games to help reduce anxiety for children going through medical treatment. We are searching for a talented Unity Developer who will play an instrumental role at Xploro and believes in our vision. The position is posted as a UK job but it's fully remote and no need to travel there.  Pay ranges are a little different in the UK but there is flexibility for the right candidate.",
