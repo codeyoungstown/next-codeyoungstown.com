@@ -23,7 +23,7 @@ export default function Home() {
         Join the ongoing chat via{" "}
         <a
           className="underline hover:text-gray-300"
-          href="http://slack.codeyoungstown.com/"
+          href="https://join.slack.com/t/codeyoungstown/shared_invite/zt-1rf69qgvp-2YQTU4dPDMnsGwFEOJ3Xug"
         >
           Slack
         </a>{" "}
