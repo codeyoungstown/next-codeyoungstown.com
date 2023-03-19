@@ -1,14 +1,14 @@
 import {
+  faSlack,
   faFacebook,
   faGithub,
-  faLinkedin,
   faMeetup,
-  faSlack,
   faTwitter,
+  faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
-import { faEnvelope, faPodcast } from "@fortawesome/free-solid-svg-icons";
+import { faPodcast, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export type Social = {
   name: string;
@@ -19,7 +19,7 @@ export type Social = {
 export const socials: Social[] = [
   {
     name: "Slack",
-    link: "https://join.slack.com/t/codeyoungstown/shared_invite/zt-1rf69qgvp-2YQTU4dPDMnsGwFEOJ3Xug",
+    link: "http://slack.codeyoungstown.com/",
     icon: faSlack,
   },
   {
