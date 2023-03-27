@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Software Engineer",
+    company: "Motorola Solutions",
+    desc: "This is an opportunity for you to use software and data engineering skills to enable cybersecurity to protect the people that protect us. You will be responsible for building security-focused web applications, support security projects and initiatives, collaborate with other teams to accomplish shared objectives, and a passion for self-growth and strong focus on career development. Specific knowledge and skills in Python and JS, data engineering, and cloud architecture. Along with 3 - 5 years of software development experience.",
+    location: "Chicago, IL / Hybrid",
+    salary: "Unlisted",
+    listing: "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-Engineer_R36868-1",
+    date: "2023-03-22",
+  },
+  {
     title: "Diversity & Inclusion Technology Internship Program",
     company: "Ohio Department of Development",
     desc: "The Diversity & Inclusion Technology Internship Program is a great opportunity to work at some of Ohio's most innovative companies! These paid internships give college students great experience in business and entrepreneurship, while companies get great young, diverse talent to help them compete and grow. If accepted, you will be working on cloud based software application with two experienced lead developers. Technologies are React, Angular, C#, Python, and Javascript. Experience working with API's is a requirement.",
