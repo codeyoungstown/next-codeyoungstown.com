@@ -11,6 +11,24 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Cloud Engineer",
+    company: "Rearc",
+    desc: "Cloud Engineers at Rearc have good experience implementing cloud best practices, contributing to teams to build and maintain cloud infrastructure, and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, their security posture, and overall cloud infrastructure.",
+    location: "New York, NY / Remote",
+    salary: "Unlisted",
+    listing: "https://jobs.lever.co/rearc/5fa73924-49c5-48bb-9621-829b17baf495?lever-via=kEtFJB8eCw",
+    date: "2023-04-04",
+  },
+  {
+    title: "Additive Manufacturing Technician",
+    company: "URSA Major",
+    desc: "As a member of the Advanced Manufacturing & Materials team, you will operate laser powder bed fusion machines and related equipment to produce rocket engine components for Ursa Major’s products. This role demands a high attention to detail, a hands-on self-starter mentality, and desire to grow & contribute to Ursa’s mission in a small team environment. Your contributions will enable the future of advanced manufacturing for rocket propulsion systems.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing: "https://www.ursamajor.com/careers/4227468005-additive-manufacturing-technician",
+    date: "2023-04-03",
+  },
+  {
     title: "Software Engineer",
     company: "Motorola Solutions",
     desc: "This is an opportunity for you to use software and data engineering skills to enable cybersecurity to protect the people that protect us. You will be responsible for building security-focused web applications, support security projects and initiatives, collaborate with other teams to accomplish shared objectives, and a passion for self-growth and strong focus on career development. Specific knowledge and skills in Python and JS, data engineering, and cloud architecture. Along with 3 - 5 years of software development experience.",
