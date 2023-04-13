@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Data Scientist",
+    company: "BlastPoint",
+    desc: "We’re looking for a thoughtful, curious, and resourceful Data Scientist to join our growing team. You’re comfortable presenting insights to clients, and thrive in situations where you have to learn about and solve a client’s specific problems. This role is the technical face that accompanies our clients’ experience working with us, meaning that you will be the person leading them to solutions by presenting project results, interacting with clients in a consultative manner, and supporting overall customer success.  This is a fully-remote position with the option to work from our home office in Pittsburgh, PA, with occasional company meetings in-person.",
+    location: "Pittsburgh, PA / Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://blastpoint.rippling-ats.com/job/590695/data-scientist",
+    date: "2023-04-12",
+  },
+  {
     title: "Cloud Engineer",
     company: "Rearc",
     desc: "Cloud Engineers at Rearc have good experience implementing cloud best practices, contributing to teams to build and maintain cloud infrastructure, and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, their security posture, and overall cloud infrastructure.",
