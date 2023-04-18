@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Software Integration Analyst 2",
+    company: "Youngstown State University",
+    desc: "The class works under general supervision and is responsible for the resolution of customer application issues or questions typically as escalated from the IT service desk, and/or assigned. Tasks include writing, testing, debugging, and correcting and/or modifying computer programs according to specific instructions and using high-level computer language. Performs problem diagnosis and resolution according to standard and/or best practices; works with clients to ensure the functionality and workability of necessary applications. Logs progress, work status, and accounts for time spent.",
+    location: "Youngstown, OH",
+    salary: "$33.00 per hour",
+    listing: "https://www.schooljobs.com/careers/ysu/jobs/3981660/software-integration-analyst-2?fbclid=IwAR1dQz1D9_PSd853Ndv_bktm2BcD4RrcbowSgo-GXbEA_U_0jK62vFdYYwE",
+    date: "2023-04-17",
+  },
+  {
     title: "Data Scientist",
     company: "BlastPoint",
     desc: "We’re looking for a thoughtful, curious, and resourceful Data Scientist to join our growing team. You’re comfortable presenting insights to clients, and thrive in situations where you have to learn about and solve a client’s specific problems. This role is the technical face that accompanies our clients’ experience working with us, meaning that you will be the person leading them to solutions by presenting project results, interacting with clients in a consultative manner, and supporting overall customer success.  This is a fully-remote position with the option to work from our home office in Pittsburgh, PA, with occasional company meetings in-person.",
