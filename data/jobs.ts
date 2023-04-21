@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Mid Level Software Developer",
+    company: "SenSource",
+    desc: "We are seeking a driven and talented individual who is looking to make a real contribution beyond simply writing code to check off requirements. This is a Mid Level Software Developer position, requiring some experience. Experience in TypeScript or JavaScript, relational databases, REST APIs, and 3 years professional experiene in Software Development.",
+    location: "Austintown, OH / Remote",
+    salary: "Unlisted",
+    listing: "https://www.ziprecruiter.com/jobs/sensource-cc1b7d31/mid-level-software-developer-bd74fd6f",
+    date: "2023-04-19",
+  },
+  {
     title: "Software Integration Analyst 2",
     company: "Youngstown State University",
     desc: "The class works under general supervision and is responsible for the resolution of customer application issues or questions typically as escalated from the IT service desk, and/or assigned. Tasks include writing, testing, debugging, and correcting and/or modifying computer programs according to specific instructions and using high-level computer language. Performs problem diagnosis and resolution according to standard and/or best practices; works with clients to ensure the functionality and workability of necessary applications. Logs progress, work status, and accounts for time spent.",
