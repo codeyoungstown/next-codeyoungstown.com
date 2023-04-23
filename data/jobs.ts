@@ -11,6 +11,15 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Full Stack Software Engineer",
+    company: "Harmoni",
+    desc: "YBI Portfolio company Harmoni Solutions, Inc is looking for a full-time Full Stack Software Engineer to maintain, expand, and document their React / Node.JS / Vue / C# application. While Harmoni Solutions is located in Akron's Bounce Innovation Hub, remote is an option for a top tier candidate.",
+    location: "Akron, OH / Remote",
+    salary: "$90,000",
+    contact: "aellis@harmoni.io",
+    date: "2023-04-21",
+  },
+  {
     title: "Mid Level Software Developer",
     company: "SenSource",
     desc: "We are seeking a driven and talented individual who is looking to make a real contribution beyond simply writing code to check off requirements. This is a Mid Level Software Developer position, requiring some experience. Experience in TypeScript or JavaScript, relational databases, REST APIs, and 3 years professional experiene in Software Development.",
