@@ -11,6 +11,33 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "UX/UI Designer",
+    company: "Helmy Moto",
+    desc: "UI UX designer is required to create the user interface for a mobile app and a website. Their work includes collaborating with Backend developer and the mobile developer/CTO. Understanding No-code solutions is a plus. Front-end development experience would be considered positive. Experience with agile development. A portfolio is a must (GitHub, Figma, other similar). Should be committed with the long-term vision of the company and we are aspiring to provide a base month salary once we raise money.",
+    location: "Strongsville, OH / Remote",
+    salary: "Unlisted",
+    contact: "info@helmymoto.com",
+    date: "2023-04-26",
+  },
+  {
+    title: "Backend Developer",
+    company: "Helmy Moto",
+    desc: "Senior/Mid-senior back-end developer with experience in agile development and integration of back-end services using APIs and RESTFUL architecture. Understanding No-code solutions is a plus. Experience and knowledge on SQL DB is required. A GitHub repository is a must. Should be committed with the long-term vision of the company and we are aspiring to provide a base month salary once we raise money.",
+    location: "Strongsville, OH / Remote",
+    salary: "Unlisted",
+    contact: "info@helmymoto.com",
+    date: "2023-04-26",
+  },
+  {
+    title: "Technical Lead",
+    company: "Helmy Moto",
+    desc: "We are looking for a Technical Lead with the opportunity to transition into a CTO role, with knowledge and experience in mobile app development, especially using Swift. It should have a portfolio of APPs up and running on Apple Store. Should have some experience coding using agile. It should understand information architecture and provide a clear path of integration using services or APIS between a mobile app and some third-party web services. It should coordinate the technical team to create the first MVP for a safety and mobility product. Should be committed with the long-term vision of the company and we are aspiring to provide a base month salary once we raise money.",
+    location: "Strongsville, OH / Remote",
+    salary: "Unlisted",
+    contact: "info@helmymoto.com",
+    date: "2023-04-26",
+  },
+  {
     title: "Full Stack Software Engineer",
     company: "Harmoni",
     desc: "YBI Portfolio company Harmoni Solutions, Inc is looking for a full-time Full Stack Software Engineer to maintain, expand, and document their React / Node.JS / Vue / C# application. While Harmoni Solutions is located in Akron's Bounce Innovation Hub, remote is an option for a top tier candidate.",
