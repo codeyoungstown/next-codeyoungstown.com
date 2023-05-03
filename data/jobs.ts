@@ -11,6 +11,24 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
+    title: "Senior DevOps Engineer",
+    company: "Marco Polo",
+    desc: "We're currently seeking a Senior DevOps Engineer to help us scale out our cloud infrastructure and platform services as we continue to grow. The person in this role will help build and operate the software platform at the foundation of our production environment. They will partner with our client and backend engineering teams to ensure that our applications can be deployed efficiently and operated reliably at scale. A great candidate for this role is someone who excels at building and managing fault-tolerant auto-scaling services and is an expert at distributed cloud infrastructure.",
+    location: "Remote",
+    salary: "$155,000 - $180,000",
+    listing: "https://jobs.lever.co/marcopolo/0c2e4239-8d49-49cc-af27-0bf44e2ed508",
+    date: "2023-05-01",
+  },
+  {
+    title: "Staff Platform Engineer",
+    company: "Marco Polo",
+    desc: "We're currently seeking a Staff Platform Engineer to help us scale out our cloud infrastructure, data platform and platform services as we continue to grow. The person in this role will help set direction for the data and software platform at the foundation of our production environment. They will partner with our client and backend engineering teams to ensure that our platform delivers value to the business and enhances the developer experience. A great candidate for this role is someone who excels at bridging vision and execution, and desires to have an outsized impact on the core of our technology.",
+    location: "Remote",
+    salary: "$200,000 - $225,000",
+    listing: "https://jobs.lever.co/marcopolo/49d68dd5-2785-419a-9ae8-e7a84b84bb8a",
+    date: "2023-05-01",
+  },
+  {
     title: "UX/UI Designer",
     company: "Helmy Moto",
     desc: "UI UX designer is required to create the user interface for a mobile app and a website. Their work includes collaborating with Backend developer and the mobile developer/CTO. Understanding No-code solutions is a plus. Front-end development experience would be considered positive. Experience with agile development. A portfolio is a must (GitHub, Figma, other similar). Should be committed with the long-term vision of the company and we are aspiring to provide a base month salary once we raise money.",
