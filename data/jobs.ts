@@ -8,8 +8,34 @@ export type Job = {
   listing?: string;
   date: string;
 };
-
 export const jobs: Job[] = [
+  {
+    title: "Vue.js Application Developer",
+    company: "RunBuggy OMI LLC",
+    desc: "We’re currently seeking a Vue.js Application Developer. This is a full-time position and is fully remote. As a Vue.js Application Developer, you’ll be part of a small, distributed, diverse, cross-functional team that is responsible for the full software development life cycle, from conception to deployment.",
+    location: "San Francisco, CA / Remote",
+    salary: "Unlisted",
+    listing: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/1493784",
+    date: "2023-05-10",
+  },
+  {
+    title: "Integration Engineer",
+    company: "RunBuggy OMI LLC",
+    desc: "We’re currently seeking an Integration Engineer. This is a full-time position and is fully remote. As an Integration Engineer, you’ll be part of a small, distributed, diverse, cross-functional team that is responsible for the full software development life cycle, from conception to deployment.",
+    location: "San Francisco, CA / Remote",
+    salary: "Unlisted",
+    listing: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/1493789",
+    date: "2023-05-10",
+  },
+  {
+    title: "IT Systems Engineer",
+    company: "Aptiv",
+    desc: "This position is part of our Signal & Power Solutions segment, Electrical Distribution Systems business unit. You must meet with global customers to define requirements, evaluate alternatives and create technical programming specifications, and determine impact analysis of existing systems.",
+    location: "Warren, OH",
+    salary: "Unlisted",
+    listing: "https://www.linkedin.com/jobs/view/3599214643/",
+    date: "2023-05-09"
+  },
   {
     title: "Senior DevOps Engineer",
     company: "Marco Polo",
