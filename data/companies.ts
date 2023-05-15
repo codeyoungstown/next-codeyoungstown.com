@@ -10,21 +10,6 @@ export type Company = {
 
 export const companies: Company[] = [
   {
-    name: "Henry Schein MicroMD",
-    city: "Canfield, OH",
-    website: "https://www.micromd.com/",
-    desc: "All-in-one healthcare technology platform connecting your independent practice to the complete patient journey.",
-    servicesOrProduct: "Product",
-  },
-  {
-    name: "Rocket Republic",
-    city: "Youngstown, OH",
-    website: "https://rocketrepublic.com/",
-    desc: "Rocket Republic is a full-service creative studio specializing in branding, website design & development, print design, and photography",
-    tags: ["Design", "Websites"],
-    servicesOrProduct: "Services",
-  },
-  {
     name: "45Press",
     city: "Canfield",
     website: "https://45press.com/",
@@ -173,6 +158,13 @@ export const companies: Company[] = [
     servicesOrProduct: "Product",
   },
   {
+    name: "Henry Schein MicroMD",
+    city: "Canfield, OH",
+    website: "https://www.micromd.com/",
+    desc: "All-in-one healthcare technology platform connecting your independent practice to the complete patient journey.",
+    servicesOrProduct: "Product",
+  },
+  {
     name: "IDMI",
     city: "Poland",
     website: "https://idmi.net/",
@@ -243,6 +235,14 @@ export const companies: Company[] = [
     website: "https://fireworks.com/",
     desc: "Phantom Fireworks is America's premier consumer firework retailer.",
     servicesOrProduct: "Product",
+  },
+  {
+    name: "Rocket Republic",
+    city: "Youngstown, OH",
+    website: "https://rocketrepublic.com/",
+    desc: "Rocket Republic is a full-service creative studio specializing in branding, website design & development, print design, and photography",
+    tags: ["Design", "Websites"],
+    servicesOrProduct: "Services",
   },
   {
     name: "SenSource",
