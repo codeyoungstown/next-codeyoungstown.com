@@ -10,6 +10,33 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Quality Analyst III",
+    company: "PDMI",
+    desc: "PDMI is looking for a Software Quality Analyst III to join our team! PDMI provides technology and other specialized industry solutions for managing health through prescription drug programs for national and regional health plans, Pharmacy Benefit Managers (PBMs), hospice organizations, patient assistance programs and 340B and drug manufacturer assistance programs, as well as various healthcare-related industries.",
+    location: "Poland, OH / Remote",
+    salary: "Unlisted",
+    listing: "https://pdmi.breezy.hr/p/a68b27f9596d-software-quality-analyst-iii",
+    date: "2023-05-17",
+  },
+  {
+    title: "Test Automation Engineer",
+    company: "PDMI",
+    desc: "PDMI is looking for a Software Quality Analyst III to join our team! PDMI provides technology and other specialized industry solutions for managing health through prescription drug programs for national and regional health plans, Pharmacy Benefit Managers (PBMs), hospice organizations, patient assistance programs and 340B and drug manufacturer assistance programs, as well as various healthcare-related industries.",
+    location: "Poland, OH / Remote",
+    salary: "Unlisted",
+    listing: "https://pdmi.breezy.hr/p/813daf756e5e-test-automation-engineer",
+    date: "2023-05-17",
+  },
+  {
+    title: "Applications Engineer",
+    company: "Cattron Global",
+    desc: "The Applications Engineer is a technical authority to the organization on all of Cattron’s products. Individuals in this position must have in depth knowledge of product application, product design, and industry standards. Applications Engineers are primarily focused on new orders designing current Cattron products that meet customer requirements. Once that determination has been made, the Application Engineer create custom design drawings, order specific programming requirements and bill of materials. The Applications Engineer supports sourcing, production personnel and inspection and test personnel in the design, build, and testing of the products. Engineers shall provide technical customer phone support during the integration process of Cattron products and may travel to the customer site to provide onsite installation support.",
+    location: "Warren, OH / Hybrid",
+    salary: "Unlisted",
+    listing: "https://www.linkedin.com/jobs/view/3609306087/",
+    date: "2023-05-16",
+  },
+  {
     title: "Vue.js Application Developer",
     company: "RunBuggy OMI LLC",
     desc: "We’re currently seeking a Vue.js Application Developer. This is a full-time position and is fully remote. As a Vue.js Application Developer, you’ll be part of a small, distributed, diverse, cross-functional team that is responsible for the full software development life cycle, from conception to deployment.",
