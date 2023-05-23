@@ -10,12 +10,21 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Data Engineer",
+    company: "BlastPoint",
+    desc: "BlastPoint is a B2B data analytics startup located in the East Liberty neighborhood of Pittsburgh. We give companies the power to solve business problems through discovering the humans in their data and understanding how they think. Serving diverse industries including energy, retail and transportation, BlastPoint’s software platform helps companies plan solutions to customer-facing challenges, from encouraging green behavior to managing customers’ financial stress. Founded in 2016 by Carnegie Mellon Alumni, we are a tight-knit, forward-thinking team.",
+    location: "Pittsburgh, PA / Remote",
+    salary: "$120,000 - $140,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4022116007",
+    date: "2023-05-22",
+  },
+  {
     title: "Data Scientist",
     company: "BlastPoint",
     desc: "BlastPoint is a B2B data analytics startup located in the East Liberty neighborhood of Pittsburgh. We give companies the power to solve business problems through discovering the humans in their data and understanding how they think. Serving diverse industries including energy, retail and transportation, BlastPoint’s software platform helps companies plan solutions to customer-facing challenges, from encouraging green behavior to managing customers’ financial stress. Founded in 2016 by Carnegie Mellon Alumni, we are a tight-knit, forward-thinking team.",
     location: "Pittsburgh, PA / Remote",
     salary: "$100,000 - $140,000",
-    listing: "https://www.linkedin.com/jobs/view/3608606227/",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4018900007",
     date: "2023-05-22",
   },
   {
