@@ -10,6 +10,24 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Data Engineer",
+    company: "BlastPoint",
+    desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
+    location: "Pittsburgh, PA / Remote",
+    salary: "$120,000 - $140,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4022116007",
+    date: "2023-05-22",
+  },
+  {
+    title: "Data Scientist",
+    company: "BlastPoint",
+    desc: "We’re looking for a thoughtful, curious, and resourceful Data Scientist to join our growing team. You’re comfortable presenting insights to clients, and thrive in situations where you have to learn about and solve a client’s specific problems. This role is the technical face that accompanies our clients’ experience working with us, meaning that you will be the person leading them to solutions by presenting project results, interacting with clients in a consultative manner, and supporting overall customer success.  This is a fully-remote position with the option to work from our home office in Pittsburgh, PA, with occasional company meetings in-person.",
+    location: "Pittsburgh, PA / Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4018900007",
+    date: "2023-05-22",
+  },
+  {
     title: "Software Quality Analyst III",
     company: "PDMI",
     desc: "PDMI is looking for a Software Quality Analyst III to join our team! PDMI provides technology and other specialized industry solutions for managing health through prescription drug programs for national and regional health plans, Pharmacy Benefit Managers (PBMs), hospice organizations, patient assistance programs and 340B and drug manufacturer assistance programs, as well as various healthcare-related industries.",
