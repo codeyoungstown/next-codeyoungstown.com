@@ -12,7 +12,7 @@ export const jobs: Job[] = [
   {
     title: "Data Engineer",
     company: "BlastPoint",
-    desc: "BlastPoint is a B2B data analytics startup located in the East Liberty neighborhood of Pittsburgh. We give companies the power to solve business problems through discovering the humans in their data and understanding how they think. Serving diverse industries including energy, retail and transportation, BlastPoint’s software platform helps companies plan solutions to customer-facing challenges, from encouraging green behavior to managing customers’ financial stress. Founded in 2016 by Carnegie Mellon Alumni, we are a tight-knit, forward-thinking team.",
+    desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
     location: "Pittsburgh, PA / Remote",
     salary: "$120,000 - $140,000",
     listing: "https://boards.greenhouse.io/blastpoint/jobs/4022116007",
@@ -21,7 +21,7 @@ export const jobs: Job[] = [
   {
     title: "Data Scientist",
     company: "BlastPoint",
-    desc: "BlastPoint is a B2B data analytics startup located in the East Liberty neighborhood of Pittsburgh. We give companies the power to solve business problems through discovering the humans in their data and understanding how they think. Serving diverse industries including energy, retail and transportation, BlastPoint’s software platform helps companies plan solutions to customer-facing challenges, from encouraging green behavior to managing customers’ financial stress. Founded in 2016 by Carnegie Mellon Alumni, we are a tight-knit, forward-thinking team.",
+    desc: "We’re looking for a thoughtful, curious, and resourceful Data Scientist to join our growing team. You’re comfortable presenting insights to clients, and thrive in situations where you have to learn about and solve a client’s specific problems. This role is the technical face that accompanies our clients’ experience working with us, meaning that you will be the person leading them to solutions by presenting project results, interacting with clients in a consultative manner, and supporting overall customer success.  This is a fully-remote position with the option to work from our home office in Pittsburgh, PA, with occasional company meetings in-person.",
     location: "Pittsburgh, PA / Remote",
     salary: "$100,000 - $140,000",
     listing: "https://boards.greenhouse.io/blastpoint/jobs/4018900007",
