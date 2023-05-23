@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Data Scientist",
+    company: "BlastPoint",
+    desc: "BlastPoint is a B2B data analytics startup located in the East Liberty neighborhood of Pittsburgh. We give companies the power to solve business problems through discovering the humans in their data and understanding how they think. Serving diverse industries including energy, retail and transportation, BlastPoint’s software platform helps companies plan solutions to customer-facing challenges, from encouraging green behavior to managing customers’ financial stress. Founded in 2016 by Carnegie Mellon Alumni, we are a tight-knit, forward-thinking team.",
+    location: "Pittsburgh, PA / Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://www.linkedin.com/jobs/view/3608606227/",
+    date: "2023-05-22",
+  },
+  {
     title: "Software Quality Analyst III",
     company: "PDMI",
     desc: "PDMI is looking for a Software Quality Analyst III to join our team! PDMI provides technology and other specialized industry solutions for managing health through prescription drug programs for national and regional health plans, Pharmacy Benefit Managers (PBMs), hospice organizations, patient assistance programs and 340B and drug manufacturer assistance programs, as well as various healthcare-related industries.",
