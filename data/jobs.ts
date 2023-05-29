@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Instructor - Networking and Cybersecurity",
+    company: "MAHONING COUNTY CAREER & TECHNICAL CENTER",
+    desc: "Must be able to develop classes and programs and instruct a variety of courses in Networking & Cybersecurity and related fields. Must be able to instruct in the installation, repair and troubleshooting of computer hardware and software systems, desktop virtualization, system security, operating system history, and other related areas.",
+    location: "Canfield, OH",
+    salary: "Unlisted",
+    contact: "Joy.Barnett@MahoningCTC.com",
+    date: "2023-05-29",
+  },
+  {
     title: "Data Engineer",
     company: "BlastPoint",
     desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
