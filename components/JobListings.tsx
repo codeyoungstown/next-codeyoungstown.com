@@ -63,7 +63,7 @@ const Job = ({ job }) => {
           ) : null}
           <p>{job.desc}</p>
           <div className="grid grid-cols-2 ">
-            <div className="job-items">
+            <div className="flex gap-5">
               {job.listing ? <JobListing link={job.listing} /> : null}
               {job.contact ? <JobContact link={job.contact} /> : null}
             </div>
