@@ -62,25 +62,11 @@ const Job = ({ job }) => {
             </p>
           ) : null}
           <p>{job.desc}</p>
-          <div className="grid grid-cols-2">
-            {job.contact && job.listing  ? (
-              <div className="col-span-1">
-                <ul>
-                  <li><JobListing link={job.listing} /></li>
-                  <li><JobContact link={job.contact} /></li>
-                </ul>
-
-
-              </div>
-            ) : job.contact ? (
-                <div className="col-span-1">
-                  <JobContact link={job.contact} />
-                </div>
-                ) : (
-              <div className="col-span-1">
-                <JobListing link={job.listing} />
-              </div>
-            )}
+          <div className="grid grid-cols-2 ">
+            <div className="job-items">
+              <JobListing link={job.listing} />
+              {job.contact ? <JobContact link={job.contact} /> : null }
+            </div>
             <div className="col-span-1 text-right">
               <p className="text-gray-400">{timePassed}</p>
             </div>

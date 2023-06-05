@@ -7,11 +7,7 @@
     font-family: Open Sans, system-ui, sans-serif;
   }
 
-  .col-span-1 ul {
-    display: flex;
-  }
-
-  .col-span-1 li {
-    margin-right: 10px;
+  .job-items * {
+    margin-right: 15px;
   }
 }
