@@ -64,8 +64,8 @@ const Job = ({ job }) => {
           <p>{job.desc}</p>
           <div className="grid grid-cols-2 ">
             <div className="job-items">
-              <JobListing link={job.listing} />
-              {job.contact ? <JobContact link={job.contact} /> : null }
+              {job.listing ? <JobListing link={job.listing} /> : null}
+              {job.contact ? <JobContact link={job.contact} /> : null}
             </div>
             <div className="col-span-1 text-right">
               <p className="text-gray-400">{timePassed}</p>
