@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Cloud Ops Engineer",
+    company: "Arcos",
+    desc: "The Cloud Operations Engineer will support Amazon Web Services (AWS) and Linux/Windows environments. The Cloud Operations Engineer will be responsible for all aspects of the production lifecycle of maintenance, and administration, including but not limited to: infrastructure automation, continuous integration and deployment, product release and support, running a scalable production environment for hosting the ARCOS platform, maintaining application/database availability and ensuring continuous 24x7 production uptime of our services.",
+    location: "Remote",
+    salary: "$100,000 - $120,000",
+    contact: "gcotto92@gmail.com",
+    listing: "https://recruit.hirebridge.com/v3/goto/?c=h7tvxh",
+    date: "2023-06-03",
+  },
+  {
+    title: "Security Engineer",
+    company: "Arcos",
+    desc: "The Security Engineer will participate in designing, implementing, monitoring, and responding to cybersecurity infrastructure and protecting ARCOS’ assets. They will support the Amazon Web Services (AWS), Linux and Windows environments, and the corporate HQ information systems. The Security Engineer will be responsible for keeping all aspects of compliance and reporting related to the company’s information security policies. Additionally, they will ensure continuous 24x7 production uptime of our services and compliance commitments to our clients.",
+    location: "Remote",
+    salary: "$80,000 - $100,000",
+    listing: "https://recruit.hirebridge.com/v3/goto/?c=4n2rn9",
+    contact: "gcotto92@gmail.com",
+    date: "2023-06-03",
+  },
+  {
     title: "Data Engineer",
     company: "BlastPoint",
     desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
