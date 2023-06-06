@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Cloud Ops Engineer",
+    company: "Arcos",
+    desc: "The Cloud Operations Engineer will support Amazon Web Services (AWS) and Linux/Windows environments. The Cloud Operations Engineer will be responsible for all aspects of the production lifecycle of maintenance, and administration, including but not limited to: infrastructure automation, continuous integration and deployment, product release and support, running a scalable production environment for hosting the ARCOS platform, maintaining application/database availability and ensuring continuous 24x7 production uptime of our services.",
+    location: "Remote",
+    salary: "$100,000 - $120,000",
+    contact: "gcotto92@gmail.com",
+    listing: "https://recruit.hirebridge.com/v3/goto/?c=h7tvxh",
+    date: "2023-06-03",
+  },
+  {
+    title: "Security Engineer",
+    company: "Arcos",
+    desc: "The Security Engineer will participate in designing, implementing, monitoring, and responding to cybersecurity infrastructure and protecting ARCOS’ assets. They will support the Amazon Web Services (AWS), Linux and Windows environments, and the corporate HQ information systems. The Security Engineer will be responsible for keeping all aspects of compliance and reporting related to the company’s information security policies. Additionally, they will ensure continuous 24x7 production uptime of our services and compliance commitments to our clients.",
+    location: "Remote",
+    salary: "$80,000 - $100,000",
+    listing: "https://recruit.hirebridge.com/v3/goto/?c=4n2rn9",
+    contact: "gcotto92@gmail.com",
+    date: "2023-06-03",
+  },
+  {
     title: "Instructor - Networking and Cybersecurity",
     company: "MAHONING COUNTY CAREER & TECHNICAL CENTER",
     desc: "Must be able to develop classes and programs and instruct a variety of courses in Networking & Cybersecurity and related fields. Must be able to instruct in the installation, repair and troubleshooting of computer hardware and software systems, desktop virtualization, system security, operating system history, and other related areas.",

@@ -62,16 +62,11 @@ const Job = ({ job }) => {
             </p>
           ) : null}
           <p>{job.desc}</p>
-          <div className="grid grid-cols-2">
-            {job.contact ? (
-              <div className="col-span-1">
-                <JobContact link={job.contact} />
-              </div>
-            ) : (
-              <div className="col-span-1">
-                <JobListing link={job.listing} />
-              </div>
-            )}
+          <div className="grid grid-cols-2 ">
+            <div className="flex gap-5">
+              {job.listing ? <JobListing link={job.listing} /> : null}
+              {job.contact ? <JobContact link={job.contact} /> : null}
+            </div>
             <div className="col-span-1 text-right">
               <p className="text-gray-400">{timePassed}</p>
             </div>
