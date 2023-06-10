@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Engineer - Back-End",
+    company: "BlastPoint",
+    desc: "We are looking for a talented Back-End Engineer to join our growing Platform Engineering team.  The ideal candidate for this position is knowledgeable about the entire web application stack, but prefers to focus on server-side components that deliver data to clients.",
+    location: "Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4025913007",
+    date: "2023-06-09",
+  },
+  {
     title: "Cloud Ops Engineer",
     company: "Arcos",
     desc: "The Cloud Operations Engineer will support Amazon Web Services (AWS) and Linux/Windows environments. The Cloud Operations Engineer will be responsible for all aspects of the production lifecycle of maintenance, and administration, including but not limited to: infrastructure automation, continuous integration and deployment, product release and support, running a scalable production environment for hosting the ARCOS platform, maintaining application/database availability and ensuring continuous 24x7 production uptime of our services.",
