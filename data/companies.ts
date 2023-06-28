@@ -1,10 +1,22 @@
+type Tags =
+  | "Websites"
+  | "Design"
+  | "Data"
+  | "Consulting"
+  | "Networking"
+  | "Marketing"
+  | "Software"
+  | "Apps"
+  | "Hardware"
+  | "SEO";
+
 export type Company = {
   name: string;
   city: string;
   website: string;
   careers?: string;
   desc: string;
-  tags?: string[];
+  tags?: Tags[];
   servicesOrProduct: string;
 };
 
@@ -91,6 +103,14 @@ export const companies: Company[] = [
     servicesOrProduct: "Services",
   },
   {
+    name: "Darwin Reach Marketing",
+    city: "Youngstown, OH",
+    website: "https://darwinreach.com/",
+    desc: "Darwin Reach helps companies and organizations build an unbreakable web presence that grows itself.",
+    tags: ["Consulting", "Websites", "Marketing", "SEO"],
+    servicesOrProduct: "Services",
+  },
+  {
     name: "Deloitte",
     city: "Hermitage, PA",
     website: "https://www2.deloitte.com/us/en.html",
@@ -106,6 +126,14 @@ export const companies: Company[] = [
     careers: "330.757.8276 fax",
     desc: "Delta Telecom is your local choice for business telephone services, internet, fiber optics, and more.",
     tags: ["Networking"],
+    servicesOrProduct: "Services",
+  },
+  {
+    name: "Dev Youngstown",
+    city: "Youngstown, OH",
+    website: "https://www.youngstown.dev/",
+    desc: "Dev Youngstown partners Youngstown's most promising student software developers with Youngstown's most promising startups.",
+    tags: ["Software", "Apps", "Websites", "Consulting"],
     servicesOrProduct: "Services",
   },
   {
