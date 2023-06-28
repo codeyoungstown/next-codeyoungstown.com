@@ -103,6 +103,14 @@ export const companies: Company[] = [
     servicesOrProduct: "Services",
   },
   {
+    name: "Darwin Reach Marketing",
+    city: "Youngstown, OH",
+    website: "https://darwinreach.com/",
+    desc: "Darwin Reach helps companies and organizations build an unbreakable web presence that grows itself.",
+    tags: ["Consulting", "Websites", "Marketing", "SEO"],
+    servicesOrProduct: "Services",
+  },
+  {
     name: "Deloitte",
     city: "Hermitage, PA",
     website: "https://www2.deloitte.com/us/en.html",
@@ -125,7 +133,7 @@ export const companies: Company[] = [
     city: "Youngstown, OH",
     website: "https://www.youngstown.dev/",
     desc: "Dev Youngstown partners Youngstown's most promising student software developers with Youngstown's most promising startups.",
-    tags: ["Software", "Apps", "Websites"],
+    tags: ["Software", "Apps", "Websites", "Consulting"],
     servicesOrProduct: "Services",
   },
   {
