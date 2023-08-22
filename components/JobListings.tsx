@@ -23,18 +23,27 @@ export default function JobListings() {
   );
   // *SEARCH HANDLER* //
 
+  const activeJobs = orderedJobs.filter((job) => {
+    const dateTracker = differenceInDays(new Date(), parseISO(job.date));
+    return dateTracker < 60;
+  });
+
   return (
     <div className="w-full mt-4">
       <Search handleSearch={handleSearch} placeHolder="Search Jobs" />
 
-      {filteredJobs.length ? (
-        filteredJobs.map((job) => (
-          <div className="flex justify-center" key={job.company + job.title}>
-            <Job job={job} />
-          </div>
-        ))
+      {activeJobs.length > 0 ? (
+        filteredJobs.length > 0 ? (
+          filteredJobs.map((job) => (
+            <div className="flex justify-center" key={job.company + job.title}>
+              <Job job={job} />
+            </div>
+          ))
+        ) : (
+          <NoResult />
+        )
       ) : (
-        <NoResult />
+        <NoJobs />
       )}
     </div>
   );
@@ -110,3 +119,11 @@ const NoResult = () => {
     </div>
   );
 };
+
+const NoJobs = () => {
+  return (
+    <div className="col-span-full p-5">
+      <p className="text-center text-2xl">No Jobs Available. Please Check Back Soon!</p>
+    </div>
+  );
+}
