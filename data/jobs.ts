@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Tech Startup Internship",
+    company: "Youngstown Business Incubator",
+    desc: "Youngstown Business Incubator (YBI) seeks a part-time intern to assist a Mahoning Valley digital health start-up company in fleshing out a business opportunity in the domain of prescription management and portability.",
+    location: "Youngstown, OH",
+    salary: "15/hr",
+    listing: "https://app.joinhandshake.com/jobs/8169885/share_preview",
+    date: "2023-09-01",
+  },
+  {
     title: "Software Engineer - Back-End",
     company: "BlastPoint",
     desc: "We are looking for a talented Back-End Engineer to join our growing Platform Engineering team.  The ideal candidate for this position is knowledgeable about the entire web application stack, but prefers to focus on server-side components that deliver data to clients.",
