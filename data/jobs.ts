@@ -10,6 +10,42 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Product Manager",
+    company: "Blast Point",
+    desc: "We are seeking a market making product leader to help our customers or prospects  in the energy, mobility, and financial services space benefit from the full value of Blastpoint’s AI-driven data insights and precision marketing platform.  The role, reporting to the Chief Revenue Officer, will be a client facing role responsible for both driving current revenue goals of strategic accounts in addition to sensing key areas to improve and enrich our current roadmap. ",
+    location: "Remote",
+    salary: "$80,000 - $100,000 + variable bonus",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4069760007",
+    date: "2023-09-14",
+  },
+  {
+    title: "Data Scientist",
+    company: "Blast Point",
+    desc: "We’re looking for a thoughtful, curious, and resourceful Data Scientist to join our growing team. You’re comfortable presenting insights to clients, and thrive in situations where you have to learn about and solve a client’s specific problems. This role is the technical face that accompanies our clients’ experience working with us, meaning that you will be the person leading them to solutions by presenting project results, interacting with clients in a consultative manner, and supporting overall customer success.  This is a fully-remote position with the option to work from our home office in Pittsburgh, PA, with occasional company meetings in-person.",
+    location: "Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4018900007",
+    date: "2023-09-14",
+  },
+  {
+    title: "Project Manager, Implementation",
+    company: "Blast Point",
+    desc: "Coordinate with the sales team to understand client requirements and expectations post-sale. Manage the end-to-end implementation process, including sales transfer, data onboarding, platform delivery, user training, go-live support, and successful hand off to customer success. Develop detailed project plans, including scheduling and resource allocation. Communicate regularly with clients, keeping them informed of project progress and addressing any issues or concerns that arise.",
+    location: "Remote",
+    salary: "$70,000 - $85,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4026393007?gh_src=0742f9c27us",
+    date: "2023-09-14",
+  },
+  {
+    title: "Customer Success Manager",
+    company: "Blast Point",
+    desc: "BlastPoint is seeking a Customer Success Manager to support our rapidly growing business.  As Customer Success Manager, you will be the “keeper of customer relationships” overseeing all client accounts.  You will own effective client onboarding, training, and engagement; as well as provide meaningful strategic insights and recommendations to our clients to ensure their success on our platform.  You will partner with internal teams to maximize client ROI, enabling long-term account growth.  You will focus on relationship building across all levels of the clients’ organization and will strive to deliver an incredible experience for our customers.",
+    location: "Remote",
+    salary: "$70,000 - $85,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4040500007",
+    date: "2023-09-14",
+  },
+  {
     title: "Tech Startup Internship",
     company: "Youngstown Business Incubator",
     desc: "Youngstown Business Incubator (YBI) seeks a part-time intern to assist a Mahoning Valley digital health start-up company in fleshing out a business opportunity in the domain of prescription management and portability.",
@@ -25,7 +61,7 @@ export const jobs: Job[] = [
     location: "Remote",
     salary: "$100,000 - $140,000",
     listing: "https://boards.greenhouse.io/blastpoint/jobs/4025913007",
-    date: "2023-06-09",
+    date: "2023-01-09",
   },
   {
     title: "Cloud Ops Engineer",
