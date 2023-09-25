@@ -9,6 +9,15 @@ export type Job = {
   date: string;
 };
 export const jobs: Job[] = [
+    {
+    title: "Data Engineer",
+    company: "Robert Half",
+    desc: "Robert Half is hiring to our professional services team. The professional services division is a team of over 20 web, cloud, and data engineers who partner with clients for mission-critical development projects all across the Midwest. With a focus on rapid skill set development, work-life balance, and internal collaboration, this team of motivated and successful developers is ready to welcome its newest addition. If you're a Data Engineer interested in growing your career by advancing from project to project with new clients and new technology, in new industries and new environments, then this is the position for you! ",
+    location: "Remote",
+    salary: "$90,000 - $120,000",
+    listing: "https://www.linkedin.com/jobs/view/3717116798/",
+    date: "2023-09-25",
+  },
   {
     title: "Product Manager",
     company: "Blast Point",
