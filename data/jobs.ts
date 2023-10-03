@@ -10,6 +10,33 @@ export type Job = {
 };
 export const jobs: Job[] = [
     {
+    title: "Software Developer",
+    company: "Robert Half",
+    desc: "Application Developers in the Pittsburgh, Pennsylvania area who are talented and detail oriented will find what they're looking for in this long-term contract / contract / temporary opportunity. If you can be responsible for implementing new features, maintaining existing code, and refactoring existing code across a breadth of products used both internally and externally at the company, you will be successful at this position. A growth mindset and the ability to work both independently and with a team are required for success at this position.",
+    location: "Remote",
+    salary: "$51.46/hr - $59.59/hr",
+    listing: "https://www.roberthalf.com/us/en/job/pittsburghpa/softwaredeveloper/03730-0012801835?jid=a2F3w000006OKCZEA4",
+    date: "2023-10-03",
+  },
+    {
+    title: "Applications Architect",
+    company: "Robert Half",
+    desc: "The Archer Application Architect manages the lifecycle of new development on existing and future products. This includes reviewing product requirements, designing product architecture, and managing daily product development efforts. You will be responsible for managing complex interactions between business processes and technologies as well as translating product specifications into production level applications.",
+    location: "Remote",
+    salary: "$63.34/hr - $73.34/hr",
+    listing: "https://www.roberthalf.com/us/en/job/pittsburghpa/applicationsarchitect/03730-0012804961?jid=a2F3w000006OLNZEA4",
+    date: "2023-10-03",
+  },
+    {
+    title: "DevOps Engineer",
+    company: "Blast Point",
+    desc: "We are looking for a talented Development Operations (DevOps) Engineer to join our growing engineering team.  The ideal candidate for this position is able to ensure smooth and timely delivery of actionable insights to customers by contributing repeatable and maintainable cloud deployment workflows to our infrastructure as code repository, monitoring and maintaining existing infrastructure, and enhancing our Continuous Integration / Continuous Deployment (CI/CD) workflows, ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
+    location: "Remote",
+    salary: "$95,000 - $125,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4086353007",
+    date: "2023-10-03",
+  },
+    {
     title: "Data Engineer",
     company: "Robert Half",
     desc: "Robert Half is hiring to our professional services team. The professional services division is a team of over 20 web, cloud, and data engineers who partner with clients for mission-critical development projects all across the Midwest. With a focus on rapid skill set development, work-life balance, and internal collaboration, this team of motivated and successful developers is ready to welcome its newest addition. If you're a Data Engineer interested in growing your career by advancing from project to project with new clients and new technology, in new industries and new environments, then this is the position for you! ",
