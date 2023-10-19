@@ -10,6 +10,42 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Senior Cloud Engineer",
+    company: "Rearc",
+    desc: "Senior Cloud Engineers at Rearc have several years experience using cloud best practices and maintaining cloud infrastructure and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, the security posture, and overall cloud infrastructure.",
+    location: "Remote",
+    salary: "$135,000 - $170,000",
+    listing: "https://jobs.lever.co/rearc/984cd69a-d30a-4a75-9e9e-41e840eefe60?lever-via=kEtFJB8eCw",
+    date: "2023-10-19",
+  },
+  {
+    title: "Lead Cloud Engineer",
+    company: "Rearc",
+    desc: "Lead Cloud Engineers at Rearc have several years experience using cloud best practices and maintaining cloud infrastructure and automation pipelines. They lead our engagements along with our customers’ teams to improve developer experience, security posture, and overall cloud infrastructure. They are responsible for the technical oversight and delivery of projects.",
+    location: "Remote",
+    salary: "$175,000 - $200,000",
+    listing: "https://jobs.lever.co/rearc/ed4f1e89-6012-46ed-8eea-c502c9c25b83?lever-via=kEtFJB8eCw",
+    date: "2023-10-19",
+  },
+  {
+    title: "Mid Level Cloud Engineer",
+    company: "Rearc",
+    desc: "Cloud Engineers at Rearc have good experience implementing cloud best practices and contributing to teams to build and maintain cloud infrastructure and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, their security posture, and overall cloud infrastructure.",
+    location: "Remote",
+    salary: "$90,000 - $135,000",
+    listing: "https://jobs.lever.co/rearc/5fa73924-49c5-48bb-9621-829b17baf495?lever-via=kEtFJB8eCw",
+    date: "2023-10-19",
+  },
+  {
+    title: "Senior Data Engineer",
+    company: "Rearc",
+    desc: "Senior Data Engineers at Rearc live in data and the pipelines that produce it. They are experienced across many tools and are able to have valuable conversations across the modern data landscape. Rearc’s senior engineers love working with junior team members and teaching them what they know. This technical knowledge and soft skill set enables them to be technical Subject Matter Experts (SMEs) within our consulting organization where they work with our customers’ teams to solve complex data problems at scale.",
+    location: "Remote",
+    salary: "$135,000 - $175,000",
+    listing: "https://jobs.lever.co/rearc/21932c38-3eb7-4c1b-8f4f-2c789204f5eb?lever-via=kEtFJB8eCw",
+    date: "2023-10-19",
+  },
+  {
     title: "Software Developer - Mid Level / Database Administrator",
     company: "AVI Foodsystems",
     desc: "AVI Foodsystems Inc., is seeking an experienced Software Developer/Database Admin to be part of the Information Technology team at our Headquarters Service Center in Warren, Ohio. The ideal candidate will have 3-5 years experience developing desktop applications in C# and VBA as well as experience in Database Administration (Microsoft SQL Server, PostgreSQL, and others)",
