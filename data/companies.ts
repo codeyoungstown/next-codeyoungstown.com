@@ -22,30 +22,6 @@ export type Company = {
 
 export const companies: Company[] = [
   {
-    name: "Tailored Alloys",
-    city: "Youngstown",
-    website: "https://www.tailoredalloys.com",
-    desc: "Tailored Alloys has a patent pending for rapid, low-cost alloy development in laser powder bed fusion and won an NSF grant to innovate a high-strength, high-conductivity alloy.",
-    tags: ["Hardware"],
-    servicesOrProduct: "Product",
-  },
-  {
-    name: "Vista AST",
-    city: "Youngstown",
-    website: "https://www.vistaast.com",
-    desc: "Vista AST provides curriculum, equipment and support services to educators and students nationwide.",
-    tags: ["Design", "Hardware",],
-    servicesOrProduct: "Product",
-  },
-  {
-    name: "Prodigal",
-    city: "Youngstom",
-    website: "https://prodigalcompany.com",
-    desc: "Prodigal will make your brand your most valuable asset through innovative thinking, a blue-collar work ethic and industry-tested processes.",
-    tags: ["Design", "Marketing"],
-    servicesOrProduct: "Services",
-  },
-  {
     name: "45Press",
     city: "Canfield",
     website: "https://45press.com/",
@@ -289,6 +265,14 @@ export const companies: Company[] = [
     servicesOrProduct: "Product",
   },
   {
+    name: "Prodigal",
+    city: "Youngstom",
+    website: "https://prodigalcompany.com",
+    desc: "Prodigal will make your brand your most valuable asset through innovative thinking, a blue-collar work ethic and industry-tested processes.",
+    tags: ["Design", "Marketing"],
+    servicesOrProduct: "Services",
+  },
+  {
     name: "Rocket Republic",
     city: "Youngstown, OH",
     website: "https://rocketrepublic.com/",
@@ -319,6 +303,14 @@ export const companies: Company[] = [
     servicesOrProduct: "Product",
   },
   {
+    name: "Tailored Alloys",
+    city: "Youngstown",
+    website: "https://www.tailoredalloys.com",
+    desc: "Tailored Alloys has a patent pending for rapid, low-cost alloy development in laser powder bed fusion and won an NSF grant to innovate a high-strength, high-conductivity alloy.",
+    tags: ["Hardware"],
+    servicesOrProduct: "Product",
+  },
+  {
     name: "Turning Technologies",
     city: "Youngstown",
     website: "https://www.turning.com/",
@@ -340,6 +332,14 @@ export const companies: Company[] = [
     city: "Youngstown",
     website: "https://www.vingapp.com/",
     desc: "Ving is a compliance and training monitoring platform.",
+    servicesOrProduct: "Product",
+  },
+  {
+    name: "Vista AST",
+    city: "Youngstown",
+    website: "https://www.vistaast.com",
+    desc: "Vista AST provides curriculum, equipment and support services to educators and students nationwide.",
+    tags: ["Design", "Hardware",],
     servicesOrProduct: "Product",
   },
   {
