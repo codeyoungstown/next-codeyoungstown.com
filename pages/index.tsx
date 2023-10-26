@@ -2,11 +2,21 @@ import Image from "next/future/image";
 import Layout from "../components/Layout";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
+import ReCAPTCHA from "react-google-recaptcha";
+import { useRef } from "react";
+import CaptchaComponent from "../components/CaptchaComponent";
 
 const pageDescription =
   "Connecting software engineers, developers, and coders in the Youngstown, OH area.";
 
 export default function Home() {
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
+
+  const handleSlack = (event) => {
+    event.preventDefault();
+    recaptchaRef.current.execute();
+  };
+
   return (
     <Layout page="Home" description={pageDescription}>
       <div className="flex justify-center">
@@ -21,10 +31,7 @@ export default function Home() {
       <h1 className="sm:text-2xl text-xl p-4">{pageDescription}</h1>
       <p className="sm:text-xl text-md p-2">
         Join the ongoing chat via{" "}
-        <a
-          className="underline hover:text-gray-300"
-          href="http://slack.codeyoungstown.com/"
-        >
+        <a className="underline hover:text-gray-300" onClick={handleSlack}>
           Slack
         </a>{" "}
         and attend our{" "}
@@ -39,6 +46,10 @@ export default function Home() {
       <div className="p-6">
         <Socials />
       </div>
+      <CaptchaComponent
+        link="http://slack.codeyoungstown.com/"
+        recaptchaRef={recaptchaRef}
+      />
     </Layout>
   );
 }
