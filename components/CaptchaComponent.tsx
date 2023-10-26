@@ -5,19 +5,16 @@ import { MutableRefObject } from "react";
 import { Social } from "../data/socials";
 
 export interface CaptchaProps {
-  social: Social;
+  link: string;
   recaptchaRef: MutableRefObject<ReCAPTCHA | null>;
 }
 
-export default function CaptchaComponent({
-  social,
-  recaptchaRef,
-}: CaptchaProps) {
-  const onReCAPTCHAChange = (captchaCode, social) => {
+export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
+  const onReCAPTCHAChange = (captchaCode) => {
     if (!captchaCode) {
       return;
     }
-    window.open(social.link, "_blank");
+    window.open(link, "_blank");
     recaptchaRef.current.reset();
   };
 
@@ -25,7 +22,7 @@ export default function CaptchaComponent({
     <ReCAPTCHA
       sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
       ref={recaptchaRef}
-      onChange={(captchaCode) => onReCAPTCHAChange(captchaCode, social)}
+      onChange={(captchaCode) => onReCAPTCHAChange(captchaCode)}
       size="invisible"
       style={{
         visibility: "hidden",
