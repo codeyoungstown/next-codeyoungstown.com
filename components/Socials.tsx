@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { socials } from "../data/socials";
 import ReCAPTCHA from "react-google-recaptcha";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import CaptchaComponent from "./CaptchaComponent";
 
 export default function Socials() {
@@ -18,7 +18,10 @@ export default function Socials() {
         <>
           {social.name === "Slack" && (
             <li key={social.name}>
-              <CaptchaComponent social={social} recaptchaRef={recaptchaRef} />
+              <CaptchaComponent
+                link={social.link}
+                recaptchaRef={recaptchaRef}
+              />
               <a
                 rel="noreferrer"
                 target="_blank"
