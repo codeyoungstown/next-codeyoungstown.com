@@ -10,6 +10,24 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Customer Discovery",
+    company: "Youngstown Business Incubator",
+    desc: "Youngstown Business Incubator (YBI) seeks part-time intern to assist a Mahoning Valley digital health start-up company in fleshing out a business opportunity in the domain of prescription management and portability.",
+    location: "Youngstown, OH",
+    salary: "$15.00 per hour",
+    listing: "https://www.linkedin.com/posts/youngstown-business-incubator_evolve-technology-internship-activity-7125493145152180224-BYMY/?utm_source=share&utm_medium=member_desktop",
+    date: "2023-11-03",
+  },
+  {
+    title: "Project Manager",
+    company: "JuggerBot 3D",
+    desc: "The Project Manager will lead the Technology Development Group and will be responsible for driving the successful delivery of cross-functional projects on time, on budget, and with adherence to quality standards in support of company objectives.",
+    location: "Youngstown, OH",
+    salary: "Unlisted",
+    listing: "https://www.linkedin.com/company/juggerbot-3d/",
+    date: "2023-11-03",
+  },
+  {
     title: "Senior Cloud Engineer",
     company: "Rearc",
     desc: "Senior Cloud Engineers at Rearc have several years experience using cloud best practices and maintaining cloud infrastructure and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, the security posture, and overall cloud infrastructure.",
