@@ -1,8 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { socials } from "../data/socials";
-import ReCAPTCHA from "react-google-recaptcha";
+import axios from "axios";
 import { MutableRefObject } from "react";
-import { Social } from "../data/socials";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export interface CaptchaProps {
   link: string;
@@ -10,11 +8,24 @@ export interface CaptchaProps {
 }
 
 export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
-  const onReCAPTCHAChange = (captchaCode) => {
+  const onReCAPTCHAChange = async (captchaCode) => {
     if (!captchaCode) {
       return;
     }
-    window.open(link, "_blank");
+
+    const request = {
+      token: captchaCode,
+      recaptchaAction: "",
+    };
+
+    const response = await axios.post("/api/recaptcha", request);
+    console.log(response.data);
+    if (response.data >= 0.6) {
+      window.open(link, "_blank");
+    } else {
+      console.log("User denied access to slack");
+    }
+
     recaptchaRef.current.reset();
   };
 
@@ -24,9 +35,6 @@ export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
       ref={recaptchaRef}
       onChange={(captchaCode) => onReCAPTCHAChange(captchaCode)}
       size="invisible"
-      style={{
-        visibility: "hidden",
-      }}
     />
   );
 }

@@ -1,9 +1,9 @@
+import { faDollarSign, faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { differenceInDays, formatDistanceToNow, parseISO } from "date-fns";
+import { useState } from "react";
 import { jobs } from "../data/jobs";
 import DataCard from "./Globals/DataCard";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
-import { faLocationDot, faDollarSign } from "@fortawesome/free-solid-svg-icons";
-import { parseISO, formatDistanceToNow, differenceInDays } from "date-fns";
 import Search from "./Globals/Search";
 
 export default function JobListings() {
@@ -123,7 +123,9 @@ const NoResult = () => {
 const NoJobs = () => {
   return (
     <div className="col-span-full p-5">
-      <p className="text-center text-2xl">No Jobs Available. Please Check Back Soon!</p>
+      <p className="text-center text-2xl">
+        No Jobs Available. Please Check Back Soon!
+      </p>
     </div>
   );
-}
+};
