@@ -5,10 +5,6 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const options = {
-    projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
-    ApiKey: process.env.NEXT_PUBLIC_API_KEY,
-  };
   const client = new RecaptchaEnterpriseServiceClient();
   const projectPath = client.projectPath(process.env.NEXT_PUBLIC_PROJECT_ID);
   try {
@@ -30,9 +26,6 @@ export default async function handler(
           `The CreateAssessment call failed because the token was: ${response.tokenProperties.invalidReason}`
         );
     }
-
-    // Check if the expected action was executed.
-    // The `action` property is set by user client in the grecaptcha.enterprise.execute() method.
 
     if (response.tokenProperties.action === req.body.recaptchaAction) {
       // Get the risk score and the reason(s).
