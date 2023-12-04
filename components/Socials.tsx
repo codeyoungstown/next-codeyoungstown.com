@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { socials } from "../data/socials";
-import ReCAPTCHA from "react-google-recaptcha";
 import { useRef } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
+import { socials } from "../data/socials";
 import CaptchaComponent from "./CaptchaComponent";
 
 export default function Socials() {
@@ -26,7 +26,7 @@ export default function Socials() {
                 rel="noreferrer"
                 target="_blank"
                 title={`To Code Youngstown's ${social.name}`}
-                className="hover:text-gray-300"
+                className="hover:text-gray-300 hover:cursor-pointer"
                 onClick={handleSlack}
               >
                 <FontAwesomeIcon icon={social.icon} />
