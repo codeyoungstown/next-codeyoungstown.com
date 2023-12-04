@@ -1,11 +1,12 @@
 import { RecaptchaEnterpriseServiceClient } from "@google-cloud/recaptcha-enterprise";
 import type { NextApiRequest, NextApiResponse } from "next";
+import { getGCPCredentials } from "../../utils/googleCloudPlatform";
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const client = new RecaptchaEnterpriseServiceClient();
+  const client = new RecaptchaEnterpriseServiceClient(getGCPCredentials());
   const projectPath = client.projectPath(process.env.NEXT_PUBLIC_PROJECT_ID);
   try {
     const request = {
