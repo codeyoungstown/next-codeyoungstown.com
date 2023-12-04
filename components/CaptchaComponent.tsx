@@ -19,7 +19,6 @@ export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
     };
 
     const response = await axios.post("/api/recaptcha", request);
-    console.log(response.data);
     if (response.data >= 0.6) {
       window.open(link, "_blank");
     } else {
