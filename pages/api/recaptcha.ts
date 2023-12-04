@@ -6,7 +6,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const client = new RecaptchaEnterpriseServiceClient(getGCPCredentials());
+  const credential = getGCPCredentials();
+  const client = new RecaptchaEnterpriseServiceClient(credential);
   const projectPath = client.projectPath(process.env.NEXT_PUBLIC_PROJECT_ID);
   try {
     const request = {
@@ -46,7 +47,6 @@ export default async function handler(
         );
     }
   } catch (error) {
-    console.error(error);
     res.status(500).send("Internal server error");
   }
 }
