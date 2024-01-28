@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "WordPress Developer",
+    company: "iSynergy",
+    desc: "We are seeking a WordPress Engineer to become a part of our agency!",
+    location: "Canfield, OH",
+    salary: "$50,000 - $75,000",
+    listing: "https://www.ziprecruiter.com/jobs/isynergy-f0c3d028/wordpress-developer-bbd0f399",
+    date: "2024-01-23",
+  },
+  {
     title: "Customer Discovery",
     company: "Youngstown Business Incubator",
     desc: "Youngstown Business Incubator (YBI) seeks part-time intern to assist a Mahoning Valley digital health start-up company in fleshing out a business opportunity in the domain of prescription management and portability.",
