@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Business Data Analyst",
+    company: "Blast Point",
+    desc: "As a Business Data Analyst at BlastPoint, you will play a critical role in bridging the gap between data and business decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills.",
+    location: "Remote",
+    salary: "$70,000 - $90,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4229529007",
+    date: "2024-01-31"
+  },
+  {
     title: "Customer Discovery",
     company: "Youngstown Business Incubator",
     desc: "Youngstown Business Incubator (YBI) seeks part-time intern to assist a Mahoning Valley digital health start-up company in fleshing out a business opportunity in the domain of prescription management and portability.",
