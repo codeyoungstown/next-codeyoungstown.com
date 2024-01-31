@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+
+    title: "Business Data Analyst",
+    company: "Blast Point",
+    desc: "As a Business Data Analyst at BlastPoint, you will play a critical role in bridging the gap between data and business decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills.",
+    location: "Remote",
+    salary: "$70,000 - $90,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4229529007",
+    date: "2024-01-31"
+  },
+  {
     title: "WordPress Developer",
     company: "iSynergy",
     desc: "We are seeking a WordPress Engineer to become a part of our agency!",
@@ -17,6 +27,7 @@ export const jobs: Job[] = [
     salary: "$50,000 - $75,000",
     listing: "https://www.ziprecruiter.com/jobs/isynergy-f0c3d028/wordpress-developer-bbd0f399",
     date: "2024-01-23",
+
   },
   {
     title: "Customer Discovery",
