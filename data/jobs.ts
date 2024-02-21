@@ -10,6 +10,24 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Applications Architect",
+    company: "Robert Half",
+    desc: "Robert Half has an immediate opening with our Pittsburgh client for an Azure API Architect.  In this role you will design and build platforms using APIs, real-time data flows, process orchestration and micro-services, API Management and security best practice. Implement DevOps principles to automate and control platforms. Implement Automation leveraging PowerShell and ARM templates.",
+    location: "Remote",
+    salary: "$55.41 - $64.16 per hour",
+    listing: "https://www.roberthalf.com/us/en/job/sevenhillsoh/principalsoftwareengineer/03340-0012872148?jid=a1G3w00000IonFQEAZ&jid=a2F3w00000AEhyHEAT",
+    date: "2024-02-21"
+  },
+  {
+    title: "Data Engineer",
+    company: "Blast Point",
+    desc: "We are looking for a talented Data Engineer to join our growing engineering team.  The ideal candidate for this position brings together strong software engineering skills and cloud infrastructure expertise to ensure smooth and timely delivery of actionable insights to customers, leading engineering projects from concept to delivery, contributing to BlastPoint's data onboarding activities, and ensuring that our platform and supporting services are highly-available, secure, and well-maintained.",
+    location: "Remote",
+    salary: "$100,000 - $140,000",
+    listing: "https://boards.greenhouse.io/blastpoint/jobs/4251186007",
+    date: "2024-02-21"
+  },
+  {
 
     title: "Business Data Analyst",
     company: "Blast Point",
