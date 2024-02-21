@@ -22,6 +22,14 @@ export type Company = {
 
 export const companies: Company[] = [
   {
+    name: "Belva Creative",
+    city: "Youngstown",
+    website: "https://www.belvacreative.com",
+    desc: "Our team has the knowledge and experience to take your business to the next level - from data to design, we're here to help you grow your business.",
+    tags: ["Websites", "Design", "Marketing", "Data"],
+    servicesOrProduct: "Services",
+  },
+  {
     name: "45Press",
     city: "Canfield",
     website: "https://45press.com/",
