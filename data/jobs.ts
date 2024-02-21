@@ -15,6 +15,15 @@ export const jobs: Job[] = [
     desc: "Robert Half has an immediate opening with our Pittsburgh client for an Azure API Architect.  In this role you will design and build platforms using APIs, real-time data flows, process orchestration and micro-services, API Management and security best practice. Implement DevOps principles to automate and control platforms. Implement Automation leveraging PowerShell and ARM templates.",
     location: "Remote",
     salary: "$55.41 - $64.16 per hour",
+    listing: "https://www.roberthalf.com/us/en/job/pittsburghpa/applicationsarchitect/03730-0012897652",
+    date: "2024-02-21"
+  },
+  {
+    title: "Principal Software Engineer",
+    company: "Robert Half",
+    desc: "Do you combine creativity with strong coding skills and a deep understanding of enterprise systems?  Robert Half Technology is looking for a highly motivated Full Stack Software Engineer with strong software engineering techniques and knowledge of design patterns.  As a Full Stack Software Engineer, you will be expected to utilize best practices and innovation that results in superior software solutions.  Successful developers will be self-driven, creative problem solvers and eager to collaborate and solve complex problems both on their own and within project teams.",
+    location: "Remote",
+    salary: "$120,000 - $150,000",
     listing: "https://www.roberthalf.com/us/en/job/sevenhillsoh/principalsoftwareengineer/03340-0012872148?jid=a1G3w00000IonFQEAZ&jid=a2F3w00000AEhyHEAT",
     date: "2024-02-21"
   },
