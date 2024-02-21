@@ -22,7 +22,7 @@ export const jobs: Job[] = [
   {
     title: "WordPress Developer",
     company: "iSynergy",
-    desc: "We are seeking a WordPress Engineer to become a part of our agency!",
+    desc: "iSynergy is an integrated digital marketing agency with a laser focus on maximizing ROI for clients. We achieve high revenue-driving success across lead generation, e-commerce, and full-funnel campaigns.",
     location: "Canfield, OH",
     salary: "$50,000 - $75,000",
     listing: "https://www.ziprecruiter.com/jobs/isynergy-f0c3d028/wordpress-developer-bbd0f399",
