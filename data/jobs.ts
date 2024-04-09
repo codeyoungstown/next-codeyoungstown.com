@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Summer 2024 Internship",
+    company: "Dev Youngstown",
+    desc: "We are seeking a self-motivated and ambitious individual eager to kick-start their software engineering or UI design career by working on real-world projects.As the ideal candidate, you must be able to efficiently manage and report your task progress, proactively seek assistance when needed, and possess a strong drive to learn.",
+    location: "Youngstown, OH",
+    salary: "$15.00 per hour",
+    listing: "https://www.youngstown.dev/",
+    date: "2024-04-09"
+  },
+  {
     title: "Instructor, Networking and Telecommunications",
     company: "Youngstown State University",
     desc: "The successful candidate will teach various courses, encompassing both lower and upper division levels, delivered both online and in-person. They should possess the ability and experience to teach software engineering-related courses, such as software engineering, software security, software testing, project and process management, software architecture and design, software development life cycle, and/or programming-related courses in multiple languages, including Python, C/C++, and Java, across a wide range of proficiency levels from beginner to advanced. The candidate should also demonstrate the ability, experience, or desire to actively participate in the design and development of online courses.",
