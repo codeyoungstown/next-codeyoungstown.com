@@ -10,6 +10,51 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Summer 2024 Internship",
+    company: "Dev Youngstown",
+    desc: "We are seeking a self-motivated and ambitious individual eager to kick-start their software engineering or UI design career by working on real-world projects.As the ideal candidate, you must be able to efficiently manage and report your task progress, proactively seek assistance when needed, and possess a strong drive to learn.",
+    location: "Youngstown, OH",
+    salary: "$15.00 per hour",
+    listing: "https://www.youngstown.dev/",
+    date: "2024-04-09"
+  },
+  {
+    title: "Instructor, Networking and Telecommunications",
+    company: "Youngstown State University",
+    desc: "The successful candidate will teach various courses, encompassing both lower and upper division levels, delivered both online and in-person. They should possess the ability and experience to teach software engineering-related courses, such as software engineering, software security, software testing, project and process management, software architecture and design, software development life cycle, and/or programming-related courses in multiple languages, including Python, C/C++, and Java, across a wide range of proficiency levels from beginner to advanced. The candidate should also demonstrate the ability, experience, or desire to actively participate in the design and development of online courses.",
+    location: "Youngstown, OH",
+    salary: "$68,000 - $77,500",
+    listing: "https://www.schooljobs.com/careers/ysu/jobs/4438787/instructor-networking-and-telecommunications",
+    date: "2024-03-21"
+  },
+  {
+    title: "Lecturer, Computer Science & Information Systems (Term)",
+    company: "Youngstown State University",
+    desc: "The successful candidate will teach various courses, encompassing both lower and upper division levels, delivered both online and in-person. They should possess the ability and experience to teach software engineering-related courses, such as software engineering, software security, software testing, project and process management, software architecture and design, software development life cycle, and/or programming-related courses in multiple languages, including Python, C/C++, and Java, across a wide range of proficiency levels from beginner to advanced. The candidate should also demonstrate the ability, experience, or desire to actively participate in the design and development of online courses.",
+    location: "Youngstown, OH",
+    salary: "unlisted",
+    listing: "https://www.schooljobs.com/careers/ysu/jobs/4433442/lecturer-computer-science-information-systems-term",
+    date: "2024-03-21"
+  },
+  {
+    title: "Part-time Faculty, Computer Science and Information Systems",
+    company: "Youngstown State University",
+    desc: "The Computer Science and Information Systems department offers a variety of courses in three undergraduate majors: Computer Science, Computer Information Systems, and Information Technology as well as a Master’s degree. Courses are primarily servicing our 500 majors.",
+    location: "Youngstown, OH",
+    salary: "unlisted",
+    listing: "https://www.schooljobs.com/careers/ysu/jobs/3477720/part-time-faculty-computer-science-and-information-systems",
+    date: "2024-03-21"
+  },
+  {
+    title: "Assistant Professor, Computer Science and Information Systems (Tenure-Track)",
+    company: "Youngstown State University",
+    desc: "The successful candidate is expected to develop their area of expertise into a thriving field of study at the University and must demonstrate promise to maintain an active research agenda. The candidate will be expected to teach courses related to Computer Science and Information Technology at both the graduate and undergraduate levels. The candidate will be expected to seek research grants to support their area of expertise and develop a successful curriculum surrounding it.",
+    location: "Youngstown, OH",
+    salary: "unlisted",
+    listing: "https://www.schooljobs.com/careers/ysu/jobs/4284960/assistant-professor-computer-science-and-information-systems-tenure-track",
+    date: "2024-03-21"
+  },
+  {
     title: "Applications Architect",
     company: "Robert Half",
     desc: "Robert Half has an immediate opening with our Pittsburgh client for an Azure API Architect.  In this role you will design and build platforms using APIs, real-time data flows, process orchestration and micro-services, API Management and security best practice. Implement DevOps principles to automate and control platforms. Implement Automation leveraging PowerShell and ARM templates.",
