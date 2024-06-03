@@ -8,6 +8,7 @@ export interface CaptchaProps {
 }
 
 export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
+  const env = process.env.NODE_ENV;
   const onReCAPTCHAChange = async (captchaCode) => {
     if (!captchaCode) {
       return;
@@ -28,12 +29,16 @@ export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
     recaptchaRef.current.reset();
   };
 
-  return (
-    <ReCAPTCHA
-      sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-      ref={recaptchaRef}
-      onChange={(captchaCode) => onReCAPTCHAChange(captchaCode)}
-      size="invisible"
-    />
-  );
+  if (env === "development") {
+    return <></>;
+  } else {
+    return (
+      <ReCAPTCHA
+        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
+        ref={recaptchaRef}
+        onChange={(captchaCode) => onReCAPTCHAChange(captchaCode)}
+        size="invisible"
+      />
+    );
+  }
 }
