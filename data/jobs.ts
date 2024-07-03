@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Embedded Software Engineer",
+    company: "Lincoln Electric",
+    desc: "We are seeking a skilled and motivated Embedded Application Engineer to join our team and contribute to the development of cutting-edge applications for Linux-based embedded systems.",
+    location: "Cleveland, OH",
+    salary: "Unlisted",
+    listing:
+      "https://jobs.lincolnelectric.com/job/Cleveland-Embedded-Software-Engineer-OH-44117/992678101/",
+    date: "2024-07-02",
+  },
+  {
+    title: "Embedded Application Engineer",
+    company: "Lincoln Electric",
+    desc: "We are seeking a skilled and motivated Embedded Application Engineer to join our team and contribute to the development of cutting-edge applications for Linux-based embedded systems.",
+    location: "Cleveland, OH",
+    salary: "Unlisted",
+    listing:
+      "https://jobs.lincolnelectric.com/job/Cleveland-Embedded-Application-Engineer-OH-44117/984265901/",
+    date: "2024-07-02",
+  },
+  {
     title: "Summer 2024 Internship",
     company: "Dev Youngstown",
     desc: "We are seeking a self-motivated and ambitious individual eager to kick-start their software engineering or UI design career by working on real-world projects.As the ideal candidate, you must be able to efficiently manage and report your task progress, proactively seek assistance when needed, and possess a strong drive to learn.",
