@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Web Developer",
+    company: "Youngstown State University",
+    desc: "Plans, designs, and develops web assets, templates, digital content, and brand standards within the guidelines, frameworks, best practices, policies, and restraints of university wide content management systems.",
+    location: "Youngstown, OH",
+    salary: "$35,780.00 - $42,050.00 Annually",
+    listing:
+    "https://www.schooljobs.com/careers/ysu/jobs/4600204/web-developer",
+    date: "2024-07-30",
+  },
+  {
     title: "Embedded Software Engineer",
     company: "Lincoln Electric",
     desc: "We are seeking a skilled and motivated Embedded Application Engineer to join our team and contribute to the development of cutting-edge applications for Linux-based embedded systems.",
