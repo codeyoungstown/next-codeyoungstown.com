@@ -10,13 +10,31 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Engineer - Tools & Autmoation",
+    company: "Bitfocus",
+    desc: "We are seeking a highly motivated and experienced Tools & Automation Engineer to join our Tools & Automation team. The successful candidate will be responsible for playing a key role in the Tools & Automation team at Bitfocus, where they will be responsible for designing, building, and maintaining solutions that enhance our engineering processes. Working closely with stakeholders and team members, the engineer will focus on creating tooling for reproducible test environments, developing automated testing frameworks, and constructing a robust CI/CD pipeline. This role is ideal for an engineer who is proactive, innovative, and is passionate about delivering high-quality solutions. The engineer should be comfortable working in a dynamic environment and capable of communicating effectively with stakeholders at all levels. ",
+    location: "REMOTE Las Vegas, NV",
+    salary: "$80,000 - $120,000 Total Compensation",
+    listing: "https://www.bitfocus.com/jobs?gh_jid=4473841007",
+    date: "2024-08-14",
+  },
+  {
+    title: "Senior Software Engineer - Tools & Autmoation",
+    company: "Bitfocus",
+    desc: "We are seeking a highly motivated and experienced Senior Tools & Automation Engineer to join our Tools & Automation team. The successful candidate will be responsible for playing a key role in the Tools & Automation team at Bitfocus, where they  will be responsible for designing, building, and maintaining solutions that enhance our engineering processes. Working closely with stakeholders and team members, the engineer will  focus on creating tooling for reproducible test environments, developing automated testing frameworks, and constructing a robust CI/CD pipeline. This role is ideal for an engineer who is proactive, innovative, and is passionate about delivering high-quality solutions. The engineer should be comfortable working in a dynamic environment and capable of communicating effectively with stakeholders at all levels. ",
+    location: "REMOTE Las Vegas, NV",
+    salary: "$110,000 - $155,000 Total Compensation",
+    listing: "https://www.bitfocus.com/jobs?gh_jid=4473872007",
+    date: "2024-08-14",
+  },
+  {
     title: "Web Developer",
     company: "Youngstown State University",
     desc: "Plans, designs, and develops web assets, templates, digital content, and brand standards within the guidelines, frameworks, best practices, policies, and restraints of university wide content management systems.",
     location: "Youngstown, OH",
     salary: "$35,780.00 - $42,050.00 Annually",
     listing:
-    "https://www.schooljobs.com/careers/ysu/jobs/4600204/web-developer",
+      "https://www.schooljobs.com/careers/ysu/jobs/4600204/web-developer",
     date: "2024-07-30",
   },
   {
@@ -46,7 +64,7 @@ export const jobs: Job[] = [
     location: "Youngstown, OH",
     salary: "$15.00 per hour",
     listing: "https://www.youngstown.dev/",
-    date: "2024-04-09"
+    date: "2024-04-09",
   },
   {
     title: "Instructor, Networking and Telecommunications",
@@ -54,8 +72,9 @@ export const jobs: Job[] = [
     desc: "The successful candidate will teach various courses, encompassing both lower and upper division levels, delivered both online and in-person. They should possess the ability and experience to teach software engineering-related courses, such as software engineering, software security, software testing, project and process management, software architecture and design, software development life cycle, and/or programming-related courses in multiple languages, including Python, C/C++, and Java, across a wide range of proficiency levels from beginner to advanced. The candidate should also demonstrate the ability, experience, or desire to actively participate in the design and development of online courses.",
     location: "Youngstown, OH",
     salary: "$68,000 - $77,500",
-    listing: "https://www.schooljobs.com/careers/ysu/jobs/4438787/instructor-networking-and-telecommunications",
-    date: "2024-03-21"
+    listing:
+      "https://www.schooljobs.com/careers/ysu/jobs/4438787/instructor-networking-and-telecommunications",
+    date: "2024-03-21",
   },
   {
     title: "Lecturer, Computer Science & Information Systems (Term)",
@@ -63,8 +82,9 @@ export const jobs: Job[] = [
     desc: "The successful candidate will teach various courses, encompassing both lower and upper division levels, delivered both online and in-person. They should possess the ability and experience to teach software engineering-related courses, such as software engineering, software security, software testing, project and process management, software architecture and design, software development life cycle, and/or programming-related courses in multiple languages, including Python, C/C++, and Java, across a wide range of proficiency levels from beginner to advanced. The candidate should also demonstrate the ability, experience, or desire to actively participate in the design and development of online courses.",
     location: "Youngstown, OH",
     salary: "unlisted",
-    listing: "https://www.schooljobs.com/careers/ysu/jobs/4433442/lecturer-computer-science-information-systems-term",
-    date: "2024-03-21"
+    listing:
+      "https://www.schooljobs.com/careers/ysu/jobs/4433442/lecturer-computer-science-information-systems-term",
+    date: "2024-03-21",
   },
   {
     title: "Part-time Faculty, Computer Science and Information Systems",
@@ -72,17 +92,20 @@ export const jobs: Job[] = [
     desc: "The Computer Science and Information Systems department offers a variety of courses in three undergraduate majors: Computer Science, Computer Information Systems, and Information Technology as well as a Master’s degree. Courses are primarily servicing our 500 majors.",
     location: "Youngstown, OH",
     salary: "unlisted",
-    listing: "https://www.schooljobs.com/careers/ysu/jobs/3477720/part-time-faculty-computer-science-and-information-systems",
-    date: "2024-03-21"
+    listing:
+      "https://www.schooljobs.com/careers/ysu/jobs/3477720/part-time-faculty-computer-science-and-information-systems",
+    date: "2024-03-21",
   },
   {
-    title: "Assistant Professor, Computer Science and Information Systems (Tenure-Track)",
+    title:
+      "Assistant Professor, Computer Science and Information Systems (Tenure-Track)",
     company: "Youngstown State University",
     desc: "The successful candidate is expected to develop their area of expertise into a thriving field of study at the University and must demonstrate promise to maintain an active research agenda. The candidate will be expected to teach courses related to Computer Science and Information Technology at both the graduate and undergraduate levels. The candidate will be expected to seek research grants to support their area of expertise and develop a successful curriculum surrounding it.",
     location: "Youngstown, OH",
     salary: "unlisted",
-    listing: "https://www.schooljobs.com/careers/ysu/jobs/4284960/assistant-professor-computer-science-and-information-systems-tenure-track",
-    date: "2024-03-21"
+    listing:
+      "https://www.schooljobs.com/careers/ysu/jobs/4284960/assistant-professor-computer-science-and-information-systems-tenure-track",
+    date: "2024-03-21",
   },
   {
     title: "Applications Architect",
@@ -90,8 +113,9 @@ export const jobs: Job[] = [
     desc: "Robert Half has an immediate opening with our Pittsburgh client for an Azure API Architect.  In this role you will design and build platforms using APIs, real-time data flows, process orchestration and micro-services, API Management and security best practice. Implement DevOps principles to automate and control platforms. Implement Automation leveraging PowerShell and ARM templates.",
     location: "Remote",
     salary: "$55.41 - $64.16 per hour",
-    listing: "https://www.roberthalf.com/us/en/job/pittsburghpa/applicationsarchitect/03730-0012897652",
-    date: "2024-02-21"
+    listing:
+      "https://www.roberthalf.com/us/en/job/pittsburghpa/applicationsarchitect/03730-0012897652",
+    date: "2024-02-21",
   },
   {
     title: "Principal Software Engineer",
@@ -99,8 +123,9 @@ export const jobs: Job[] = [
     desc: "Do you combine creativity with strong coding skills and a deep understanding of enterprise systems?  Robert Half Technology is looking for a highly motivated Full Stack Software Engineer with strong software engineering techniques and knowledge of design patterns.  As a Full Stack Software Engineer, you will be expected to utilize best practices and innovation that results in superior software solutions.  Successful developers will be self-driven, creative problem solvers and eager to collaborate and solve complex problems both on their own and within project teams.",
     location: "Remote",
     salary: "$120,000 - $150,000",
-    listing: "https://www.roberthalf.com/us/en/job/sevenhillsoh/principalsoftwareengineer/03340-0012872148?jid=a1G3w00000IonFQEAZ&jid=a2F3w00000AEhyHEAT",
-    date: "2024-02-21"
+    listing:
+      "https://www.roberthalf.com/us/en/job/sevenhillsoh/principalsoftwareengineer/03340-0012872148?jid=a1G3w00000IonFQEAZ&jid=a2F3w00000AEhyHEAT",
+    date: "2024-02-21",
   },
   {
     title: "Data Engineer",
@@ -109,17 +134,16 @@ export const jobs: Job[] = [
     location: "Remote",
     salary: "$100,000 - $140,000",
     listing: "https://boards.greenhouse.io/blastpoint/jobs/4251186007",
-    date: "2024-02-21"
+    date: "2024-02-21",
   },
   {
-
     title: "Business Data Analyst",
     company: "Blast Point",
     desc: "As a Business Data Analyst at BlastPoint, you will play a critical role in bridging the gap between data and business decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills.",
     location: "Remote",
     salary: "$70,000 - $90,000",
     listing: "https://boards.greenhouse.io/blastpoint/jobs/4229529007",
-    date: "2024-01-31"
+    date: "2024-01-31",
   },
   {
     title: "WordPress Developer",
@@ -127,9 +151,9 @@ export const jobs: Job[] = [
     desc: "iSynergy is an integrated digital marketing agency with a laser focus on maximizing ROI for clients. We achieve high revenue-driving success across lead generation, e-commerce, and full-funnel campaigns.",
     location: "Canfield, OH",
     salary: "$50,000 - $75,000",
-    listing: "https://www.ziprecruiter.com/jobs/isynergy-f0c3d028/wordpress-developer-bbd0f399",
+    listing:
+      "https://www.ziprecruiter.com/jobs/isynergy-f0c3d028/wordpress-developer-bbd0f399",
     date: "2024-01-23",
-
   },
   {
     title: "Customer Discovery",
@@ -137,7 +161,8 @@ export const jobs: Job[] = [
     desc: "Youngstown Business Incubator (YBI) seeks part-time intern to assist a Mahoning Valley digital health start-up company in fleshing out a business opportunity in the domain of prescription management and portability.",
     location: "Youngstown, OH",
     salary: "$15.00 per hour",
-    listing: "https://www.linkedin.com/posts/youngstown-business-incubator_evolve-technology-internship-activity-7125493145152180224-BYMY/?utm_source=share&utm_medium=member_desktop",
+    listing:
+      "https://www.linkedin.com/posts/youngstown-business-incubator_evolve-technology-internship-activity-7125493145152180224-BYMY/?utm_source=share&utm_medium=member_desktop",
     date: "2023-11-03",
   },
   {
@@ -155,7 +180,8 @@ export const jobs: Job[] = [
     desc: "Senior Cloud Engineers at Rearc have several years experience using cloud best practices and maintaining cloud infrastructure and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, the security posture, and overall cloud infrastructure.",
     location: "Remote",
     salary: "$135,000 - $170,000",
-    listing: "https://jobs.lever.co/rearc/984cd69a-d30a-4a75-9e9e-41e840eefe60?lever-via=kEtFJB8eCw",
+    listing:
+      "https://jobs.lever.co/rearc/984cd69a-d30a-4a75-9e9e-41e840eefe60?lever-via=kEtFJB8eCw",
     date: "2023-10-19",
   },
   {
@@ -164,7 +190,8 @@ export const jobs: Job[] = [
     desc: "Lead Cloud Engineers at Rearc have several years experience using cloud best practices and maintaining cloud infrastructure and automation pipelines. They lead our engagements along with our customers’ teams to improve developer experience, security posture, and overall cloud infrastructure. They are responsible for the technical oversight and delivery of projects.",
     location: "Remote",
     salary: "$175,000 - $200,000",
-    listing: "https://jobs.lever.co/rearc/ed4f1e89-6012-46ed-8eea-c502c9c25b83?lever-via=kEtFJB8eCw",
+    listing:
+      "https://jobs.lever.co/rearc/ed4f1e89-6012-46ed-8eea-c502c9c25b83?lever-via=kEtFJB8eCw",
     date: "2023-10-19",
   },
   {
@@ -173,7 +200,8 @@ export const jobs: Job[] = [
     desc: "Cloud Engineers at Rearc have good experience implementing cloud best practices and contributing to teams to build and maintain cloud infrastructure and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, their security posture, and overall cloud infrastructure.",
     location: "Remote",
     salary: "$90,000 - $135,000",
-    listing: "https://jobs.lever.co/rearc/5fa73924-49c5-48bb-9621-829b17baf495?lever-via=kEtFJB8eCw",
+    listing:
+      "https://jobs.lever.co/rearc/5fa73924-49c5-48bb-9621-829b17baf495?lever-via=kEtFJB8eCw",
     date: "2023-10-19",
   },
   {
@@ -182,7 +210,8 @@ export const jobs: Job[] = [
     desc: "Senior Data Engineers at Rearc live in data and the pipelines that produce it. They are experienced across many tools and are able to have valuable conversations across the modern data landscape. Rearc’s senior engineers love working with junior team members and teaching them what they know. This technical knowledge and soft skill set enables them to be technical Subject Matter Experts (SMEs) within our consulting organization where they work with our customers’ teams to solve complex data problems at scale.",
     location: "Remote",
     salary: "$135,000 - $175,000",
-    listing: "https://jobs.lever.co/rearc/21932c38-3eb7-4c1b-8f4f-2c789204f5eb?lever-via=kEtFJB8eCw",
+    listing:
+      "https://jobs.lever.co/rearc/21932c38-3eb7-4c1b-8f4f-2c789204f5eb?lever-via=kEtFJB8eCw",
     date: "2023-10-19",
   },
   {
@@ -191,7 +220,8 @@ export const jobs: Job[] = [
     desc: "AVI Foodsystems Inc., is seeking an experienced Software Developer/Database Admin to be part of the Information Technology team at our Headquarters Service Center in Warren, Ohio. The ideal candidate will have 3-5 years experience developing desktop applications in C# and VBA as well as experience in Database Administration (Microsoft SQL Server, PostgreSQL, and others)",
     location: "Warren, OH",
     salary: "Unlisted",
-    listing: "https://avi-foodsystems.jobs.net/job/J3S4J86BVXDZZGNH0P4?ipath=CRJR231",
+    listing:
+      "https://avi-foodsystems.jobs.net/job/J3S4J86BVXDZZGNH0P4?ipath=CRJR231",
     date: "2023-10-12",
   },
   {
@@ -218,7 +248,8 @@ export const jobs: Job[] = [
     desc: "Application Developers in the Pittsburgh, Pennsylvania area who are talented and detail oriented will find what they're looking for in this long-term contract / contract / temporary opportunity. If you can be responsible for implementing new features, maintaining existing code, and refactoring existing code across a breadth of products used both internally and externally at the company, you will be successful at this position. A growth mindset and the ability to work both independently and with a team are required for success at this position.",
     location: "Remote",
     salary: "$51.46/hr - $59.59/hr",
-    listing: "https://www.roberthalf.com/us/en/job/pittsburghpa/softwaredeveloper/03730-0012801835?jid=a2F3w000006OKCZEA4",
+    listing:
+      "https://www.roberthalf.com/us/en/job/pittsburghpa/softwaredeveloper/03730-0012801835?jid=a2F3w000006OKCZEA4",
     date: "2023-10-03",
   },
   {
@@ -227,7 +258,8 @@ export const jobs: Job[] = [
     desc: "The Archer Application Architect manages the lifecycle of new development on existing and future products. This includes reviewing product requirements, designing product architecture, and managing daily product development efforts. You will be responsible for managing complex interactions between business processes and technologies as well as translating product specifications into production level applications.",
     location: "Remote",
     salary: "$63.34/hr - $73.34/hr",
-    listing: "https://www.roberthalf.com/us/en/job/pittsburghpa/applicationsarchitect/03730-0012804961?jid=a2F3w000006OLNZEA4",
+    listing:
+      "https://www.roberthalf.com/us/en/job/pittsburghpa/applicationsarchitect/03730-0012804961?jid=a2F3w000006OLNZEA4",
     date: "2023-10-03",
   },
   {
@@ -272,7 +304,8 @@ export const jobs: Job[] = [
     desc: "Coordinate with the sales team to understand client requirements and expectations post-sale. Manage the end-to-end implementation process, including sales transfer, data onboarding, platform delivery, user training, go-live support, and successful hand off to customer success. Develop detailed project plans, including scheduling and resource allocation. Communicate regularly with clients, keeping them informed of project progress and addressing any issues or concerns that arise.",
     location: "Remote",
     salary: "$70,000 - $85,000",
-    listing: "https://boards.greenhouse.io/blastpoint/jobs/4026393007?gh_src=0742f9c27us",
+    listing:
+      "https://boards.greenhouse.io/blastpoint/jobs/4026393007?gh_src=0742f9c27us",
     date: "2023-09-14",
   },
   {
@@ -355,7 +388,8 @@ export const jobs: Job[] = [
     desc: "PDMI is looking for a Software Quality Analyst III to join our team! PDMI provides technology and other specialized industry solutions for managing health through prescription drug programs for national and regional health plans, Pharmacy Benefit Managers (PBMs), hospice organizations, patient assistance programs and 340B and drug manufacturer assistance programs, as well as various healthcare-related industries.",
     location: "Poland, OH / Remote",
     salary: "Unlisted",
-    listing: "https://pdmi.breezy.hr/p/a68b27f9596d-software-quality-analyst-iii",
+    listing:
+      "https://pdmi.breezy.hr/p/a68b27f9596d-software-quality-analyst-iii",
     date: "2023-05-17",
   },
   {
@@ -401,7 +435,7 @@ export const jobs: Job[] = [
     location: "Warren, OH",
     salary: "Unlisted",
     listing: "https://www.linkedin.com/jobs/view/3599214643/",
-    date: "2023-05-09"
+    date: "2023-05-09",
   },
   {
     title: "Senior DevOps Engineer",
@@ -409,7 +443,8 @@ export const jobs: Job[] = [
     desc: "We're currently seeking a Senior DevOps Engineer to help us scale out our cloud infrastructure and platform services as we continue to grow. The person in this role will help build and operate the software platform at the foundation of our production environment. They will partner with our client and backend engineering teams to ensure that our applications can be deployed efficiently and operated reliably at scale. A great candidate for this role is someone who excels at building and managing fault-tolerant auto-scaling services and is an expert at distributed cloud infrastructure.",
     location: "Remote",
     salary: "$155,000 - $180,000",
-    listing: "https://jobs.lever.co/marcopolo/0c2e4239-8d49-49cc-af27-0bf44e2ed508",
+    listing:
+      "https://jobs.lever.co/marcopolo/0c2e4239-8d49-49cc-af27-0bf44e2ed508",
     date: "2023-05-01",
   },
   {
@@ -418,7 +453,8 @@ export const jobs: Job[] = [
     desc: "We're currently seeking a Staff Platform Engineer to help us scale out our cloud infrastructure, data platform and platform services as we continue to grow. The person in this role will help set direction for the data and software platform at the foundation of our production environment. They will partner with our client and backend engineering teams to ensure that our platform delivers value to the business and enhances the developer experience. A great candidate for this role is someone who excels at bridging vision and execution, and desires to have an outsized impact on the core of our technology.",
     location: "Remote",
     salary: "$200,000 - $225,000",
-    listing: "https://jobs.lever.co/marcopolo/49d68dd5-2785-419a-9ae8-e7a84b84bb8a",
+    listing:
+      "https://jobs.lever.co/marcopolo/49d68dd5-2785-419a-9ae8-e7a84b84bb8a",
     date: "2023-05-01",
   },
   {
@@ -463,7 +499,8 @@ export const jobs: Job[] = [
     desc: "We are seeking a driven and talented individual who is looking to make a real contribution beyond simply writing code to check off requirements. This is a Mid Level Software Developer position, requiring some experience. Experience in TypeScript or JavaScript, relational databases, REST APIs, and 3 years professional experiene in Software Development.",
     location: "Austintown, OH / Remote",
     salary: "Unlisted",
-    listing: "https://www.ziprecruiter.com/jobs/sensource-cc1b7d31/mid-level-software-developer-bd74fd6f",
+    listing:
+      "https://www.ziprecruiter.com/jobs/sensource-cc1b7d31/mid-level-software-developer-bd74fd6f",
     date: "2023-04-19",
   },
   {
@@ -472,7 +509,8 @@ export const jobs: Job[] = [
     desc: "The class works under general supervision and is responsible for the resolution of customer application issues or questions typically as escalated from the IT service desk, and/or assigned. Tasks include writing, testing, debugging, and correcting and/or modifying computer programs according to specific instructions and using high-level computer language. Performs problem diagnosis and resolution according to standard and/or best practices; works with clients to ensure the functionality and workability of necessary applications. Logs progress, work status, and accounts for time spent.",
     location: "Youngstown, OH",
     salary: "$33.00 per hour",
-    listing: "https://www.schooljobs.com/careers/ysu/jobs/3981660/software-integration-analyst-2?fbclid=IwAR1dQz1D9_PSd853Ndv_bktm2BcD4RrcbowSgo-GXbEA_U_0jK62vFdYYwE",
+    listing:
+      "https://www.schooljobs.com/careers/ysu/jobs/3981660/software-integration-analyst-2?fbclid=IwAR1dQz1D9_PSd853Ndv_bktm2BcD4RrcbowSgo-GXbEA_U_0jK62vFdYYwE",
     date: "2023-04-17",
   },
   {
@@ -490,7 +528,8 @@ export const jobs: Job[] = [
     desc: "Cloud Engineers at Rearc have good experience implementing cloud best practices, contributing to teams to build and maintain cloud infrastructure, and automation pipelines. They work on our engagements along with our customers’ teams to improve developer experience, their security posture, and overall cloud infrastructure.",
     location: "New York, NY / Remote",
     salary: "Unlisted",
-    listing: "https://jobs.lever.co/rearc/5fa73924-49c5-48bb-9621-829b17baf495?lever-via=kEtFJB8eCw",
+    listing:
+      "https://jobs.lever.co/rearc/5fa73924-49c5-48bb-9621-829b17baf495?lever-via=kEtFJB8eCw",
     date: "2023-04-04",
   },
   {
@@ -499,7 +538,8 @@ export const jobs: Job[] = [
     desc: "As a member of the Advanced Manufacturing & Materials team, you will operate laser powder bed fusion machines and related equipment to produce rocket engine components for Ursa Major’s products. This role demands a high attention to detail, a hands-on self-starter mentality, and desire to grow & contribute to Ursa’s mission in a small team environment. Your contributions will enable the future of advanced manufacturing for rocket propulsion systems.",
     location: "Youngstown, OH",
     salary: "Unlisted",
-    listing: "https://www.ursamajor.com/careers/4227468005-additive-manufacturing-technician",
+    listing:
+      "https://www.ursamajor.com/careers/4227468005-additive-manufacturing-technician",
     date: "2023-04-03",
   },
   {
@@ -508,7 +548,8 @@ export const jobs: Job[] = [
     desc: "This is an opportunity for you to use software and data engineering skills to enable cybersecurity to protect the people that protect us. You will be responsible for building security-focused web applications, support security projects and initiatives, collaborate with other teams to accomplish shared objectives, and a passion for self-growth and strong focus on career development. Specific knowledge and skills in Python and JS, data engineering, and cloud architecture. Along with 3 - 5 years of software development experience.",
     location: "Chicago, IL / Hybrid",
     salary: "Unlisted",
-    listing: "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-Engineer_R36868-1",
+    listing:
+      "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Software-Engineer_R36868-1",
     date: "2023-03-22",
   },
   {
@@ -517,7 +558,8 @@ export const jobs: Job[] = [
     desc: "The Diversity & Inclusion Technology Internship Program is a great opportunity to work at some of Ohio's most innovative companies! These paid internships give college students great experience in business and entrepreneurship, while companies get great young, diverse talent to help them compete and grow. If accepted, you will be working on cloud based software application with two experienced lead developers. Technologies are React, Angular, C#, Python, and Javascript. Experience working with API's is a requirement.",
     location: "Boardman, OH",
     salary: "$22.00 - $26.00 per hour",
-    listing: "https://development.ohio.gov/business/third-frontier-and-technology/diversity-inclusion-technology-internship-program",
+    listing:
+      "https://development.ohio.gov/business/third-frontier-and-technology/diversity-inclusion-technology-internship-program",
     date: "2023-02-28",
   },
   {
