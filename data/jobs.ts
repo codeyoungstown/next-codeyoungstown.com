@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Product Manager III",
+    company: "Aya Healthcare",
+    desc: "The Product Manager will manage a new or existing software initiative for an external facing product. They will work with software engineering and the product team to improve our products, address new challenges, and drive business outcomes for Aya. This person needs to be able to break down a complex and technical roadmap into software requirements that iteratively deliver value, while also effectively communicating a business-focused vision to our stakeholders and internal leadership. ",
+    location: "Remote, US",
+    salary: "Annual salary of $165,000 to $175,000",
+    listing:
+      "https://www.ayahealthcare.com/corporate-careers/jobs/6207390/?gh_jid=6207390&gh_jtitle=Product%20Manager%20III",
+    date: "2024-08-28",
+  },
+  {
     title: "Software Engineer - Tools & Autmoation",
     company: "Bitfocus",
     desc: "We are seeking a highly motivated and experienced Tools & Automation Engineer to join our Tools & Automation team. The successful candidate will be responsible for playing a key role in the Tools & Automation team at Bitfocus, where they will be responsible for designing, building, and maintaining solutions that enhance our engineering processes. Working closely with stakeholders and team members, the engineer will focus on creating tooling for reproducible test environments, developing automated testing frameworks, and constructing a robust CI/CD pipeline. This role is ideal for an engineer who is proactive, innovative, and is passionate about delivering high-quality solutions. The engineer should be comfortable working in a dynamic environment and capable of communicating effectively with stakeholders at all levels. ",
