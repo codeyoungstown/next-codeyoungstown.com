@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Full Stack Web Developer",
+    company: "Cognizant",
+    desc: "We are looking for a Full Stack Web Developer to create and maintain the technical solutions to a range of challenging business problems. They are expected to leverage an understanding of application development theory, concepts and best practices to provide the most ideal solution to the challenges presented. Applications are typically developed collaboratively within a team; most teams are responsible for the support of several applications simultaneously. Development teams within the Business Applications organization apply the Scaled Agile Framework (SAFe) to deliver solutions. Communication and presentation skills become a necessity in this space as ideas must be regularly shared between both team members and business stakeholders (that may have limited understanding of technical concepts). Our Full Stack Web Developers are expected to develop a basic understanding of the underlying processes that a business application might support.",
+    location: "Remote, Dallas, TX",
+    salary: "Annual salary of $94,482 - $150,500",
+    listing:
+      "https://careers.cognizant.com/global-en/jobs/00060348843/full-stack-web-developer-remote/",
+    date: "2024-09-01",
+  },
+  {
     title: "Product Manager III",
     company: "Aya Healthcare",
     desc: "The Product Manager will manage a new or existing software initiative for an external facing product. They will work with software engineering and the product team to improve our products, address new challenges, and drive business outcomes for Aya. This person needs to be able to break down a complex and technical roadmap into software requirements that iteratively deliver value, while also effectively communicating a business-focused vision to our stakeholders and internal leadership. ",
