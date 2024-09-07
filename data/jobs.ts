@@ -10,6 +10,24 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Business Data Analyst",
+    company: "BlastPoint",
+    desc: "As a Business Data Analyst at BlastPoint with a focus in data visualization and storytelling, you will play a critical role in bridging the gap between data and customer decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills. You will be responsible for constructing business-ready presentations, ensuring data integrity, and providing actionable insights to both our internal teams and diverse clientele.As a Business Data Analyst at BlastPoint with a focus in data visualization and storytelling, you will play a critical role in bridging the gap between data and customer decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills. You will be responsible for constructing business-ready presentations, ensuring data integrity, and providing actionable insights to both our internal teams and diverse clientele.",
+    location: "Remote - US",
+    salary: "Salary Range: $70,000-$90,000",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4229529007",
+    date: "2024-09-06",
+  },
+  {
+    title: "Junior Data Engineer",
+    company: "BlastPoint",
+    desc: "We are seeking a talented Junior Data Engineer to join our expanding engineering team. The ideal candidate for this position combines strong Python and SQL programming skills with a passion for transforming raw data into valuable insights for business use cases. This role focuses on client-facing responsibilities, collaborating closely with customer success, operations, and data scientists to deliver actionable data solutions.",
+    location: "Remote - US",
+    salary: "Salary Range: $79,000-$93,000",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4477594007",
+    date: "2024-09-06",
+  },
+  {
     title: "Full Stack Web Developer",
     company: "Cognizant",
     desc: "We are looking for a Full Stack Web Developer to create and maintain the technical solutions to a range of challenging business problems. They are expected to leverage an understanding of application development theory, concepts and best practices to provide the most ideal solution to the challenges presented. Applications are typically developed collaboratively within a team; most teams are responsible for the support of several applications simultaneously. Development teams within the Business Applications organization apply the Scaled Agile Framework (SAFe) to deliver solutions. Communication and presentation skills become a necessity in this space as ideas must be regularly shared between both team members and business stakeholders (that may have limited understanding of technical concepts). Our Full Stack Web Developers are expected to develop a basic understanding of the underlying processes that a business application might support.",
