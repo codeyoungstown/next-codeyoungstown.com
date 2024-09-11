@@ -10,6 +10,36 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Engineer Intern",
+    company: "Origami Risk",
+    desc: "We are seeking candidates interested in a Software Engineering Summer internship. As an Engineering intern, you will work on existing products and contribute to the design of new product features. You will build intuitive and highly scalable web applications using the Microsoft stack.",
+    location: "US-IL-Chicago",
+    salary: "$12,600 over 12 weeks",
+    listing:
+      "https://careers-origamirisk.icims.com/jobs/3345/software-engineering-intern/job",
+    date: "2024-09-11",
+  },
+  {
+    title: "Associate Full Stack Engineer II",
+    company: "Origami Risk",
+    desc: "As an Associate Full-Stack Developer, you will provide feedback on existing products and contribute to the design of new product features. With the support and supervision of Senior Product Engineers and Team Leads, you will build intuitive and highly scalable web applications using the Microsoft stack. You must live in the Atlanta or Chicago area in order to be considered.",
+    location: "Remote - US (Atlanta or Chicago)",
+    salary: "Salary Range: $75,000 - $100,000",
+    listing:
+      "https://careers-origamirisk.icims.com/jobs/3384/associate-full-stack-engineer-ii/job",
+    date: "2024-09-11",
+  },
+  {
+    title: "Development Team Lead/Scrum Master Security",
+    company: "Origami Risk",
+    desc: "The Development Team Lead/Scrum Master is responsible for coaching, directing, and providing feedback to a team of developers. You will also provide feedback on existing products and contribute to the design of new product features. You and your teams will build intuitive and highly scalable web applications using modern tools and libraries.",
+    location: "Remote - US",
+    salary: "Salary Range: $140,000 - $175,000",
+    listing:
+      "https://careers-origamirisk.icims.com/jobs/3380/development-team-lead-scrum-master-security/job",
+    date: "2024-09-11",
+  },
+  {
     title: "Business Data Analyst",
     company: "BlastPoint",
     desc: "As a Business Data Analyst at BlastPoint with a focus in data visualization and storytelling, you will play a critical role in bridging the gap between data and customer decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills. You will be responsible for constructing business-ready presentations, ensuring data integrity, and providing actionable insights to both our internal teams and diverse clientele.As a Business Data Analyst at BlastPoint with a focus in data visualization and storytelling, you will play a critical role in bridging the gap between data and customer decision-making. This position requires a unique blend of technical aptitude, business acumen, and communication skills. You will be responsible for constructing business-ready presentations, ensuring data integrity, and providing actionable insights to both our internal teams and diverse clientele.",
