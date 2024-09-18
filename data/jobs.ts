@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Junior Software Engineer",
+    company: "Securastock",
+    desc: "Assist in the design, development, and scaling of software solutions, from front-end to back-end to mobile, within our Linux-based systems. Collaborate with experienced engineers to architect high-performance systems, always seeking improvements in speed, efficiency, and reliability. Help troubleshoot and resolve complex problems, from system design to hardware-software integration. Assist in investigating and resolving escalated issues from customer support, ensuring smooth operation and high customer satisfaction.",
+    location: "Remote - Cleveland, OH",
+    salary: "$85,000 - $125,000 per year",
+    listing:
+      "https://www.indeed.com/cmp/Securastock/jobs?jk=ee773e605e20cdf0&start=0",
+    date: "2024-09-17",
+  },
+  {
     title: "Software Engineer Intern",
     company: "Origami Risk",
     desc: "We are seeking candidates interested in a Software Engineering Summer internship. As an Engineering intern, you will work on existing products and contribute to the design of new product features. You will build intuitive and highly scalable web applications using the Microsoft stack.",
