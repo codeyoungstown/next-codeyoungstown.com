@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Front-End Developer Intern",
+    company: "Thymeless",
+    desc: "We are seeking a Front-End Developer Intern who is eager to learn and contribute to building elegant, user-friendly interfaces for our website and digital platforms. The ideal candidate should have a basic understanding of modern front-end development tools and frameworks like HTML, CSS, React, Angular, and Node.js. This is an excellent opportunity to gain real-world experience in a creative and growing startup while working on meaningful projects that connect technology with family heritage. Please email suman@thymeless.com with your resume and a brief cover letter detailing your interest in the position.",
+    location: "Remote",
+    salary: "Not Mentioned",
+    listing: "",
+    date: "2024-09-24",
+  },
+  {
     title: "Junior Software Engineer",
     company: "Securastock",
     desc: "Assist in the design, development, and scaling of software solutions, from front-end to back-end to mobile, within our Linux-based systems. Collaborate with experienced engineers to architect high-performance systems, always seeking improvements in speed, efficiency, and reliability. Help troubleshoot and resolve complex problems, from system design to hardware-software integration. Assist in investigating and resolving escalated issues from customer support, ensuring smooth operation and high customer satisfaction.",
