@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Engineer",
+    company: "Armanino",
+    desc: "We are seeking a talented Software Engineer to join our dynamic team. In this role, you will contribute to the development of web applications using React and TypeScript. The ideal candidate will have a strong foundation in software development, a keen eye for detail, and a passion for writing clean, efficient code.",
+    location: "Multiple Locations",
+    salary: "Salary Varies by Location",
+    listing:
+      "https://armaninollp.wd1.myworkdayjobs.com/en-US/Armanino/job/Software-Engineer_JR102338",
+    date: "2024-09-27",
+  },
+  {
     title: "Front-End Developer Intern",
     company: "Thymeless",
     desc: "We are seeking a Front-End Developer Intern who is eager to learn and contribute to building elegant, user-friendly interfaces for our website and digital platforms. The ideal candidate should have a basic understanding of modern front-end development tools and frameworks like HTML, CSS, React, Angular, and Node.js. This is an excellent opportunity to gain real-world experience in a creative and growing startup while working on meaningful projects that connect technology with family heritage. Please email suman@thymeless.com with your resume and a brief cover letter detailing your interest in the position.",
