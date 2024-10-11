@@ -22,7 +22,7 @@ export const jobs: Job[] = [
   {
     title: "Startup Programs Director",
     company: "BRITE Energy Innovators",
-    desc: "The Startup Membership Specialist is responsible for driving outreach efforts, onboarding new members, and managing membership databases. The role focuses on building and maintaining relationships with potential and current members, particularly from underserved and diverse communities. The specialist serves as the first point of contact for prospects and ensure a seamless onboarding experience.",
+    desc: "The Startup Program Director at BRITE is responsible for leading and enhancing the organization’s startup programs and services, with a focus on driving growth and innovation. This role involves continuous improvement of services, evaluation, and modification to ensure high-quality support for startups and early-stage companies and founders. There is a great deal of flexibility and creativity necessary for this role in how the individual serves startups and early-stage companies, builds and maintains programming, and added value to industry and community.",
     location: "Hybrid - OH",
     salary: "$93,000 - $124,800",
     listing:
