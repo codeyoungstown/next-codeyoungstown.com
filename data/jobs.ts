@@ -10,6 +10,56 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Venture Relations Manager",
+    company: "BRITE Energy Innovators",
+    desc: "The Venture Relations Manager focuses on building and maintaining strong relationships between BRITE and venture capital funds, angel investor groups, and other financial stakeholders in the clean energy sector. The primary goal is to establish connections between BRITE and these funds, so that there is regular communication and trust between BRITE and the funds to best position portfolio companies seeking capital. This individual has a deep understanding of BRITE clients' fundraising needs and actively engages with firms, funds, and entities that support early-stage energy technology growth. The Venture Relations Manager monitors investor activities, cultivates relationships with new funds and investors, and facilitates introductions between BRITE clients and these funders.",
+    location: "Hybrid - OH",
+    salary: "Not mentioned",
+    listing:
+      "https://briteenergyinnovators.applytojob.com/apply/aB4el8tLes/Venture-Relations-Manager?source=Our%20Career%20Page%20Widget",
+    date: "2024-10-10",
+  },
+  {
+    title: "Startup Programs Director",
+    company: "BRITE Energy Innovators",
+    desc: "The Startup Program Director at BRITE is responsible for leading and enhancing the organization’s startup programs and services, with a focus on driving growth and innovation. This role involves continuous improvement of services, evaluation, and modification to ensure high-quality support for startups and early-stage companies and founders. There is a great deal of flexibility and creativity necessary for this role in how the individual serves startups and early-stage companies, builds and maintains programming, and added value to industry and community.",
+    location: "Hybrid - OH",
+    salary: "$93,000 - $124,800",
+    listing:
+      "https://briteenergyinnovators.applytojob.com/apply/ASCt746URK/Startup-Programs-Director?source=Our%20Career%20Page%20Widget",
+    date: "2024-10-10",
+  },
+  {
+    title: "Startup Membership Specialist",
+    company: "BRITE Energy Innovators",
+    desc: "The Startup Membership Specialist is responsible for driving outreach efforts, onboarding new members, and managing membership databases. The role focuses on building and maintaining relationships with potential and current members, particularly from underserved and diverse communities. The specialist serves as the first point of contact for prospects and ensure a seamless onboarding experience.",
+    location: "Hybrid - OH",
+    salary: "$43,680 - $62,400",
+    listing:
+      "https://briteenergyinnovators.applytojob.com/apply/143VSmq6Jc/Startup-Membership-Specialist?source=Our%20Career%20Page%20Widget",
+    date: "2024-10-10",
+  },
+  {
+    title: "Government Funding Assistance Program Manager",
+    company: "BRITE Energy Innovators",
+    desc: "The Government Funding Assistance Program Manager is responsible for identifying government funding opportunities that align with the needs of BRITE’s clients based on their maturity and core technology. Potential state and federal funding opportunities may include state research and deployment requests from the National Aeronautics and Space Administration, the National Science Foundation, U.S. Department of Agriculture, U.S. Department of Defense, U.S. Department of Energy, U.S. Small Business Administration and others with Small Business Innovation Research programs, Small Business Technology Transfer programs, contracts, grants, prizes, and tax credits. This role includes tracking and recommending relevant  funding programs at both state and federal levels for clients at all stages, from research and development to commercialization, deployment, market-entry, and maturity. This individual manages and oversees relationships with advisors providing subject-matter expertise to increase the success of applications and coordinates the process to help companies throughout the application journey.",
+    location: "Hybrid - OH",
+    salary: "$64,480 - $104,000",
+    listing:
+      "https://briteenergyinnovators.applytojob.com/apply/cqkyBRWxd8/Government-Funding-Assistance-Program-Manager?source=Our%20Career%20Page%20Widget",
+    date: "2024-10-10",
+  },
+  {
+    title: "CXO Project Manager",
+    company: "BRITE Energy Innovators",
+    desc: "The CXO Project Manager at BRITE plays a critical role in the success of the CXO program, which is a fractional executive program serving startups and diversifying companies that have a solid foundation built and are ready to accelerate their growth. This position is responsible for overseeing the planning, execution, and completion of various projects within the program, ensuring that all client engagements are delivered on time, within scope, and within budget. The Project Manager will collaborate with cross-functional teams, including fractional executives, consultants, and administrative staff, to drive operational efficiency and supporting the team to meet client delivery needs.",
+    location: "Hybrid - OH",
+    salary: "$64,480 - $104,000",
+    listing:
+      "https://briteenergyinnovators.applytojob.com/apply/daWV4WbBYs/CXO-Project-Manager?source=Our%20Career%20Page%20Widget",
+    date: "2024-10-10",
+  },
+  {
     title: "Software Engineer",
     company: "Armanino",
     desc: "We are seeking a talented Software Engineer to join our dynamic team. In this role, you will contribute to the development of web applications using React and TypeScript. The ideal candidate will have a strong foundation in software development, a keen eye for detail, and a passion for writing clean, efficient code.",
