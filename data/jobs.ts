@@ -10,6 +10,25 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Implementation Project Manager",
+    company: "BlastPoint",
+    desc: "The Implementation Project Manager plays a critical role in managing customer data onboarding projects, working closely with both internal teams and external clients. This external-facing position involves engaging with customers to facilitate data integration, ensuring project timelines are met, and supporting the overall onboarding process. The ideal candidate should possess strong project management skills, have a good understanding of data, and be able to communicate effectively with both technical and non-technical teams.",
+    location: "Remote Role - Pittsburgh, PA Headquarters Office",
+    salary: "$70,000 - $85,000",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4558538007",
+    date: "2024-11-07",
+  },
+  {
+    title: "Junior Data Scientist",
+    company: "BlastPoint",
+    desc: "We are seeking a talented Junior Data Scientist to join our growing engineering team. The ideal candidate should be adept at building practical, effective machine learning models to solve real-world problems. This role will focus on developing data-driven solutions, ensuring model effectiveness, and addressing unique client challenges. The successful candidate will contribute to project delivery by designing and implementing predictive models, supporting data analysis processes, and collaborating closely with clients to drive impactful outcomes.",
+    location: "Remote Role - Pittsburgh, PA Headquarters Office",
+    salary: "$77,000 - $93,000",
+    listing:
+      "https://job-boards.greenhouse.io/blastpoint/jobs/4557659007?gh_src=03bb30d67us",
+    date: "2024-11-07",
+  },
+  {
     title: "Venture Relations Manager",
     company: "BRITE Energy Innovators",
     desc: "The Venture Relations Manager focuses on building and maintaining strong relationships between BRITE and venture capital funds, angel investor groups, and other financial stakeholders in the clean energy sector. The primary goal is to establish connections between BRITE and these funds, so that there is regular communication and trust between BRITE and the funds to best position portfolio companies seeking capital. This individual has a deep understanding of BRITE clients' fundraising needs and actively engages with firms, funds, and entities that support early-stage energy technology growth. The Venture Relations Manager monitors investor activities, cultivates relationships with new funds and investors, and facilitates introductions between BRITE clients and these funders.",
