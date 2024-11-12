@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Student UI/UX Designer",
+    company: "Dev Youngstown",
+    desc: "We are seeking a self-motivated and ambitious individual eager to kick-start their software engineering or UX/UI career by working on real-world projects. As the ideal candidate, you must be able to efficiently manage and report your task progress, proactively seek assistance when needed, and possess a strong drive to learn. We value candidates who can showcase projects they have independently developed, preferably utilizing JavaScript, TypeScript, Python, and/or Figma. While your projects need not be flawless, your ability to discuss them in terms of planning, decision-making, and potential avenues for enhancement is crucial. In addition, although not a requirement, we prefer candidates who envision a long-term commitment to our company by expressing interest in working with us throughout the Summer 2025 and Fall 2025 semesters.",
+    location: "Remote",
+    salary: "$15 an hour with a $2.50 raise every semester, up to $20 an hour",
+    listing:
+      "https://docs.google.com/forms/d/e/1FAIpQLSe-BdvWsWiYvg1fqlRn4OusgwPuq2xnn8rrCgaS-Zi9eJ6dQg/viewform",
+    date: "2024-11-12",
+  },
+  {
+    title: "Student Software Engineer",
+    company: "Dev Youngstown",
+    desc: "We are seeking a self-motivated and ambitious individual eager to kick-start their software engineering or UX/UI career by working on real-world projects. As the ideal candidate, you must be able to efficiently manage and report your task progress, proactively seek assistance when needed, and possess a strong drive to learn. We value candidates who can showcase projects they have independently developed, preferably utilizing JavaScript, TypeScript, Python, and/or Figma. While your projects need not be flawless, your ability to discuss them in terms of planning, decision-making, and potential avenues for enhancement is crucial. In addition, although not a requirement, we prefer candidates who envision a long-term commitment to our company by expressing interest in working with us throughout the Summer 2025 and Fall 2025 semesters.",
+    location: "Remote",
+    salary: "$15 an hour with a $2.50 raise every semester, up to $20 an hour",
+    listing:
+      "https://docs.google.com/forms/d/e/1FAIpQLSe-BdvWsWiYvg1fqlRn4OusgwPuq2xnn8rrCgaS-Zi9eJ6dQg/viewform",
+    date: "2024-11-12",
+  },
+  {
     title: "Implementation Project Manager",
     company: "BlastPoint",
     desc: "The Implementation Project Manager plays a critical role in managing customer data onboarding projects, working closely with both internal teams and external clients. This external-facing position involves engaging with customers to facilitate data integration, ensuring project timelines are met, and supporting the overall onboarding process. The ideal candidate should possess strong project management skills, have a good understanding of data, and be able to communicate effectively with both technical and non-technical teams.",
