@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "UI Developer",
+    company: "RunBuggy",
+    desc: "We are seeking a UI Developer for our Engineering team. The ideal candidate will have a proven track record in UI/UX development with 3-5 years of experience. If this sounds just like you, then please read on! if you feel this is not in your wheelhouse, that is okay too! We are actively hiring outstanding professionals, so we encourage you to apply to one of our many other opportunities.",
+    location: "Fully Remote, AZ",
+    salary: "Market competitive pay based on education and experience",
+    listing: "https://recruiting.paylocity.com/Recruiting/Jobs/Details/2902488",
+    date: "2024-12-15",
+  },
+  {
     title: "Student UI/UX Designer",
     company: "Dev Youngstown",
     desc: "We are seeking a self-motivated and ambitious individual eager to kick-start their software engineering or UX/UI career by working on real-world projects. As the ideal candidate, you must be able to efficiently manage and report your task progress, proactively seek assistance when needed, and possess a strong drive to learn. We value candidates who can showcase projects they have independently developed, preferably utilizing JavaScript, TypeScript, Python, and/or Figma. While your projects need not be flawless, your ability to discuss them in terms of planning, decision-making, and potential avenues for enhancement is crucial. In addition, although not a requirement, we prefer candidates who envision a long-term commitment to our company by expressing interest in working with us throughout the Summer 2025 and Fall 2025 semesters.",
