@@ -10,6 +10,33 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Business Development Representative",
+    company: "BlastPoint",
+    desc: "BlastPoint is seeking a motivated and results-driven Business Development Representative (BDR) to join our growing sales team. As a BDR, you will be the first point of contact for potential customers, playing a critical role in our sales pipeline. You will identify, qualify, and connect high-value prospects with our Account Executives. This role is perfect for a self-starter who thrives on reaching goals, excels in communication, and is passionate about technology and SaaS..",
+    location: "Remote Role - Pittsburgh, PA Headquarters Office",
+    salary: "Base: $55,000 - $65,000 OTE: $100,000",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4616819007",
+    date: "2025-01-08",
+  },
+  {
+    title: "Platform Operations Coordinator",
+    company: "BlastPoint",
+    desc: "We are seeking a detail-oriented and proactive Platform Operations Coordinator to support our platform's operational needs. This semi-technical role will focus on quality assurance, documentation, and administration, helping ensure our platform runs smoothly and meets user needs. This is a full-time (40 hours/week), remote, mid-level position with benefits reporting to the VP of Operations",
+    location: "Remote Role, Headquarters Office: Pittsburgh, PA",
+    salary: "$55,000 - $65,000",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4616837007",
+    date: "2025-01-08",
+  },
+  {
+    title: "Junior Data Engineer",
+    company: "BlastPoint",
+    desc: "We are seeking a talented Junior Data Engineer to join our expanding engineering team. The ideal candidate for this position combines strong Python and SQL programming skills with a passion for transforming raw data into valuable insights for business use cases. This role focuses on client-facing responsibilities, collaborating closely with customer success, operations, and data scientists to deliver actionable data solutions",
+    location: "Remote",
+    salary: "$79,000 - $93,000",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4616818007",
+    date: "2025-01-08",
+  },
+  {
     title: "UI Developer",
     company: "RunBuggy",
     desc: "We are seeking a UI Developer for our Engineering team. The ideal candidate will have a proven track record in UI/UX development with 3-5 years of experience. If this sounds just like you, then please read on! if you feel this is not in your wheelhouse, that is okay too! We are actively hiring outstanding professionals, so we encourage you to apply to one of our many other opportunities.",
