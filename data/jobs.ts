@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Web Designer",
+    company: "898 Marketing",
+    desc: "We are seeking a skilled and experienced Web Designer to join our dynamic team. The ideal candidate is a creative and technical hybrid who bridges the gap between design and development. This role requires a deep understanding of both UX/UI principles and website development, with the ability to create visually compelling and highly functional digital experiences. Working primarily with WordPress and Shopify, the individual will collaborate closely with cross-functional teams to design, develop, and maintain websites that engage users and meet business goals.",
+    location: "Hybrid remote in Canfield, OH",
+    salary: "Not mentioned",
+    listing:
+      "https://www.indeed.com/cmp/898-Marketing/jobs?jk=19cf581169df8231&start=0&clearPrefilter=1",
+    date: "2025-01-10",
+  },
+  {
     title: "Business Development Representative",
     company: "BlastPoint",
     desc: "BlastPoint is seeking a motivated and results-driven Business Development Representative (BDR) to join our growing sales team. As a BDR, you will be the first point of contact for potential customers, playing a critical role in our sales pipeline. You will identify, qualify, and connect high-value prospects with our Account Executives. This role is perfect for a self-starter who thrives on reaching goals, excels in communication, and is passionate about technology and SaaS..",
