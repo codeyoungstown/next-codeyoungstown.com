@@ -22,6 +22,14 @@ export type Company = {
 
 export const companies: Company[] = [
   {
+    name: "Icon Equpiment Distributors",
+    city: "Youngstown",
+    website: "https://iconjds.com/slide-rail-shoring-system/",
+    desc: "Icon Equipment Distributors provides trench shoring equipment rentals, sales, and engineering services. Specializing in slide rail shoring systems, steel trench boxes, and aluminum trench boxes, ICON supports construction projects across the U.S. and internationally.",
+    tags: [],
+    servicesOrProduct: "Product",
+  },
+  {
     name: "Belva Creative",
     city: "Youngstown",
     website: "https://www.belvacreative.com",
@@ -347,7 +355,7 @@ export const companies: Company[] = [
     city: "Youngstown",
     website: "https://www.vistaast.com",
     desc: "Vista AST provides curriculum, equipment and support services to educators and students nationwide.",
-    tags: ["Design", "Hardware",],
+    tags: ["Design", "Hardware"],
     servicesOrProduct: "Product",
   },
   {
