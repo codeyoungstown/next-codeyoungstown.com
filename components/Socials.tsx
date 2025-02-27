@@ -15,7 +15,7 @@ export default function Socials() {
   return (
     <ul className="flex flex-wrap flex-row items-center text-center gap-8 justify-center text-4xl mb-4">
       {socials.map((social) => (
-        <>
+        <div key={social.name} >
           {social.name === "Slack" && (
             <li key={social.name}>
               <CaptchaComponent
@@ -46,7 +46,7 @@ export default function Socials() {
               </a>
             </li>
           )}
-        </>
+        </div>
       ))}
     </ul>
   );
