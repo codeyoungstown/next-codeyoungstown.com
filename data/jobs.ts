@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Programming and Design Internship",
+    company: "Tailored Alloys",
+    desc: "Tailored  Alloys  is  building  a  Large  Language  Model  (LLM)  to  empower  small  and medium-sized manufacturers to make decisions about additive manufacturing efficiently. Working out of Youngstown, we leverage our specialized knowledge in metals additive manufacturing—especially laser powder bed fusion—to train the LLM, named ChatAlloy. ChatAlloy’s front end is built using React and styled with Material UI to ensure a responsive and user-friendly interface. The back end is developed with Django, which handles data management, user authentication, and API endpoints. For natural language processing and reasoning, we use LangChain, leveraging agentic workflows to orchestrate the LLM's interactions with various tools and data sources",
+    location: "Hybrid remote in Youngstown, OH",
+    salary: "$17-20/hour",
+    listing:
+      "Send an email to abernal@tailoredaalloys.com with a brief explanation of your interest and the subject line 'Bacon Fellow 2025'.",
+    date: "2025-04-11",
+  },
+  {
     title: "Web Designer",
     company: "898 Marketing",
     desc: "We are seeking a skilled and experienced Web Designer to join our dynamic team. The ideal candidate is a creative and technical hybrid who bridges the gap between design and development. This role requires a deep understanding of both UX/UI principles and website development, with the ability to create visually compelling and highly functional digital experiences. Working primarily with WordPress and Shopify, the individual will collaborate closely with cross-functional teams to design, develop, and maintain websites that engage users and meet business goals.",
