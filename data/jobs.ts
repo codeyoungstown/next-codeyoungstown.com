@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "DevOps Manager",
+    company: "BlastPoint",
+    desc: "We are seeking a DevOps Manager who thrives in a player/coach role—leading a small team while also making hands-on contributions at a senior engineering level as needed. This role requires a strong background in cloud infrastructure, site reliability engineering (SRE), CI/CD, and information security. You’ll work closely with our engineering teams to optimize deployments, enhance system reliability, and ensure the security and scalability of our cloud infrastructure.",
+    location: "Remote",
+    salary: "$140k-$180k",
+    listing:
+      "https://job-boards.greenhouse.io/blastpoint/jobs/4749275007?gh_src=af205bb57us",
+    date: "2025-06-04",
+  },
+  {
     title: "Programming and Design Internship",
     company: "Tailored Alloys",
     desc: "Tailored  Alloys  is  building  a  Large  Language  Model  (LLM)  to  empower  small  and medium-sized manufacturers to make decisions about additive manufacturing efficiently. Working out of Youngstown, we leverage our specialized knowledge in metals additive manufacturing—especially laser powder bed fusion—to train the LLM, named ChatAlloy. ChatAlloy’s front end is built using React and styled with Material UI to ensure a responsive and user-friendly interface. The back end is developed with Django, which handles data management, user authentication, and API endpoints. For natural language processing and reasoning, we use LangChain, leveraging agentic workflows to orchestrate the LLM's interactions with various tools and data sources",
