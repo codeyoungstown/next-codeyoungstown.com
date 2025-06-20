@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Chief Information Security Officer",
+    company: "Pharmacy Data Management, Inc.",
+    desc: "PDMI is looking for a Chief Information Security Officer (CISO) with deep expertise in cloud security, AI, and risk management to define and lead our enterprise security strategy—protecting patient data, guiding secure AI adoption, and shaping our future in healthcare technology.",
+    location: "Remote",
+    salary: "Not listed",
+    listing:
+      "https://pdmi.breezy.hr/p/17fbb784b6be-chief-information-security-officer-ciso?state=published",
+    date: "2025-06-20",
+  },
+  {
+    title: "Data Engineer",
+    company: "FlyteHealth",
+    desc: "As a Data Engineer at FlyteHealth, you will play a pivotal role on our Data and AI Product Team, architecting the data infrastructure that fuels innovation across our healthcare platform. You will design, maintain, and optimize robust ETL pipelines that power AI-driven features, ensure data availability across the organization, and contribute to shaping FlyteHealth’s approach to scalable, intelligent systems. This role is ideal for an engineer who thrives on autonomy, embraces complexity, and is eager to make a direct impact on both product development and patient outcomes.",
+    location: "Remote",
+    salary: "$100k-$150k",
+    listing:
+      "https://www.linkedin.com/jobs/view/4252105658/",
+    date: "2025-06-20",
+  },
+  {
     title: "DevOps Manager",
     company: "BlastPoint",
     desc: "We are seeking a DevOps Manager who thrives in a player/coach role—leading a small team while also making hands-on contributions at a senior engineering level as needed. This role requires a strong background in cloud infrastructure, site reliability engineering (SRE), CI/CD, and information security. You’ll work closely with our engineering teams to optimize deployments, enhance system reliability, and ensure the security and scalability of our cloud infrastructure.",
