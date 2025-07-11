@@ -10,6 +10,16 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Data Engineer",
+    company: "Youngstown State University",
+    desc: "Identifies, designs, implements, and supports technology solutions including campus-wide technology environments, systems, and services that meet strategic business requirements in a secure manner. Generates, develops, and communicates strategic technical directions and decisions for existing and new client computing technologies. Provides leadership and guidance to technology support staff in the development of technologies, standards, procedural methodologies, and related support materials and communications. Designs and implements data pipelines to integrate data from multiple sources for use in data analytics activities across YSU business and academic functions. Defines changes to the warehouse data model, and builds scalable and efficient processes to populate or modify warehouse data that align with warehouse standards and data management processes. Collaborates with data owners and stewards on efforts to ensure data integrity and data governance. Provides documentation, training, and consulting for data warehouse users. Provides input and feedback to support continuous improvement in data management processes.",
+    location: "Youngstown, OH",
+    salary: "$54,417.00 - $73,488.00",
+    listing:
+      "https://www.schooljobs.com/careers/ysu/jobs/4995913/data-engineer",
+    date: "2025-07-11",
+  },
+  {
     title: "Chief Information Security Officer",
     company: "Pharmacy Data Management, Inc.",
     desc: "PDMI is looking for a Chief Information Security Officer (CISO) with deep expertise in cloud security, AI, and risk management to define and lead our enterprise security strategy—protecting patient data, guiding secure AI adoption, and shaping our future in healthcare technology.",
