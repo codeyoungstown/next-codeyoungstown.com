@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Engineer",
+    company: "K2 Venture Partners",
+    desc: "We're seeking an exceptional software engineer who combines technical excellence with pragmatic product thinking. As a full-stack generalist, you'll own entire features from database design to user interface, working closely with our product team to deliver cutting-edge software solutions..This role demands versatility and technical depth. While you'll touch every part of the stack, we especially value strong backend expertise—building robust APIs, designing scalable databases, implementing complex business logic, and integrating AI/RAG capabilities. You'll architect systems that can evolve with rapidly changing startup needs while maintaining the flexibility to jump into React when the frontend needs attention. You'll be a technical partner to founders, translating business requirements into elegant technical solutions and making critical architecture decisions that shape products from their earliest stages.",
+    location: "Westlake, OH. Hybrid schedule (3 days/week in office)",
+    salary: "Competitive compensation",
+    listing:
+      "https://k2vp.com/careers/software-engineer?from=careers",
+    date: "2025-08-02",
+  },
+  {
+    title: "UI/UX Designer",
+    company: "K2 Venture Partners",
+    desc: "We're looking for a UI/UX designer with a strong eye for elegant design and a passion for prototyping directly in code. You'll be responsible for crafting intuitive, gorgeous interfaces that are as useful as they are aesthetically pleasing and taking them past mockups into working front-end components using our JavaScript stack. You'll own the look and feel of our products end-to-end. While you'll work alongside engineers who wire up your work to complex logic and data flows, you'll be the champion for delightful, user-centered design that's actually brought to life in the product, not left in Figma.",
+    location: "Westlake, OH. Hybrid schedule (3 days/week in office)",
+    salary: "Competitive compensation based on experience",
+    listing:
+      "https://k2vp.com/careers/ui-ux-designer?from=careers",
+    date: "2025-08-02",
+  },
+  {
     title: "Data Engineer",
     company: "Youngstown State University",
     desc: "Identifies, designs, implements, and supports technology solutions including campus-wide technology environments, systems, and services that meet strategic business requirements in a secure manner. Generates, develops, and communicates strategic technical directions and decisions for existing and new client computing technologies. Provides leadership and guidance to technology support staff in the development of technologies, standards, procedural methodologies, and related support materials and communications. Designs and implements data pipelines to integrate data from multiple sources for use in data analytics activities across YSU business and academic functions. Defines changes to the warehouse data model, and builds scalable and efficient processes to populate or modify warehouse data that align with warehouse standards and data management processes. Collaborates with data owners and stewards on efforts to ensure data integrity and data governance. Provides documentation, training, and consulting for data warehouse users. Provides input and feedback to support continuous improvement in data management processes.",
