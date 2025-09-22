@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "DevOps Manager",
+    company: "BlastPoint",
+    desc: "We are seeking a DevOps Manager who thrives in a player/coach role—leading a small team while also making hands-on contributions at a senior engineering level as needed. This role requires a strong background in cloud infrastructure, site reliability engineering (SRE), CI/CD, and information security. You’ll work closely with our engineering teams to optimize deployments, enhance system reliability, and ensure the security and scalability of our cloud infrastructure.",
+    location: "Remote",
+    salary: "$140K-180K",
+    listing:
+      "https://job-boards.greenhouse.io/blastpoint/jobs/4911469007",
+    date: "2025-09-22",
+  },
+  {
+    title: "Head of Customer Success (Director)",
+    company: "BlastPoint",
+    desc: "The ideal candidate is a seasoned CS executive who thrives in the controlled chaos of a scaling startup. They have successfully navigated the journey from ~$5M to $20M+ ARR at least once and know what it takes to win. They combine strong executive presence with deep financial acumen and the ability to operate as a relentless internal champion for the customer. They are energized by the challenge of building a function, coaching A-players, and proving the business impact of their team's work with hard, undeniable data.",
+    location: "Remote",
+    salary: "$160K - $180K (OTE $190K - $220K)",
+    listing:
+      "https://job-boards.greenhouse.io/blastpoint/jobs/4903834007",
+    date: "2025-09-22",
+  },
+  {
     title: "Software Engineer",
     company: "K2 Venture Partners",
     desc: "We're seeking an exceptional software engineer who combines technical excellence with pragmatic product thinking. As a full-stack generalist, you'll own entire features from database design to user interface, working closely with our product team to deliver cutting-edge software solutions..This role demands versatility and technical depth. While you'll touch every part of the stack, we especially value strong backend expertise—building robust APIs, designing scalable databases, implementing complex business logic, and integrating AI/RAG capabilities. You'll architect systems that can evolve with rapidly changing startup needs while maintaining the flexibility to jump into React when the frontend needs attention. You'll be a technical partner to founders, translating business requirements into elegant technical solutions and making critical architecture decisions that shape products from their earliest stages.",
