@@ -10,6 +10,26 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Web Developer",
+    company: "898 Marketing",
+    desc: "We’re looking for an experienced, creative, marketing-minded Web Developer to bring digital experiences to life. You’ll collaborate with our design, content, and strategy teams to build and maintain websites that perform as beautifully as they look.",
+    location: "Hybrid remote in Canfield, OH",
+    salary: "Not mentioned",
+    listing:
+      "https://www.indeed.com/cmp/898-Marketing/jobs?jk=f86cfbb891c8f069&start=0&clearPrefilter=1",
+    date: "2025-11-19",
+  },
+  {
+    title: "Jr. Software Engineer - Front-End",
+    company: "BlastPoint",
+    desc: "As a front-end engineer at BlastPoint, you will contribute to the architecture, design, and implementation of our software-as-a-service platform, with an emphasis on front-end design and development. You’ll build powerful, intuitive, and aesthetically pleasing interfaces that help customers understand their large datasets, working closely with product, design, and engineering team colleagues to translate product vision and business needs into clean and scalable code.",
+    location: "Remote",
+    salary: "$70k-$90K",
+    listing:
+      "https://job-boards.greenhouse.io/blastpoint/jobs/4985601007",
+    date: "2025-11-19",
+  },
+  {
     title: "DevOps Manager",
     company: "BlastPoint",
     desc: "We are seeking a DevOps Manager who thrives in a player/coach role—leading a small team while also making hands-on contributions at a senior engineering level as needed. This role requires a strong background in cloud infrastructure, site reliability engineering (SRE), CI/CD, and information security. You’ll work closely with our engineering teams to optimize deployments, enhance system reliability, and ensure the security and scalability of our cloud infrastructure.",
