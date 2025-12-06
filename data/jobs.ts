@@ -120,6 +120,15 @@ export const jobs: Job[] = [
     date: "2025-04-11",
   },
   {
+    title: "Senior Software Engineer - Additive Manufacturing",
+    company: "Ursa Major",
+    desc: "Lead development of production-grade Python software and control algorithms for laser powder bed fusion systems, integrating REST APIs and OPC UA communication to improve print quality and speed.",
+    location: "Youngstown, OH",
+    salary: "Not listed",
+    listing: "https://ursamajor.com/careers/?gh_jid=4624958005&gh_src=f3nackfm5us",
+    date: "2025-12-06",
+  },
+  {
     title: "Web Designer",
     company: "898 Marketing",
     desc: "We are seeking a skilled and experienced Web Designer to join our dynamic team. The ideal candidate is a creative and technical hybrid who bridges the gap between design and development. This role requires a deep understanding of both UX/UI principles and website development, with the ability to create visually compelling and highly functional digital experiences. Working primarily with WordPress and Shopify, the individual will collaborate closely with cross-functional teams to design, develop, and maintain websites that engage users and meet business goals.",
