@@ -10,6 +10,33 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Data Scientist",
+    company: "BlastPoint",
+    desc: "Lead client-facing machine learning projects, building reproducible models, improving internal data products, and collaborating with customers to deliver predictive insights at scale.",
+    location: "Remote Role - Pittsburgh, PA Headquarters Office",
+    salary: "$100K - $125K",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4999238007",
+    date: "2025-12-08",
+  },
+  {
+    title: "Data Onboarding Manager",
+    company: "BlastPoint",
+    desc: "Own customer data onboarding projects by leading client meetings, mapping data to BlastPoint schemas, coordinating cross-functional teams, and improving processes to deliver accurate integrations on schedule.",
+    location: "Remote Role - Pittsburgh, PA Headquarters Office",
+    salary: "$70K - $85K",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4997484007",
+    date: "2025-12-08",
+  },
+  {
+    title: "GTME (Go To Market Engineer)",
+    company: "BlastPoint",
+    desc: "Build and optimize the AI-powered GTM demand generation engine in HubSpot, automating lead capture, routing, scoring, and reporting to align marketing, sales, and customer success workflows.",
+    location: "Remote / Hybrid",
+    salary: "$85K - $130K",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/4998308007",
+    date: "2025-12-08",
+  },
+  {
     title: "Web Developer",
     company: "898 Marketing",
     desc: "We’re looking for an experienced, creative, marketing-minded Web Developer to bring digital experiences to life. You’ll collaborate with our design, content, and strategy teams to build and maintain websites that perform as beautifully as they look.",
