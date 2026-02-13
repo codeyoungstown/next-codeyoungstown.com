@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Web Developer",
+    company: "Youngstown State University",
+    desc: "Plans, designs, and develops web assets, templates, and digital content within university CMS standards. Builds and maintains front-end experiences in Drupal using HTML5, CSS3, JavaScript/jQuery, and responsive design best practices while supporting accessibility (ADA) compliance, quality control, and cross-department web projects.",
+    location: "Youngstown, OH",
+    salary: "$35,780.00 - $42,050.00 Annually",
+    listing: "https://www.schooljobs.com/careers/ysu",
+    date: "2026-02-11",
+  },
+  {
     title: "Data Scientist",
     company: "BlastPoint",
     desc: "Lead client-facing machine learning projects, building reproducible models, improving internal data products, and collaborating with customers to deliver predictive insights at scale.",
