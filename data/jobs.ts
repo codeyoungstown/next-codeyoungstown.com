@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Senior Full Stack Engineer",
+    company: "PDMI",
+    desc: "Design and develop API-first backend services in NodeJS while building modern, responsive React user interfaces. The role supports MSSQL-backed, event-driven architectures, drives system scalability and reliability improvements, reduces technical debt, and contributes clean, testable, well-documented code in a collaborative environment. Candidates should bring 6+ years of software development experience, including strong NodeJS, React, and relational database expertise, with AWS experience preferred.",
+    location: "Poland, OH",
+    salary: "Not mentioned",
+    listing: "https://pdmi.breezy.hr/p/802029323650-senior-full-stack-engineer",
+    date: "2026-02-23",
+  },
+  {
     title: "Web Developer",
     company: "Youngstown State University",
     desc: "Plans, designs, and develops web assets, templates, and digital content within university CMS standards. Builds and maintains front-end experiences in Drupal using HTML5, CSS3, JavaScript/jQuery, and responsive design best practices while supporting accessibility (ADA) compliance, quality control, and cross-department web projects.",
