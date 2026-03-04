@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "VP of Engineering",
+    company: "BlastPoint",
+    desc: "Lead and scale BlastPoint’s engineering organization as a key member of the leadership team, owning delivery, technical strategy, and team growth. The role partners with executive and product leadership to set roadmap priorities, improve engineering velocity, and ensure reliable, scalable platform architecture. Candidates should bring deep startup engineering leadership experience, strong Python and AWS expertise, and a track record of building high-performing teams in data-intensive SaaS environments.",
+    location: "Pittsburgh, PA",
+    salary: "Competitive Salary",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/5064257007",
+    date: "2026-02-27",
+  },
+  {
     title: "Senior Full Stack Engineer",
     company: "PDMI",
     desc: "Design and develop API-first backend services in NodeJS while building modern, responsive React user interfaces. The role supports MSSQL-backed, event-driven architectures, drives system scalability and reliability improvements, reduces technical debt, and contributes clean, testable, well-documented code in a collaborative environment. Candidates should bring 6+ years of software development experience, including strong NodeJS, React, and relational database expertise, with AWS experience preferred.",
