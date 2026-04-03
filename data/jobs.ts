@@ -10,6 +10,15 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Web Designer",
+    company: "IDMI.Net",
+    desc: "Join a small digital team to design and build website layouts and landing pages using WordPress and custom CMS tools, create digital marketing assets in Adobe Creative Suite, and support clean HTML/CSS implementation and developer handoff. Ideal for an early-career designer (0–2 years) with strong visual fundamentals, WordPress/CMS familiarity, comfort collaborating remotely, and a portfolio of thoughtful work.",
+    location: "Poland, OH · Remote (US)",
+    salary: "$40,000 - $50,000/yr",
+    listing: "https://www.linkedin.com/jobs/view/4392872515/",
+    date: "2026-04-02",
+  },
+  {
     title: "VP of Engineering",
     company: "BlastPoint",
     desc: "Lead and scale BlastPoint’s engineering organization as a key member of the leadership team, owning delivery, technical strategy, and team growth. The role partners with executive and product leadership to set roadmap priorities, improve engineering velocity, and ensure reliable, scalable platform architecture. Candidates should bring deep startup engineering leadership experience, strong Python and AWS expertise, and a track record of building high-performing teams in data-intensive SaaS environments.",
