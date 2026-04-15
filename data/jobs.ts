@@ -10,6 +10,42 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Backend Engineer - Video Intelligence",
+    company: "Wowza",
+    desc: "Join Wowza’s AI-powered video intelligence team to build real-time backend services in Python for high-throughput video analysis. The role focuses on FastAPI and WebSocket services, production AI inference pipelines, GPU/resource optimization, and integrating computer vision models (including VLM-oriented workloads) into scalable streaming systems.",
+    location: "Remote (United States)",
+    salary: "Not listed",
+    listing: "https://www.linkedin.com/jobs/view/4400237357",
+    date: "2026-04-15",
+  },
+  {
+    title: "Remote- Sr. Java Streaming Media Engineer",
+    company: "Wowza",
+    desc: "Senior Java streaming engineer role focused on transcoding development and delivery across modern streaming standards. Work includes packaging and delivery for CMAF workflows, new codecs/accelerators, and deep hands-on work with streaming protocols such as HLS and DASH in large-scale media systems.",
+    location: "Colorado, United States (Remote)",
+    salary: "$180,000 - $210,000/yr",
+    listing: "https://www.linkedin.com/jobs/view/4398076114",
+    date: "2026-04-15",
+  },
+  {
+    title: "Data Engineer (Mid-Level)",
+    company: "BlastPoint",
+    desc: "Build and own end-to-end data pipelines for ingestion, transformation, validation, and delivery using Python (Pandas/PySpark), SQL, and AWS. This role partners across engineering, product, and data science to ship reliable production data infrastructure and improve onboarding, monitoring, and automation in a fast-paced startup environment.",
+    location: "Remote - US",
+    salary: "$100K - $135K",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/5107490007",
+    date: "2026-04-15",
+  },
+  {
+    title: "Senior Data Scientist",
+    company: "Multi Media LLC",
+    desc: "Lead high-impact analytics for AI/ML product and business questions, partnering closely with ML engineering and product leadership. The role emphasizes advanced statistical analysis, experimentation, measurement, and actionable recommendations using Python and SQL to improve user, creator, and business outcomes.",
+    location: "Remote (United States)",
+    salary: "$207,000 - $250,000/yr",
+    listing: "https://apply.workable.com/multimediallc/j/8927D24769/",
+    date: "2026-04-15",
+  },
+  {
     title: "Web Designer",
     company: "IDMI.Net",
     desc: "Join a small digital team to design and build website layouts and landing pages using WordPress and custom CMS tools, create digital marketing assets in Adobe Creative Suite, and support clean HTML/CSS implementation and developer handoff. Ideal for an early-career designer (0–2 years) with strong visual fundamentals, WordPress/CMS familiarity, comfort collaborating remotely, and a portfolio of thoughtful work.",
