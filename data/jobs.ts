@@ -10,6 +10,24 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Database Architect / DBA",
+    company: "BlastPoint",
+    desc: "Own database architecture, performance, reliability, security, and scalability for BlastPoint’s SaaS platform. This hands-on role partners across engineering, data engineering, DevOps, security, product, and data science to improve schemas, queries, migrations, tenant isolation, monitoring, backups, disaster recovery, and AWS-hosted database infrastructure.",
+    location: "Remote",
+    salary: "$130K - $160K",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/5150412007",
+    date: "2026-05-30",
+  },
+  {
+    title: "Sr. Automation QA Engineer / SDET",
+    company: "BlastPoint",
+    desc: "Build and own BlastPoint’s automated testing strategy, automation infrastructure, and quality practices for its B2B SaaS platform. The role leads scalable test frameworks, regression strategy, functional validation, load and performance testing, CI/CD quality gates, release readiness workflows, and practical QA process improvements.",
+    location: "Remote",
+    salary: "$120K - $140K",
+    listing: "https://job-boards.greenhouse.io/blastpoint/jobs/5150588007",
+    date: "2026-05-30",
+  },
+  {
     title: "Backend Engineer - Video Intelligence",
     company: "Wowza",
     desc: "Join Wowza’s AI-powered video intelligence team to build real-time backend services in Python for high-throughput video analysis. The role focuses on FastAPI and WebSocket services, production AI inference pipelines, GPU/resource optimization, and integrating computer vision models (including VLM-oriented workloads) into scalable streaming systems.",
