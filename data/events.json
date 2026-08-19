@@ -1,0 +1,430 @@
+{
+  "sourceNames": [
+    "Meetup archive",
+    "Code Youngstown retrospective"
+  ],
+  "scrapedAt": "2026-08-19T20:47:53.484Z",
+  "totalCount": 41,
+  "meetupCount": 39,
+  "historicalCount": 2,
+  "events": [
+    {
+      "id": "314098541",
+      "title": "From Vision to Venture: Turning Ideas into Reality",
+      "description": "Join YBI Engine and Code Youngstown for a special session with Dr. Wayne Mackey, Founder & CEO of Statespace.\n\nFrom self-taught coder to neuroscientist, Mackey has raised over $100 million from top venture funds and has leveraged his knowledge and expertise to bring Aimlabs to over 40 million users.\n\nAs a founder, his path has been anything but conventional. Join us to hear how he turned an idea into reality and brought the aim trainer to everyone, from beginners to esports pros.\n\nRSVP via EventBrite preferred. Refreshments at 6pm, talk at 6:30pm.\n\nhttps://www.eventbrite.com/e/engine-connect-from-vision-to-venture-turning-ideas-into-reality-tickets-1986559621304",
+      "dateTime": "2026-04-23T18:00:00-04:00",
+      "endTime": "2026-04-23T20:00:00-04:00",
+      "location": "YBI's Tech Block Building 5 (TBB5), 252 W. Boardman Street, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/c/f/8/f/highres_533513135.jpeg"
+    },
+    {
+      "id": "312448522",
+      "title": "Code Youngstown Winter Meetup & Mixer @ Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our Winter Meetup & Mixer!\n\nThe event will be held in Westside Bowl's basement on Thursday January 22nd 2026 at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers!\n\nLooking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you January 22nd at WSB!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.",
+      "dateTime": "2026-01-22T18:00:00-05:00",
+      "endTime": "2026-01-22T21:00:00-05:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/9/8/d/e/highres_531819134.jpeg"
+    },
+    {
+      "id": "310943077",
+      "title": "6th Annual Lightning Tech Talks at Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our 6th annual Lightning Tech Talks event!\n\nWe'll be hosting 6 tech-related talks, each up to 6 minutes long, at Westside Bowl on Thursday October 2nd at 6:00pm. We'll be in the Trophy Room (basement).\n\nWhat is a Lightning Talk? A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session.\n\nDoors 6:00pm, talks 6:30pm. Pizza and refreshments provided. Full bar and full menu available.\n\nTalk schedule:\n\\- Mike Sekol: \"Teaching in the New AI World\"\n\\- Mitch Jacovetty: \"Excess Productivity: How I deployed myself into a corner\"\n\\- David Pokrivnak: \"What Lana Del Rey Can Teach Us About Good UI Design\"\n\\- Rob Miller: \"AI\\-assisted Task Decomposition\"\n\\- Chase Hutcheson: \"Internet Privacy \\- What is it? Why should you care? What can you do?\"\n\\- Anthony Hake: \"Solving the ‘Where?’: Using GIS to Address Spatial Problems\"",
+      "dateTime": "2025-10-02T18:00:00-04:00",
+      "endTime": "2025-10-02T20:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/b/c/6/1/highres_530088225.jpeg"
+    },
+    {
+      "id": "305688997",
+      "title": "How Local Startups Are Solving Real Problems by Building Software",
+      "description": "Code Youngstown and the Youngstown Business Incubator (YBI) are excited to invite you to a special event on Tuesday, February 25th on the 3rd floor of YBI's Tech Block Building 5 (TBB5).\n\nGet a behind-the-scenes look at the journeys of some of the region’s most promising startups. Each company will take you through their story—how they got started, the challenges they’ve faced, and the critical role building software plays in their growth. Along the way, they’ll dive into the real-world software engineering problems they’re navigating right now.\n\nWhether you’re curious about the local startup ecosystem, eager to learn how real-world software engineering challenges are tackled, or simply looking for inspiration, this event is your chance to connect with the stories driving innovation in our community.\n\nDoors open at 6:00 PM for refreshments and networking, with talks beginning at 6:30 PM, followed by social hour.\n\nAddress is 252 W. Boardman Street.",
+      "dateTime": "2025-02-25T18:00:00-05:00",
+      "endTime": "2025-02-25T20:00:00-05:00",
+      "location": "YBI's Tech Block Building 5 (TBB5), 252 W. Boardman Street, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/7/2/b/highres_525781835.jpeg"
+    },
+    {
+      "id": "302638160",
+      "title": "5th Annual Lightning Tech Talks at Trek Coffee House",
+      "description": "Code Youngstown is excited to invite you to our 5th annual Lightning Tech Talks event!\n\nWe'll be hosting 6 tech-related talks, each up to 6 minutes long, at Trek Coffee House on Wednesday September 18th at 6:00pm!\n\nWhat is a Lightning Talk? A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session.\n\nDoors 6:00pm, talks 6:30pm. Some refreshments provided.\n\n\\-\\-\\-\n\nTalks:\n\n* Mitch Jacovetty, Full-stack Developer @ Enbasis Inc.\n\"Code as Continent vs. Code as Island Chain: Two Competing Ways to Architect Your Application\"\nDescription: I've noticed that some people prefer organizing their code into units that are homogenous in terms of their technical goals, and some people prefer breaking their code up according to the user needs that each unit is addressing, and I suspect that everything from microservices to serverless architectures to where you put the helper functions in a 500 LoC app can be analyzed and critiqued through this lens.\n\nPatrick Howard, Co-Founder & Lead Gameplay Programmer @ RustBit\n\"Gunplay In Games\"\nA lightning talk about interface design in video games with a specific focus on shooters.\n\nPatrick Bollinger, Director of Engineering @ Intellihealth\n“Thoughts on making a business by making free (as in freedom) software”\nJoin Patrick as he walks through a thought experiment on building software for the people while being able to pay the bills.\n\nJoe Duncko, Engineering Manager @ BlastPoint\n“How Dev Youngstown Works”\nDev Youngstown partners YSU students with YBI startups to facilitate the YBI’s MVP Development Program. Here’s how that works.\n\nMichael Wilder, Co-Founder & Lead Technical Programmer @ RustBit\n\"Picking a Startup Co-Founder you Won't Regret Later\"\nThinking of starting a business with someone? Learn what to look for in a good co-founder now, to prevent a messy business divorce later.\n\nNick Serra, Unemployed\n“Datahording Setups from Beginner to Expert”\nAn overview of common datahording setups, how to start data hoarding, backing up your horde, and what serious homelab setups look like.",
+      "dateTime": "2024-09-18T18:00:00-04:00",
+      "endTime": "2024-09-18T20:00:00-04:00",
+      "location": "Trek Coffee House, 1588 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/2/b/4/7/highres_522731079.jpeg"
+    },
+    {
+      "id": "301201151",
+      "title": "Code Youngstown Summer 2024 Meetup & Mixer @ Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our Summer 2024 Meetup & Mixer!\n\nThe event will be held in Westside Bowl's basement on Tuesday June 25th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers!\n\nLooking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey?\n\nWe want to see you June 25th at WSB!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.",
+      "dateTime": "2024-06-25T18:00:00-04:00",
+      "endTime": "2024-06-25T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/8/5/4/3/highres_521254115.jpeg"
+    },
+    {
+      "id": "298486767",
+      "title": "Building Universal Apps with React Native, feat. Keith Kurak",
+      "description": "Code Youngstown is excited to host Keith Kurak, Developer Success Engineer at Expo, Thursday Jan 25th at in the Trophy Room at Westside Bowl.\n\nReact Native is a framework for building truly native cross-platform mobile and web apps using JavaScript and React components. Expo open source tools and services complement React Native, making it easy to get started making universal apps without Xcode and Android Studio, using skills and techniques familiar to web developers. Let's learn how to quickly get started building universal apps (that scale!) using Expo and React Native.\n\nKeith Kurak lives in Cleveland, has several years experience building native iOS and React Native apps, and is currently a Developer Success Engineer at Expo.\n\nDoors and refreshments at 6:00pm, talks at 6:30pm.",
+      "dateTime": "2024-01-25T18:00:00-05:00",
+      "endTime": "2024-01-25T20:00:00-05:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/8/a/0/6/highres_518435334.jpeg"
+    },
+    {
+      "id": "297004197",
+      "title": "Junior Night @ Cedar's West End",
+      "description": "Code Youngstown invites you to Junior Night at Cedar's West End, Tuesday November 14th 7:30pm - 9:30pm.\n\nJunior Night is your opportunity to meet other individuals who are looking to break into the software industry. Whether you are a student, looking to switch careers, or just curious what software development even involves, this is the place to be!\n\nThere is no programming scheduled, however experienced software engineers will be there to answer your questions and help make connections.\n\nWe'll provide soft drinks. Tacos (and adult beverages to those of age) will be available at the bar.\n\nAll ages welcome.\n\nPS: Are you an experienced software engineer interested in helping juniors get their career started? Come on by!",
+      "dateTime": "2023-11-14T19:30:00-05:00",
+      "endTime": "2023-11-14T21:30:00-05:00",
+      "location": "Cedars West End, 706 Steel St, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/3/f/a/9/highres_516856297.jpeg"
+    },
+    {
+      "id": "295955795",
+      "title": "4th Annual Lightning Tech Talks at Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our fourth annual Lightning Tech Talks event!\n\nWe'll be hosting 6 tech-related talks, each up to 6 minutes long, at Westside Bowl on Thursday October 5th at 6:00pm!\n\nWhat is a Lightning Talk? A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session.\n\nDoors 6:00pm, talks 6:30pm. Food and drink purchasable at the bar.\n\n\\-\\-\\-\n\nTalk lineup:\n\nPatrick Bollinger\nStaff Software Engineer @ Intellihealth\n\\- If you feel like you’re a slow software engineer\\, it’s not you… probably\\.\n\\- A look into why software development can feel slow\\, the external factors that contribute to the feeling\\, and how to alleviate the external factors\\.\n\nJoe Duncko\nEngineering Manager @ BlastPoint\nEIR @ YBI\n\\- Elegant React state with TanStack Query\n\\- Let's build out a React SPA without a state management library\\!\n\nChris Harwell\nSenior Software Engineer\n\\- Time\\-Saving Hacks: Maximize Efficiency with Git and the Command Line\n\\- Essential tips and shortcuts for using Git and command line interface tools such as grep\\, awk\\, and basic bash scripting to offer strategies to streamline workflows\\, automate repetitive tasks\\, debug code faster and ultimately increase productivity\\.\n\nJeremy Forsythe\nDirector of Software Engineering @ SenSource\n\\- Generative AI Art\n\\- Using open source tools like Stable Diffusion to generate images\\, animations\\, and video\n\nNicholas Serra\nSenior Software Engineer\n\\- Drowning in video tapes\n\\- A quick look at common video tape formats\\, the process \\(and code\\) around properly digitizing them\\, and why you might be too late already\\.\n\nMichael Walker\nSenior Software Engineer @ Baxter Healthcare\n\\- Designing your code for testability\\, moving towards Clean Code\n\\- A simple design approach to designing your classes or functional code for increased testability without any libraries or plugins\\. Two different approaches based on if your language of choice has support parameter defaults or not\\.",
+      "dateTime": "2023-10-05T18:00:00-04:00",
+      "endTime": "2023-10-05T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/6/4/b/highres_515701611.jpeg"
+    },
+    {
+      "id": "294433781",
+      "title": "Code Youngstown Summer Meetup & Mixer @ Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our Summer Meetup & Mixer!\n\nThe event will be held in Westside Bowl's basement on Tuesday July 11th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers!\n\nLooking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you July 11th at WSB!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.",
+      "dateTime": "2023-07-11T18:00:00-04:00",
+      "endTime": "2023-07-11T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/5/1/f/4/highres_513980980.jpeg"
+    },
+    {
+      "id": "292134259",
+      "title": "AppSec Tech Talks feat. Paul Soriano & Paul Hugenberg",
+      "description": "Code Youngstown is excited to invite you to a pair of application security related tech talks!\n\nWe'll be hosting 2x 40-minute tech talks - back to back - in Westside Bowl's basement on Friday April 7th at 6pm. All are welcome!\n\n**Paul Soriano**\nSecurity Architect @ Motorola Solutions\n\n* **Practically Secure: Common Sense Approach to Application Security**\n* This talk will go over practical, common sense guidance on how to assess and mitigate potential security risks and threats to your applications. We’ll go over threat modeling and how this can be used to identify risks and threats to your applications. Next, we’ll review how to select relevant security requirements based on OWASP best practices. Finally, we’ll review security tools and processes used to securely build, test, and deploy your applications.\n\n**Paul Hugenberg III**\nPrincipal @ Rea & Associates, Inc.\nFounder, President & CEO @ InfoGPS Networks, Inc.\n\n* **The Business Case of SSDLC. Starting with a Risk Assessment.**\n* Interactive walkthrough and Q&A around the creation and use of the Security Risk Assessment Process (NIST SP800-30a) prior to writing the first line of code.\n\nDoors and refreshments at 6:00pm, talks at 6:30pm.",
+      "dateTime": "2023-04-07T18:00:00-04:00",
+      "endTime": "2023-04-07T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/a/d/a/a/highres_511184458.jpeg"
+    },
+    {
+      "id": "289774946",
+      "title": "Code Youngstown Winter Meetup & Mixer @ OH WOW!",
+      "description": "Code Youngstown is proud to invite you to our Winter Meetup & Mixer, sponsored by HD Davis CPAs!\n\nThe event will be held at OH WOW! on Tuesday December 13th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers!\n\nLooking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you December 13th at OH WOW!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.",
+      "dateTime": "2022-12-13T18:00:00-05:00",
+      "endTime": "2022-12-13T21:00:00-05:00",
+      "location": "OH WOW! The Roger & Gloria Jones Children's Center for Science & Technology, 15 Central Square, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/5/e/f/5/highres_508944309.jpeg"
+    },
+    {
+      "id": "289600573",
+      "title": "Junior Night @ West Side Bowl",
+      "description": "Code Youngstown invites you to Junior Night at West Side Bowl, Wednesday November 9th 6pm - 9pm.\n\nJunior Night is your opportunity to meet other individuals who are looking to break into the software industry. Whether you are a student, looking to switch careers, or just curious what software development even involves, this is the place to be!\n\nThere is no programming scheduled, however experienced software engineers will be there to answer your questions and help make connections.\n\nPS: Are you an experienced software engineer interested in helping juniors get their career started? Come on by!",
+      "dateTime": "2022-11-09T18:00:00-05:00",
+      "endTime": "2022-11-09T20:00:00-05:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/4/9/c/1/highres_502758881.jpeg"
+    },
+    {
+      "id": "287931032",
+      "title": "3rd Annual Lightning Tech Talks at Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our third annual Lightning Tech Talks event!\n\nWe'll be hosting 6 tech-related talks, each up to 6 minutes long, at Westside Bowl on Tuesday September 27th at 6:00pm!\n\nWhat is a Lightning Talk? A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session.\n\nDoors 6:00pm, talks 6:30pm. Food and drink purchasable at the bar.\n\nSpeakers:\n\nAnthony Hake:\n\\- Emulation: It Isn't a Game\n\\- A short presentation on software imitation vs hardware imitation and it's importance in education and multimedia preservation\n\nBen Rinehart\n\\- Building Cross Platform Mobile Apps with Ionic\n\\- During this talk we will show you how you can build cross platform native iOS\\, Android\\, and PWA Web apps with Javascript\\. We will show how Ionic can leverage native APIs such as Camera\\, Geolocation\\, or Storage to provide a superb application\\, using the JavaScript frameworks you already know and love\\.\n\nBrandon Ritchie\n\\- Music School to Software Development: Transferring Skills between Professions\n\\- A short presentation on the things that helped me switch career fields that might also help you\\.\n\nNeil Primmer\n\\- Anatomy of a podcast\n\\- An overview of the components and workflow that make a podcast work\\.\n\nChris Palmer\n\\- Embedded ray tracing\n\\- A talk about the tradeoffs I needed to make in order to get a ray tracer to run on an Arduino uno\\.\n\nGarrett Huggins\n\\- Javascript: what is nothing?\n\\- A brief look at some of the nuances found in Javascript\\, with a few \"wtf moments\" along the way\\.\n\n***\n\nTo be able to hold the event safely, please help us in following CDC guidelines: masks are optional if vaccinated, but still encouraged. If you don't feel well, we ask that you not attend. Thank you!",
+      "dateTime": "2022-09-27T18:00:00-04:00",
+      "endTime": "2022-09-27T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/1/1/7/2/highres_506404466.jpeg"
+    },
+    {
+      "id": "286124955",
+      "title": "Game Dev Tech Talks feat. Byfron Technologies & RustBit Studio",
+      "description": "Code Youngstown is excited to invite you to a pair of video game development related tech talks!\n\nWe'll be hosting 2x 30-minute tech talks - back to back - at MCCTC on Thursday July 7th at 6pm. All are welcome!\n\nClint Sereday\nCo-Founder & CEO @ Byfron Technologies\n\\- Cheats\\, Hacks\\, and Exploits\n\\- Anti\\-cheat best practices for live service games\\.\n\nPatrick M. Howard & Michael Wilder\nCo-Founders, CEO & CTO @ RustBit Studio\n\\- So you want to build a game?\n\\- Building a successful game is no small feat\\. It takes a lot of hard work and many lessons learned along the way\\. In this talk\\, we’ll be telling the story of how RustBit came to be\\, building a game such as The Grip of Madness that players love to play\\, and some of the advice we’ve acquired from the journey so far\\.\n\nDoors and refreshments at 6:00pm, talks at 6:30pm.",
+      "dateTime": "2022-07-07T18:00:00-04:00",
+      "endTime": "2022-07-07T21:00:00-04:00",
+      "location": "Mahoning County Career & Technical Center, 7300 N Palmyra Rd, Canfield, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/9/e/8/f/highres_505060591.jpeg"
+    },
+    {
+      "id": "285234708",
+      "title": "Code Youngstown Spring Meetup & Mixer @ Westside Bowl",
+      "description": "Code Youngstown is proud to invite you to our Spring Meetup & Mixer!\n\nThe event will be held at Westside Bowl on Wednesday May 25th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers!\n\nLooking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you May 25th at Westside Bowl!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.\n\n\\-\\-\\-\\-\\-\n\nTo be able to hold the event safely, please help us in following CDC guidelines: masks are optional if vaccinated, but still encouraged. If you don't feel well, we ask that you not attend. Thank you!",
+      "dateTime": "2022-05-25T18:00:00-04:00",
+      "endTime": "2022-05-25T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/3/f/e/a/highres_503356362.jpeg"
+    },
+    {
+      "id": "284704844",
+      "title": "Code Youngstown @ HackYSU",
+      "description": "[HackYSU](https://hackysu.com/) is back and in person this year!\n\nApril 8-10th HackYSU is Youngstown State University's annual hackathon - an event designed to help students set aside an entire weekend to work on any technology-related project of their choosing.\n\nFood is provided, and professionals will be there to help students get the most out of the weekend. High school and non-YSU students welcome. Prizes are awarded at the end of the weekend, science-fair style.\n\nAre you a student? Sign up for HackYSU at [https://hackysu.com/](https://hackysu.com/) .\n\nNot a student? We encourage you to consider stopping by HackYSU at any point over the weekend to mentor. Sign up for mentors is at [https://hackysu.com/](https://hackysu.com/) .\n\nSee you there!",
+      "dateTime": "2022-04-08T19:00:00-04:00",
+      "endTime": "2022-04-10T12:00:00-04:00",
+      "location": "DeBartolo Stadium Club, 577 5th Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/4/9/0/b/highres_502758699.jpeg"
+    },
+    {
+      "id": "284705136",
+      "title": "Junior Night @ West Side Bowl",
+      "description": "Code Youngstown invites you to Junior Night at West Side Bowl, Wednesday March 23rd 7pm - 9pm.\n\nJunior Night is your opportunity to meet other individuals who are looking to break into the software industry. Whether you are a student, looking to switch careers, or just curious what software development even involves, this is the place to be!\n\nThere is no programming scheduled, however experienced software engineers will be there to answer your questions and help make connections.\n\nPS: Are you an experienced software engineer interested in helping juniors get their career started? Come on by!",
+      "dateTime": "2022-03-23T19:00:00-04:00",
+      "endTime": "2022-03-23T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/4/9/c/1/highres_502758881.jpeg"
+    },
+    {
+      "id": "281230802",
+      "title": "Twofer Tech Talks: Who said Java was slow? && Intro to the Web MIDI API",
+      "description": "Code Youngstown is excited to invite you to a twofer Tech Talk event!\n\nWe'll be hosting 2x 30-minute tech talks back to back at the Oak Hill Collaborative on Thursday October 28th at 6:00pm!\n\nJames Kleeh\nMicronaut Development Lead @ Object Computing, Inc. (OCI)\n- Who said Java was slow?\n- Micronaut is a modern framework for building applications on the JVM. Join me to see how easy it is to get started, some of the best features, and how fast it can be!\n\nJeremy Forsythe\n\nDirector of Software Engineering @ SenSource\n- Intro to the Web MIDI API\n- A primer on MIDI input and output in the browser\n\nDoors 6:00pm, talks 6:30pm. Refreshments provided. All are welcome!\n\n-----\n\nTo be able to hold the event safely, please help us in following CDC guidelines: masks are optional if vaccinated, but still encouraged. If you don't feel well, we ask that you not attend. Thank you!",
+      "dateTime": "2021-10-28T18:00:00-04:00",
+      "endTime": "2021-10-28T20:00:00-04:00",
+      "location": "Oak Hill Collaborative Inc, 507 Oak Hill Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/7/1/8/c/highres_499289068.jpeg"
+    },
+    {
+      "id": "279804695",
+      "title": "Lightning (Tech) Talks at Westside Bowl",
+      "description": "Code Youngstown is excited to invite you to our second (annual?) Lightning (Tech) Talk event!\n\nWe'll be hosting 7 tech-related talks, each up to 6 minutes long, at Westside Bowl on Tuesday August 24th at 6:00pm!\n\nWhat is a Lightning Talk? A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session.\n\nDoors 6:00pm, talks 6:30pm. Food and drink purchasable at the bar.\n\nSpeakers:\n\nChris Palmer\n- Slick Python One-Liners\n- An introduction to comprehensions in python\n\nAnthony Hake\n- Digital Divide - Our Solution\n- Without computers, internet, or skills to use them many Valley residents miss out on opportunities everyone should have access to. Anthony Hake discusses Oak Hill Collaborative's strategy to turn the Valley's \"Digital Divide\" into our \"Digital Advantage\".\n\nMike Walker\n- Design Patterns\n- Taking you from a Programmer to a Software Engineer\n\nChris Harwell:\n- How to get into tech: my non-conventional approach\n- How I got my first software engineering job and lessons I learned in the process\n\nJoe Duncko:\n- SWBF2.events - A Side Project\n- From idea to 3,500 unique visitors a month\n\nSam Malaska\n- Modernizing frontend build systems\n- Examples and lessons from replacing Require.js with Webpack at Drund\n\nJacob Bryan McFall\n- Adventures in Indie Game Dev\n- An informal exploration into game development using Unity presented by SouthWater Games.\n\n-----\n\nTo be able to hold the event safely, please help us in following CDC guidelines: masks are optional if vaccinated, but still encouraged. If you don't feel well, we ask that you not attend. Thank you!",
+      "dateTime": "2021-08-24T18:00:00-04:00",
+      "endTime": "2021-08-24T21:00:00-04:00",
+      "location": "Westside Bowl, 2617 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/a/2/8/3/highres_497861603.jpeg"
+    },
+    {
+      "id": "278455526",
+      "title": "Code Youngstown Summer Meetup and Mixer at Mill Creek Park",
+      "description": "It's been a while! Now that the vaccine is widely available, we are excited to be able to bring you this summer's Code Youngstown Meetup and Mixer!\n\nThe event will be held at Slippery Rock Pavilion in Mill Creek Park on Tuesday June 29th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers! Looking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you June 29th at Slippery Rock Pavilion in Mill Creek Park!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.\n\n-----\n\nTo be able to hold the event safely, please help us in following CDC guidelines: masks are optional if vaccinated, but still encouraged. If you don't feel well, we ask that you not attend. Thank you!",
+      "dateTime": "2021-06-29T18:00:00-04:00",
+      "endTime": "2021-06-29T20:00:00-04:00",
+      "location": "Slippery Rock Pavilion, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/5/7/7/d/highres_487102397.jpeg"
+    },
+    {
+      "id": "268709949",
+      "title": "An Intro to Livecoding @ HackYSU 2020",
+      "description": "Code Youngstown is going to be at HackYSU, Youngstown State University's annual 36 hour student hackathon!\n\nChris Palmer will be giving a An Intro to Livecoding - using code to create music and reactive visuals - at 10pm.\n\nFeel free to come early (~7pm) for dinner and to help students plan and set up their projects or stay after for One Hot Cookies at midnight and help students overcome bugs and obstacles.\n\nYour help can be the difference between a student's success and being stuck on a bug all weekend!",
+      "dateTime": "2020-02-21T22:00:00-05:00",
+      "endTime": "2020-02-22T00:00:00-05:00",
+      "location": "Stambaugh Stadium, 577 5th Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/e/7/e/7/highres_488999367.jpeg"
+    },
+    {
+      "id": "266608096",
+      "title": "Code Youngstown Winter Meetup and Mixer at Drund!",
+      "description": "This winter's Code Youngstown Meetup and Mixer will be held at Drund on Wednesday December 18th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers! Looking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you December 18th at Drund!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.",
+      "dateTime": "2019-12-18T18:00:00-05:00",
+      "endTime": "2019-12-18T20:00:00-05:00",
+      "location": "Drund, 945 Boardman-Canfield Rd #9, Boardman, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/5/7/7/d/highres_487102397.jpeg"
+    },
+    {
+      "id": "262563291",
+      "title": "Lightning (Tech) Talks at the Michael Kusalaba Library",
+      "description": "Code Youngstown is excited to invite you to the brand new Michael Kusalaba Branch Public Library for our first Lightning (Tech) Talk event!\n\nWhat is a Lightning Talk? A lightning talk is a very short presentation lasting only a few minutes, given at a conference or similar forum. Several lightning talks will usually be delivered by different speakers in a single session.\n\nWe'll be hosting ~5 talks, each up to 6 minutes long.\n\nSpeakers:\n\nBen Rinehart\n- Basics of Design/UX for Backend Developers Who “Don’t Do Pretty\"\n- Some helpful basics, rules and tools that backend developers can use to ensure their apps look great and are usable by wide audiences with little knowledge needed of design theory.\n\nJames Kleeh\n- Compile Your Queries with Micronaut!\n- Micronaut Data is a database access toolkit that uses Ahead of Time (AoT) compilation to pre-compute queries for repository interfaces that are then executed by a thin, lightweight runtime layer.\n\nJeff Rimko\n- FZF Demo\n- FZF is a cross platform CLI fuzzy finder. Let's review installation and some use cases.\n\nKeith Logan\n- One Million Jobs - Doing the \"Patchwork on the Pipeline\"\n- This tech talk is about raising the awareness concerning the one million tech jobs (available by 2020) vs. Youngstown's unemployment rate. The talk also highlights efforts to increase the visibility among people of color within the technology industry.\n\nChris Palmer\n- Live Coding Music with Sonic-Pi\n- A quick tutorial of how to get started with Sonic-Pi and a demonstration of live coding music\n\nLindsay Czopur\n- Agile, Atlassian and You\n- Discover best practices of highly effective Agile teams, including how the use of Atlassian tools like Jira help shape development methods. Explore what Jira is, the options it provides and how it used by some of the biggest and best teams in the world to develop the future of software. We will also discuss other Atlassian products, and how each can help your organization unleash the potential of Agile teams.\n\nAaron Hunt\n- Civil: The Game\n- Essentially, I am presenting my game. I'm 1.7 years into development,\nand things are going strong. I have a very strong community built, a\nwebsite that pulls thousands of people, a Valve-verified Steam Page in\nthe works, and more. I'd like to use this presentation time as a way to\nmeet up with people who are interested in what I have to offer.",
+      "dateTime": "2019-08-29T18:00:00-04:00",
+      "endTime": "2019-08-29T21:00:00-04:00",
+      "location": "Michael Kusalaba Library, 2815 Mahoning Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/d/7/1/c/highres_482515068.jpeg"
+    },
+    {
+      "id": "260045895",
+      "title": "Summer Code Youngstown Meetup and Mixer @ Turning",
+      "description": "This summer's Code Youngstown Meetup and Mixer will be held at Turning Technologies on July 11th at 6pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers! Looking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you July 11th at Turning!\n\nDoors, drinks, and food 6:00pm, introductions at 6:30pm, social hour 7:00pm.",
+      "dateTime": "2019-07-11T18:00:00-04:00",
+      "endTime": "2019-07-11T20:00:00-04:00",
+      "location": "Turning, 255 W Federal St, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/5/f/4/8/highres_481764392.jpeg"
+    },
+    {
+      "id": "261516168",
+      "title": "Code Youngstown Planning Summer 2019 meeting via Google Meet",
+      "description": "Code Youngstown needs your help to plan to the second half of 2019's Code Youngstown Events! We need your opinions and thoughts to drive our upcoming programming!\n\nJoin us via Google Meet Tuesday, May 28th at 6pm!\n\nTo join the video meeting, click this link: https://meet.google.com/mwx-hfyt-soh\n\nOtherwise, to join by phone, dial +1 413-424-6103 and enter this PIN: 754 738 401#",
+      "dateTime": "2019-05-28T18:00:00-04:00",
+      "endTime": "2019-05-28T19:30:00-04:00",
+      "location": "",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/d/4/a/c/highres_481374444.jpeg"
+    },
+    {
+      "id": "259428681",
+      "title": "Machine Learning, Deep Learning, and the Truth about AI",
+      "description": "Code Youngstown and the Youngstown State University Computer Science and Information Systems department are excited to invite you to join us for our next tech talk - Machine Learning, Deep Learning, and the Truth about AI - Tuesday, April 16th at 6pm!\n\nAnthony DeRose, YSU alumni and artificial intelligence enthusiast, will be giving us an entertaining two-part talk. First, the history on how video games funded the next generation of accelerated computing that benefits every field of study from physics to bio-engineering and beyond. Following that will be a \"how-to\" on deep-learning and the tools that you could use today to implement it in your own projects.",
+      "dateTime": "2019-04-16T18:00:00-04:00",
+      "endTime": "2019-04-16T20:00:00-04:00",
+      "location": "Kilcawley Center, 101 Armed Forces Blvd, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/6/8/3/6/highres_479126678.jpeg"
+    },
+    {
+      "id": "257782294",
+      "title": "Tools and Tricks to Remedy Agile Issues",
+      "description": "Code Youngstown, the Youngstown Atlassian User Group, and SenSource are excited to invite you to join us for our next tech talk - Tools and Tricks to Remedy Agile Issues - Tuesday, February 19th at 6pm!\n\nCompanies take typically four (if not more) years to adopt Agile in an efficient and effective way. Already into year four, ScrumMasters Lindsay Czopur and Kay Varacalli will explore common challenges organizations face and how to address each issue - whether successful or not – with important lessons learned along the way. Re-occurring issues include nonexistent or poorly documented processes, broken feedback loops, inadequate planning, failed or ineffective team communication, lack of transparency and inefficient meetings among other obstacles that plague Agile implementation. Learn best practices for battling such challenges with the proper processes and tools, including how the Atlassian suite of products can be your biggest aide in empowering teams.",
+      "dateTime": "2019-02-19T18:00:00-05:00",
+      "endTime": "2019-02-19T20:00:00-05:00",
+      "location": "SenSource Inc., 3890 Oakwood Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/2/e/0/d/highres_477551789.jpeg"
+    },
+    {
+      "id": "257042188",
+      "title": "Code Youngstown 2019 Planning Meeting",
+      "description": "Code Youngstown needs your help to plan our 2019 events!\n\nWant to be involved in planning, marketing, speaking, or hosting Code Youngstown events? Join us at Pressed Coffee Bar & Eatery at 6pm Thursday December 20th!\n\nDuring the event we'll be putting together the 2019 Code Youngstown calendar. We'll be basing our planning decisions off of the feedback survey we sent out in November, who has offered to speak and host in the past, and the opinions of the people at the meeting - so be there if you want to have your voice heard!\n\nBe sure to join our Slack group at https://codeyoungstown.com/ and join the #planning channel! Can't make it but still want to be involved? That's your best way to keep up and contribute!",
+      "dateTime": "2018-12-20T18:00:00-05:00",
+      "endTime": "2018-12-20T20:00:00-05:00",
+      "location": "Pressed Coffee Bar & Eatery, 215 Lincoln Ave, Youngstown, oh, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/7/8/0/b/highres_476910731.jpeg"
+    },
+    {
+      "id": "246098640",
+      "title": "Winter Code Youngstown Meetup and Mixer @ TBEIC",
+      "description": "This winter's Code Youngstown Meetup and Mixer will be held at The Tech Belt Energy Innovation Center December 6th at 6:30pm!\n\nThis event is your opportunity to meet other Youngstown area based software developers! Looking for work, or to fill a position? Looking to network with other skilled software professionals? Or just starting your software journey? We want to see you December 6th at TBEIC!\n\nDoors, drinks, and food 6:30pm, introductions at 7pm, social hour and tours 7:30pm.",
+      "dateTime": "2018-12-06T18:30:00-05:00",
+      "endTime": "2018-12-06T21:00:00-05:00",
+      "location": "Tech Belt Energy Innovation Center (TBEIC), 125 W Market St., Warren, oh, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/3/b/0/e/highres_471555118.jpeg"
+    },
+    {
+      "id": "250217790",
+      "title": "Tech Talk: Micronaut: Launching the micro future with James Kleeh",
+      "description": "Code Youngstown is excited to host James Kleeh, Grails Core Team Member at OCI, at INVENTORcloud October 11th at 7pm.\n\nJames will be speaking about Micronaut ( http://micronaut.io/ ), a reactive microservice framework for the JVM designed with the cloud in mind that allows you to build applications that run on server-less architectures to the largest VM instances. Extremely fast startup time and low memory consumption are achieved through compile time dependency and configuration injection. A highly functional http client and server have been built from scratch to enable integration of service discovery, client side load balancing, and much more. Micronaut has full support for Java, Groovy, and Kotlin.\n\nPlease join us and learn how Micronaut can take your applications to the next level!",
+      "dateTime": "2018-10-11T19:00:00-04:00",
+      "endTime": "2018-10-11T21:00:00-04:00",
+      "location": "INVENTORcloud, 29 Vindicator Sq, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/a/3/e/2/highres_470561954.jpeg"
+    },
+    {
+      "id": "248273183",
+      "title": "Tech Talk: Modern Frontend Development @ Turning Technologies",
+      "description": "Code Youngstown is proud to announce Michael Zimmerman, Front End Software Architect at Turning Technologies, will be speaking about Modern Frontend Development at Turning's downtown office Tuesday August 14th at 5:30pm!\n\nJavaScript has changed drastically since even just a few years ago, for both good and bad. It can be a tiring, frustrating experience to get up to speed for some developers who are not used to the reckless speed it’s ecosystem expands at. *This talk aims to help you understand why JavaScript is the way that it is, and how to tell when you need to look for solutions, where to look for them, and how to incorporate them into your project*.\n\nWe will be talking about NPM and Node and how it correlates to JavaScript ran in the browser, why we transitioned to tools like Webpack or Rollup and their importance, and we will talk about the modern frameworks and how to tell when you need them. Any extra time will be spent going into more depth in these topics, as well as any Q&A discussions we get into.",
+      "dateTime": "2018-08-14T17:30:00-04:00",
+      "endTime": "2018-08-14T20:30:00-04:00",
+      "location": "Turning Technologies, 255 W Federal St, Youngstown, oh, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/6/f/f/6/highres_468868662.jpeg"
+    },
+    {
+      "id": "245707777",
+      "title": "Code Youngstown Summer 2018 Meetup",
+      "description": "Every 6 months Code Youngstown will hold a social meetup - once in the summer, and once in the winter. These are your opportunity to meet and network with other developers and those involved the software and startup industries in Youngstown, Ohio. Looking for work, to learn a new skill, or a mentor? This is where you need to be!\n\nDoors will open at 6:30pm. Introductions will begin at 7pm. Food and drink will be provided. Bring a friend or co-worker!\n\nThanks so much to Drund for hosting and sponsoring this event!\n\nIf you'd like to host a Code Youngstown meetup, please contact Joe at personal@JoeDuncko.com!",
+      "dateTime": "2018-06-21T18:30:00-04:00",
+      "endTime": "2018-06-21T21:00:00-04:00",
+      "location": "Drund, 945 Boardman-Canfield Rd., Suite 9, Boardman, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/6/d/d/8/highres_467068120.jpeg"
+    },
+    {
+      "id": "248889750",
+      "title": "Tech Talk: Intro to Design Systems",
+      "description": "Building a visual language for UI\n\nDavid Pokrivňák, Lead UX/UI Designer at Drund, will be giving a tech talk on design systems at the Oak Hill Collaborative April 12th at 7pm.\n\nA successful design system unites product teams around a common visual language. It reduces design debt, accelerates the design process, and builds bridges between design & developer teams to bring products to life.",
+      "dateTime": "2018-04-12T19:00:00-04:00",
+      "endTime": "2018-04-12T21:00:00-04:00",
+      "location": "Oak Hill Collaborative, 507 Oak Hill Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/3/6/5/8/highres_469393912.jpeg"
+    },
+    {
+      "id": "246562152",
+      "title": "Why you should care about Bitcoin (and other cryptocurrencies)",
+      "description": "Stop into Drund on Tuesday, February 6th for a Tech Talk & Meetup!\n\nLots of attention has been around Bitcoin because of the recent rise in its monetary value, but many aren't familiar with the problems Bitcoin is trying to solve and how it's trying to solve them. In this talk Joe Duncko gives a quick overview of 3 economic problems Bitcoin attempts to address and how it tries to address them.\n\nJoe has been involved in the cryptocurrency scene since 2011 and has been cited in a legal journal and a book on the subject. He's also one of the co-organizers of Code Youngstown. You can learn more about Joe on his website http://joeduncko.com/ .\n\n6:00 pm - Doors Open\n6:30 pm - Food & Drink\n7:00 pm - Tech Talk We hope to see you there!",
+      "dateTime": "2018-02-06T18:00:00-05:00",
+      "endTime": "2018-02-06T21:00:00-05:00",
+      "location": "Drund, 945 Boardman-Canfield Rd., Suite 9, Boardman, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/b/d/6/7/highres_467388487.jpeg"
+    },
+    {
+      "id": "239338066",
+      "title": "Code Youngstown Winter 2017 Meetup",
+      "description": "Every 6 months Code Youngstown will hold a social meetup - once in the summer, and once in the winter. These are your opportunity to meet and network with other developers and those involved the software and startup industries in Youngstown, Ohio. Looking for work, to learn a new skill, or a mentor? This is where you need to be!\n\nDoors will open at 6:30pm. Introductions will begin at 7pm. Food and drink will be provided. Bring a friend or co-worker!\n\nThanks so much to the Oak Hill Collabortive for hosting and sponsoring this event!\n\nIf you'd like to host a Code Youngstown meetup, please contact Joe at personal@JoeDuncko.com!",
+      "dateTime": "2017-12-05T18:30:00-05:00",
+      "endTime": "2017-12-05T21:30:00-05:00",
+      "location": "Oak Hill Collaborative, 507 Oak Hill Ave, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/1/a/c/d/highres_467046861.jpeg"
+    },
+    {
+      "id": "241987706",
+      "title": "Say Goodbye to Java: Getting Started With Kotlin for Android",
+      "description": "Stop at Drund on Thursday, August 24th for a Tech Talk & Meetup! Our lead mobile developer, Adam Magaña, will be giving a presentation on getting started with Kotlin for Android.\n\n6:00pm - Doors Open\n\n6:30pm - Food & Drinks\n\n7:00pm - Presentation Begins\n\nPlease RSVP by Wednesday, August 23rd by marking yourself as \"Going\" to this meetup. We hope to see you there!",
+      "dateTime": "2017-08-24T18:00:00-04:00",
+      "endTime": "2017-08-24T21:00:00-04:00",
+      "location": "Drund, 945 Boardman-Canfield Rd., Suite 9, Boardman, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/1/a/c/d/highres_467046861.jpeg"
+    },
+    {
+      "id": "238336821",
+      "title": "Code Youngstown Summer 2017 Meetup",
+      "description": "Every 6 months Code Youngstown will hold a social meetup - once in the summer, and once in the winter. These are your opportunity to meet and network with other developers and those involved the software and startup industries in Youngstown, Ohio. Looking for work, to learn a new skill, or a mentor? This is where you need to be!\n\nDoors will open at 6:30pm. Introductions will begin at 7pm. Food and drink will be provided. Bring a friend or co-worker!\n\nThanks so much to the YBI for hosting and sponsoring this event!\n\nIf you'd like to host tech talks or other activities, please contact me at personal AT Joe Duncko .com!",
+      "dateTime": "2017-06-13T18:30:00-04:00",
+      "endTime": "2017-06-13T21:30:00-04:00",
+      "location": "Youngstown Business Incubator, 241 W Federal St, Youngstown, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/1/a/c/d/highres_467046861.jpeg"
+    },
+    {
+      "id": "238397156",
+      "title": "Building Mobile Features + Docker Tech Talk & Meetup at Drund",
+      "description": "Stop into Drund on Thursday, April 27th for a Tech Talk & Meetup! Talks will be given on the following topics: \"Up & Running With Docker\" and \"Building And Refining Features for Android and iOS\".\n\n6:00 pm - Doors Open\n6:30 pm - Food & Drink\n7:00 pm - Tech Talk\n\nWe hope to see you there!",
+      "dateTime": "2017-04-27T18:00:00-04:00",
+      "endTime": "2017-04-27T21:00:00-04:00",
+      "location": "Drund, 945 Boardman-Canfield Rd., Suite 9, Boardman, OH, US",
+      "status": "PAST",
+      "imageUrl": "https://secure.meetupstatic.com/photos/event/1/a/c/d/highres_467046861.jpeg"
+    },
+    {
+      "id": "historical-2014-12-16-december-meetup",
+      "title": "December Meetup",
+      "description": "Code Youngstown's second event was a follow-up community meetup at the Youngstown Business Incubator. Approximately 20 guests attended before the organization entered an informal hiatus.",
+      "dateTime": "2014-12-16T19:00:00-05:00",
+      "endTime": null,
+      "location": "Youngstown Business Incubator, First Floor Conference Room, 241 W Federal St, Youngstown, OH 44503",
+      "attendeeCount": 20,
+      "attendeeCountIsApproximate": true,
+      "status": "PAST",
+      "imageUrl": "https://raw.githubusercontent.com/codeyoungstown/code-youngstown-assets/master/event-fliers/CodeYoungstown-December.jpg",
+      "sourceUrl": "https://joeduncko.com/blog/code-youngstown-a-retrospective/",
+      "sourceLabel": "Code Youngstown retrospective"
+    },
+    {
+      "id": "historical-2014-09-24-open-hack-night",
+      "title": "Open Hack Night",
+      "description": "Code Youngstown's first event brought together approximately 30 people from across the local technology community, including representatives from YSU ACM, Drund, the Youngstown Business Incubator, and area startups. The gathering ended with the creation of a Facebook page and group to keep the community connected.",
+      "dateTime": "2014-09-24T19:00:00-04:00",
+      "endTime": "2014-09-24T21:00:00-04:00",
+      "location": "Nove Gatto Gallery, Erie Terminal Building, 112 W Commerce St, Youngstown, OH 44503",
+      "attendeeCount": 30,
+      "attendeeCountIsApproximate": true,
+      "status": "PAST",
+      "imageUrl": "https://raw.githubusercontent.com/codeyoungstown/code-youngstown-assets/master/event-fliers/CodeYoungstown-OpenHack.jpg",
+      "sourceUrl": "https://joeduncko.com/blog/code-youngstown-a-retrospective/",
+      "sourceLabel": "Code Youngstown retrospective"
+    }
+  ]
+}

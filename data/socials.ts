@@ -2,7 +2,6 @@ import {
   faSlack,
   faFacebook,
   faGithub,
-  faMeetup,
   faTwitter,
   faLinkedin,
   faYoutube,
@@ -46,11 +45,6 @@ export const socials: Social[] = [
     name: "GitHub",
     link: "https://github.com/codeyoungstown",
     icon: faGithub,
-  },
-  {
-    name: "Meetup",
-    link: "https://www.meetup.com/Code-Youngstown/",
-    icon: faMeetup,
   },
   {
     name: "Podcast",

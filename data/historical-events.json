@@ -1,0 +1,30 @@
+[
+  {
+    "id": "historical-2014-12-16-december-meetup",
+    "title": "December Meetup",
+    "description": "Code Youngstown's second event was a follow-up community meetup at the Youngstown Business Incubator. Approximately 20 guests attended before the organization entered an informal hiatus.",
+    "dateTime": "2014-12-16T19:00:00-05:00",
+    "endTime": null,
+    "location": "Youngstown Business Incubator, First Floor Conference Room, 241 W Federal St, Youngstown, OH 44503",
+    "attendeeCount": 20,
+    "attendeeCountIsApproximate": true,
+    "status": "PAST",
+    "imageUrl": "https://raw.githubusercontent.com/codeyoungstown/code-youngstown-assets/master/event-fliers/CodeYoungstown-December.jpg",
+    "sourceUrl": "https://joeduncko.com/blog/code-youngstown-a-retrospective/",
+    "sourceLabel": "Code Youngstown retrospective"
+  },
+  {
+    "id": "historical-2014-09-24-open-hack-night",
+    "title": "Open Hack Night",
+    "description": "Code Youngstown's first event brought together approximately 30 people from across the local technology community, including representatives from YSU ACM, Drund, the Youngstown Business Incubator, and area startups. The gathering ended with the creation of a Facebook page and group to keep the community connected.",
+    "dateTime": "2014-09-24T19:00:00-04:00",
+    "endTime": "2014-09-24T21:00:00-04:00",
+    "location": "Nove Gatto Gallery, Erie Terminal Building, 112 W Commerce St, Youngstown, OH 44503",
+    "attendeeCount": 30,
+    "attendeeCountIsApproximate": true,
+    "status": "PAST",
+    "imageUrl": "https://raw.githubusercontent.com/codeyoungstown/code-youngstown-assets/master/event-fliers/CodeYoungstown-OpenHack.jpg",
+    "sourceUrl": "https://joeduncko.com/blog/code-youngstown-a-retrospective/",
+    "sourceLabel": "Code Youngstown retrospective"
+  }
+]

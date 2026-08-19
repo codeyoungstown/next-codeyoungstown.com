@@ -5,6 +5,7 @@ import { useState } from "react";
 
 const Pages = [
   ["HOME", "/"],
+  ["EVENTS", "/events"],
   ["DIRECTORY", "/directory"],
   ["JOBS", "/jobs"],
 ];

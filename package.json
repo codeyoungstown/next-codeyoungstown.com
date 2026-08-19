@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scrape:events": "node scripts/scrape-meetup-events.mjs"
   },
   "dependencies": {
     "@fontsource/open-sans": "^4.5.10",

@@ -1,8 +1,10 @@
 import Image from "next/future/image";
+import Link from "next/link";
 import { useRef } from "react";
 import CaptchaComponent, {
   CaptchaHandle,
 } from "../components/CaptchaComponent";
+import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
@@ -38,15 +40,13 @@ export default function Home() {
         >
           Slack
         </a>{" "}
-        and attend our{" "}
-        <a
-          className="underline hover:text-gray-300"
-          href="https://www.meetup.com/Code-Youngstown/"
-        >
-          meetups
-        </a>
+        and explore our{" "}
+        <Link href="/events">
+          <a className="underline hover:text-gray-300">event archive</a>
+        </Link>
         .
       </p>
+      <UpcomingEvents className="mx-auto max-w-5xl px-4 py-10 sm:px-6" />
       <div className="p-6">
         <Socials />
       </div>
