@@ -1,7 +1,8 @@
 import Image from "next/future/image";
 import { useRef } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
-import CaptchaComponent from "../components/CaptchaComponent";
+import CaptchaComponent, {
+  CaptchaHandle,
+} from "../components/CaptchaComponent";
 import Layout from "../components/Layout";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
@@ -10,11 +11,11 @@ const pageDescription =
   "Connecting software engineers, developers, and coders in the Youngstown, OH area.";
 
 export default function Home() {
-  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const captchaRef = useRef<CaptchaHandle>(null);
 
   const handleSlack = (event) => {
     event.preventDefault();
-    recaptchaRef.current.execute();
+    captchaRef.current?.execute();
   };
 
   return (
@@ -51,7 +52,7 @@ export default function Home() {
       </div>
       <CaptchaComponent
         link="https://join.slack.com/t/codeyoungstown/shared_invite/zt-3ewvqpinn-5hPZYr4moiRQEPFcoW7F2g"
-        recaptchaRef={recaptchaRef}
+        ref={captchaRef}
       />
     </Layout>
   );

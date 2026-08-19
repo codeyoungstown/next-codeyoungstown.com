@@ -1,15 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Fragment, useRef } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
 import { socials } from "../data/socials";
-import CaptchaComponent from "./CaptchaComponent";
+import CaptchaComponent, { CaptchaHandle } from "./CaptchaComponent";
 
 export default function Socials() {
-  const recaptchaRef = useRef<ReCAPTCHA>(null);
+  const captchaRef = useRef<CaptchaHandle>(null);
 
   const handleSlack = (event) => {
     event.preventDefault();
-    recaptchaRef.current.execute();
+    captchaRef.current?.execute();
   };
 
   return (
@@ -20,7 +19,7 @@ export default function Socials() {
             <li key={social.name}>
               <CaptchaComponent
                 link={social.link}
-                recaptchaRef={recaptchaRef}
+                ref={captchaRef}
               />
               <a
                 rel="noreferrer"

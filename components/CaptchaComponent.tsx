@@ -1,15 +1,48 @@
 import axios from "axios";
-import { MutableRefObject, useState } from "react";
+import {
+  ForwardedRef,
+  forwardRef,
+  useImperativeHandle,
+  useRef,
+  useState,
+} from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 export interface CaptchaProps {
   link: string;
-  recaptchaRef: MutableRefObject<ReCAPTCHA | null>;
 }
 
-export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
+export interface CaptchaHandle {
+  execute: () => void;
+}
+
+function CaptchaComponent(
+  { link }: CaptchaProps,
+  ref: ForwardedRef<CaptchaHandle>
+) {
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
   const [modal, setModal] = useState(false);
   const [location, setLocation] = useState("");
+  const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+  const bypassRecaptcha = process.env.NODE_ENV === "development" && !siteKey;
+
+  useImperativeHandle(ref, () => ({
+    execute: () => {
+      if (bypassRecaptcha) {
+        setModal(true);
+        return;
+      }
+
+      if (!siteKey) {
+        console.error(
+          "NEXT_PUBLIC_RECAPTCHA_SITE_KEY is required outside local development"
+        );
+        return;
+      }
+
+      recaptchaRef.current?.execute();
+    },
+  }));
 
   const onReCAPTCHAChange = async (captchaCode) => {
     if (!captchaCode) {
@@ -28,7 +61,7 @@ export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
       console.log("User denied access to slack")
     }
 
-    recaptchaRef.current.reset();
+    recaptchaRef.current?.reset();
   };
 
   const closeModal = () => {
@@ -50,12 +83,14 @@ export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
 
   return (
     <>
-    <ReCAPTCHA
-      sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
-      ref={recaptchaRef}
-      onChange={(captchaCode) => onReCAPTCHAChange(captchaCode)}
-      size="invisible"
-    />
+    {siteKey && (
+      <ReCAPTCHA
+        sitekey={siteKey}
+        ref={recaptchaRef}
+        onChange={(captchaCode) => onReCAPTCHAChange(captchaCode)}
+        size="invisible"
+      />
+    )}
     {modal &&
     <div
       onClick={closeModal} className="absolute inset-0 z-[999] grid h-screen w-screen place-items-center bg-black bg-opacity-60 backdrop-blur-sm transition-opacity duration-300"
@@ -83,3 +118,5 @@ export default function CaptchaComponent({ link, recaptchaRef }: CaptchaProps) {
     </>
   );
 }
+
+export default forwardRef<CaptchaHandle, CaptchaProps>(CaptchaComponent);
