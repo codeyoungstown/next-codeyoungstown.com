@@ -25,6 +25,6 @@ npm run scrape:events
 ```
 
 Upcoming events are maintained directly in `data/upcoming-events.json`. Entries
-there appear in chronological order in the shared "Next events" section on both
-the home page and the event archive. An empty array displays the standard
+there appear in chronological order in the shared "Upcoming events" section on
+both the home page and the event archive. An empty array displays the standard
 "Nothing announced yet" state.

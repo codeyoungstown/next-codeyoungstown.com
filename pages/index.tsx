@@ -40,13 +40,13 @@ export default function Home() {
         >
           Slack
         </a>{" "}
-        and explore our{" "}
+        and attend our{" "}
         <Link href="/events">
-          <a className="underline hover:text-gray-300">event archive</a>
+          <a className="underline hover:text-gray-300">events</a>
         </Link>
         .
       </p>
-      <UpcomingEvents className="mx-auto max-w-5xl px-4 py-10 sm:px-6" />
+      <UpcomingEvents className="mx-auto w-full px-4 py-14 sm:px-8 lg:px-12" />
       <div className="p-6">
         <Socials />
       </div>

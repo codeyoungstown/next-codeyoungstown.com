@@ -12,11 +12,8 @@ export default function UpcomingEvents({ className = "" }: { className?: string 
       className={`text-left ${className}`}
     >
       <div className="mb-5 border-b border-gray-700 pb-3">
-        <p className="text-sm font-bold uppercase tracking-[0.2em] text-gray-400">
-          Mark your calendar
-        </p>
-        <h2 className="mt-1 text-3xl font-bold" id="upcoming-events-heading">
-          Next events
+        <h2 className="text-3xl font-bold" id="upcoming-events-heading">
+          Upcoming events
         </h2>
       </div>
 

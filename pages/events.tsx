@@ -1,13 +1,10 @@
-import EventCard, {
-  EventRecord,
-  eventYear,
-} from "../components/Events/EventCard";
+import EventCard, { EventRecord } from "../components/Events/EventCard";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
 import archive from "../data/events.json";
 
 const pageDescription =
-  "An archive of Code Youngstown meetups, talks, workshops, and community gatherings.";
+  "Upcoming and past Code Youngstown meetups, talks, workshops, and community gatherings.";
 
 export default function Events() {
   const events = (archive.events as EventRecord[])
@@ -17,14 +14,8 @@ export default function Events() {
   return (
     <Layout page="Events" description={pageDescription}>
       <section className="mx-auto max-w-5xl px-4 pb-8 pt-8 sm:px-6 sm:pt-12">
-        <p className="text-sm font-bold uppercase tracking-[0.2em] text-gray-400">
-          Community history
-        </p>
-        <h1 className="mt-2 text-4xl font-bold sm:text-5xl">Event Archive</h1>
-        <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-gray-300">
-          {pageDescription} Browse {archive.events.length} events reaching back to{" "}
-          {eventYear(events[events.length - 1])}.
-        </p>
+        <h1 className="m-2 text-3xl">Events</h1>
+        <p className="mb-2 text-md sm:text-xl">{pageDescription}</p>
         <UpcomingEvents className="mt-10" />
       </section>
 

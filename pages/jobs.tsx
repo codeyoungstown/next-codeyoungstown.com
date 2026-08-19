@@ -9,10 +9,12 @@ const pageDescription =
 export default function Jobs() {
   return (
     <Layout page="Jobs" description={pageDescription}>
-      <h1 className="text-3xl m-2">Jobs</h1>
-      <p className="sm:text-xl text-md mb-2">{pageDescription}</p>
+      <section className="mx-auto max-w-5xl px-4 pb-8 pt-8 sm:px-6 sm:pt-12">
+        <h1 className="m-2 text-3xl">Jobs</h1>
+        <p className="mb-2 text-md sm:text-xl">{pageDescription}</p>
 
-      <FormButton formLink="/jobs-form">Submit a Job</FormButton>
+        <FormButton formLink="/jobs-form">Submit a Job</FormButton>
+      </section>
 
       <JobListings />
     </Layout>
