@@ -2,6 +2,7 @@ import Image from "next/future/image";
 import Link from "next/link";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
+import NewsletterSignup from "../components/NewsletterSignup";
 import Socials from "../components/Socials";
 import logo from "../public/code-youngstown-white-background-final.png";
 
@@ -32,10 +33,14 @@ export default function Home() {
         </Link>
         .
       </p>
-      <UpcomingEvents className="mx-auto w-full px-4 py-14 sm:px-8 lg:px-12" />
-      <div className="p-6">
+      <UpcomingEvents
+        className="mx-auto w-full px-4 py-16 sm:px-8 sm:py-20 lg:px-12"
+        showDivider={false}
+      />
+      <div className="px-6 pb-8 pt-2">
         <Socials />
       </div>
+      <NewsletterSignup />
     </Layout>
   );
 }

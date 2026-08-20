@@ -5,13 +5,21 @@ const upcomingEvents = (upcomingEventsData as EventRecord[])
   .slice()
   .sort((a, b) => a.dateTime.localeCompare(b.dateTime));
 
-export default function UpcomingEvents({ className = "" }: { className?: string }) {
+export default function UpcomingEvents({
+  className = "",
+  showDivider = true,
+}: {
+  className?: string;
+  showDivider?: boolean;
+}) {
   return (
     <section
       aria-labelledby="upcoming-events-heading"
       className={`text-left ${className}`}
     >
-      <div className="mb-5 border-b border-gray-700 pb-3">
+      <div
+        className={`mb-5 ${showDivider ? "border-b border-gray-700 pb-3" : ""}`}
+      >
         <h2 className="text-3xl font-bold" id="upcoming-events-heading">
           Upcoming events
         </h2>
