@@ -9,7 +9,7 @@ export default function JobsForm() {
   const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
     <Layout page="Submit a Job" description={pageDescription}>
-      <div className="max-w-screen-md m-auto flex justify-start">
+      <div className="max-w-(--breakpoint-md) m-auto flex justify-start">
         <BackButton href="/jobs" />
       </div>
       <h1 className="text-3xl p-2">Submit a job</h1>
@@ -17,7 +17,7 @@ export default function JobsForm() {
 
       <div className="flex w-full justify-center">
         <form
-          className="w-full max-w-screen-md m-2"
+          className="w-full max-w-(--breakpoint-md) m-2"
           action="https://formsubmit.co/contact@codeyoungstown.com"
           method="POST"
         >

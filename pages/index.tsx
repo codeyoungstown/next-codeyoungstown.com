@@ -1,4 +1,4 @@
-import Image from "next/future/image";
+import Image from "next/image";
 import Link from "next/link";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
@@ -24,12 +24,12 @@ export default function Home() {
       <h1 className="sm:text-2xl text-xl p-4">{pageDescription}</h1>
       <p className="sm:text-xl text-md p-2">
         Join the ongoing chat via{" "}
-        <Link href="/slack">
-          <a className="underline hover:text-gray-300">Slack</a>
+        <Link href="/slack" className="underline hover:text-gray-300">
+          Slack
         </Link>{" "}
         and attend our{" "}
-        <Link href="/events">
-          <a className="underline hover:text-gray-300">events</a>
+        <Link href="/events" className="underline hover:text-gray-300">
+          events
         </Link>
         .
       </p>

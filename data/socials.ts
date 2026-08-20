@@ -8,11 +8,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import { faPodcast, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
 export type Social = {
   name: string;
   link: string;
-  icon: any;
+  icon: IconDefinition;
 };
 
 export const socials: Social[] = [

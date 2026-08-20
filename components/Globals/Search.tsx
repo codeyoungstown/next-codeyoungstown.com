@@ -1,6 +1,8 @@
+import type { ChangeEventHandler, FormEventHandler } from "react";
+
 interface SearchProps {
-  handleSearch: any;
-  handleSubmit?: any;
+  handleSearch: ChangeEventHandler<HTMLInputElement>;
+  handleSubmit?: FormEventHandler<HTMLFormElement>;
   placeHolder: string;
 }
 

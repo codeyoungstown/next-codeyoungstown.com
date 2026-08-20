@@ -9,7 +9,7 @@ export default function AddACompany() {
   const BASE_URL = process.env.NEXT_PUBLIC_VERCEL_URL;
   return (
     <Layout page="Add a Company" description={pageDescription}>
-      <div className="max-w-screen-md m-auto flex justify-start">
+      <div className="max-w-(--breakpoint-md) m-auto flex justify-start">
         <BackButton href="/directory" />
       </div>
       <h1 className="text-3xl p-2">Add a Company</h1>
@@ -17,7 +17,7 @@ export default function AddACompany() {
 
       <div className="flex w-full justify-center">
         <form
-          className="w-full max-w-screen-md m-2"
+          className="w-full max-w-(--breakpoint-md) m-2"
           action="https://formsubmit.co/contact@codeyoungstown.com"
           method="POST"
         >

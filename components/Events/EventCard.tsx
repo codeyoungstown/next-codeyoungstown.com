@@ -69,7 +69,7 @@ export default function EventCard({
   return (
     <article className="overflow-hidden rounded-xl border border-gray-700 bg-black/10 text-left shadow-lg">
       <div className="flex gap-4 p-5 sm:p-6">
-        <div className="flex h-20 w-16 flex-none flex-col items-center justify-center rounded-lg bg-white text-cy-gray shadow">
+        <div className="flex h-20 w-16 flex-none flex-col items-center justify-center rounded-lg bg-white text-cy-gray shadow-sm">
           <span className="text-sm font-bold uppercase text-red-700">
             {monthFormatter.format(date)}
           </span>

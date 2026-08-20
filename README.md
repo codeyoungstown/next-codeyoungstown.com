@@ -4,8 +4,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Run locally
 
+Use Node.js 22 or newer, then install the locked dependencies:
+
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 

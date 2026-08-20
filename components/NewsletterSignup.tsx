@@ -29,7 +29,7 @@ export default function NewsletterSignup() {
                 type="email"
               />
               <button
-                className="rounded-md bg-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-cy-gray"
+                className="rounded-md bg-gray-300 px-4 py-2 text-sm font-semibold text-gray-900 transition hover:bg-white focus:outline-hidden focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-cy-gray"
                 type="submit"
               >
                 Subscribe
@@ -50,7 +50,7 @@ export default function NewsletterSignup() {
 
           <a
             aria-label="Mailchimp — email marketing"
-            className="mt-3 inline-flex rounded bg-white px-2 opacity-60 transition hover:opacity-100"
+            className="mt-3 inline-flex rounded-sm bg-white px-2 opacity-60 transition hover:opacity-100"
             href="https://eepurl.com/iQOnN2"
             rel="noreferrer"
             target="_blank"

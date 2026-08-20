@@ -2,34 +2,39 @@
   "name": "next-codeyoungstown.com",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
     "scrape:events": "node scripts/scrape-meetup-events.mjs"
   },
   "dependencies": {
-    "@fontsource/open-sans": "^4.5.10",
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-brands-svg-icons": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/react-fontawesome": "^0.1.18",
-    "@google-cloud/recaptcha-enterprise": "^4.1.0",
-    "date-fns": "^2.29.1",
-    "next": "12.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@fontsource/open-sans": "^5.3.0",
+    "@fortawesome/fontawesome-svg-core": "^7.3.1",
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/free-solid-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "@google-cloud/recaptcha-enterprise": "^7.0.0",
+    "date-fns": "^4.4.0",
+    "next": "^16.3.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "react-google-recaptcha": "^3.1.0"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.2",
-    "@types/node": "^18.0.0",
-    "@types/react": "^18.0.14",
-    "autoprefixer": "^10.4.7",
-    "eslint": "8.18.0",
-    "eslint-config-next": "12.1.6",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.4"
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.1",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3"
   }
 }

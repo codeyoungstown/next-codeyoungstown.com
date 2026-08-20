@@ -15,6 +15,8 @@ function App({ Component, pageProps }) {
         strategy="afterInteractive"
       />
       <noscript>
+        {/* A plain image is required for analytics when JavaScript is disabled. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://sa.codeyoungstown.com/noscript.gif"
           alt=""

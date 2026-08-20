@@ -19,7 +19,7 @@ function redirectToJoin(
   res: NextApiResponse,
   error: "configuration" | "verification"
 ) {
-  return res.redirect(303, `/slack?error=${error}`);
+  res.redirect(303, `/slack?error=${error}`);
 }
 
 function getString(value: unknown) {
@@ -126,14 +126,16 @@ export default async function handler(
 
   if (req.method !== "POST") {
     res.setHeader("Allow", "POST");
-    return res.status(405).send("Method not allowed");
+    res.status(405).send("Method not allowed");
+    return;
   }
 
   const inviteUrl = getSlackInviteUrl();
 
   if (!inviteUrl) {
     console.error("SLACK_INVITE_URL is missing or is not a Slack invite URL");
-    return redirectToJoin(res, "configuration");
+    redirectToJoin(res, "configuration");
+    return;
   }
 
   const body =
@@ -145,7 +147,8 @@ export default async function handler(
   const recaptchaToken = getString(body.recaptchaToken);
 
   if (honeypot || location !== "youngstown") {
-    return redirectToJoin(res, "verification");
+    redirectToJoin(res, "verification");
+    return;
   }
 
   const bypassRecaptcha =
@@ -154,12 +157,14 @@ export default async function handler(
 
   try {
     if (!bypassRecaptcha && !(await verifyRecaptcha(req, recaptchaToken))) {
-      return redirectToJoin(res, "verification");
+      redirectToJoin(res, "verification");
+      return;
     }
   } catch (error) {
     console.error("Slack invite reCAPTCHA assessment failed", error);
-    return redirectToJoin(res, "verification");
+    redirectToJoin(res, "verification");
+    return;
   }
 
-  return res.redirect(303, inviteUrl);
+  res.redirect(303, inviteUrl);
 }
