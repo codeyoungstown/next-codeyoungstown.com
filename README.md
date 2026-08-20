@@ -1,17 +1,50 @@
 # CodeYoungstown.com
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is styled with [Tailwind CSS](https://tailwindcss.com) and hosted on [Vercel](https://vercel.com). 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It is styled with [Tailwind CSS](https://tailwindcss.com) and hosted on [Vercel](https://vercel.com).
 
 ## Run locally
+
 ```bash
 npm install
 npm run dev
 ```
 
-No environment variables are required for local development. When
-`NEXT_PUBLIC_RECAPTCHA_SITE_KEY` is unset in development, the Slack link skips
-Google reCAPTCHA and continues to the location prompt. Deployed environments
-still require the site key and Google Cloud credentials.
+Copy `.env.example` to `.env.local` and add a current Slack invite URL to test
+the complete join flow. When `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` is unset in
+development, the `/slack` page skips Google reCAPTCHA but still validates the
+location answer on the server.
+
+## Slack invitation security
+
+The public URL to share is `https://codeyoungstown.com/slack`. The actual Slack
+invite is stored only in `SLACK_INVITE_URL`; never add it to browser code or
+commit it to the repository.
+
+Production requires these Vercel environment variables:
+
+- `SLACK_INVITE_URL`: the current `https://join.slack.com/.../shared_invite/...`
+  URL.
+- `NEXT_PUBLIC_RECAPTCHA_SITE_KEY`: the public reCAPTCHA Enterprise site key.
+- `GOOGLE_CLOUD_PROJECT_ID`: the Google Cloud project containing the key.
+  `NEXT_PUBLIC_PROJECT_ID` remains supported for the existing deployment.
+- `GOOGLE_SERVICE_KEY`: the base64-encoded Google service-account JSON.
+- `RECAPTCHA_ALLOWED_HOSTNAMES`: optional comma-separated hostname override;
+  defaults to `codeyoungstown.com,www.codeyoungstown.com`.
+- `RECAPTCHA_MIN_SCORE`: optional score threshold; defaults to `0.6`.
+
+The `/api/slack-invite` endpoint validates the honeypot, location answer,
+reCAPTCHA token, token hostname, and risk score in one server-side request. It
+returns the invite only as a non-cacheable redirect after those checks pass.
+
+In Vercel Firewall, add a rate-limit rule for the request path
+`/api/slack-invite` (a starting point is five requests per IP per hour), and
+enable the Bot Protection managed ruleset in Challenge mode. Monitor denials
+before tightening the limit so shared office and campus networks are not
+blocked unnecessarily.
+
+Slack invite links are revocable bearer credentials. Deactivate and replace a
+link after exposure or abuse, update only `SLACK_INVITE_URL`, and continue
+sharing the stable `/slack` URL.
 
 ## Refresh the event archive
 

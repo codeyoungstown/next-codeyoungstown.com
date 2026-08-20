@@ -18,7 +18,7 @@ export type Social = {
 export const socials: Social[] = [
   {
     name: "Slack",
-    link: "https://join.slack.com/t/codeyoungstown/shared_invite/zt-3ewvqpinn-5hPZYr4moiRQEPFcoW7F2g",
+    link: "/slack",
     icon: faSlack,
   },
   {
