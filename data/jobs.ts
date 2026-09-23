@@ -10,6 +10,42 @@ export type Job = {
 };
 export const jobs: Job[] = [
   {
+    title: "Software Engineer I",
+    company: "Dark Matter Technologies",
+    desc: "Develop, test, and maintain enterprise applications for mortgage and real estate technology products. This early-career role welcomes candidates with 0–3 years of development experience, knowledge of a modern programming language, Git, and SQL, with .NET/C#, Angular, and AWS experience preferred.",
+    location: "Hybrid — Sharon, PA or Jacksonville, FL (3 days/week onsite)",
+    salary: "Not listed",
+    listing: "https://www.linkedin.com/jobs/view/4468403021/",
+    date: "2026-09-23",
+  },
+  {
+    title: "Senior QA Engineer / Analyst",
+    company: "Dark Matter Technologies",
+    desc: "Lead test strategy, manual and automated testing, defect analysis, and release validation across enterprise software products. Requires 5+ years of software quality experience, including API, database, and integration testing. The role also expands CI/CD test automation and mentors junior QA engineers; Playwright, JavaScript, Selenium, and C# experience is preferred.",
+    location: "Hybrid — Sharon, PA or Jacksonville, FL (3 days/week onsite)",
+    salary: "Not listed",
+    listing: "https://www.linkedin.com/jobs/view/4468401044/",
+    date: "2026-09-23",
+  },
+  {
+    title: "Manager, Engineering",
+    company: "Dark Matter Technologies",
+    desc: "Lead and coach a software engineering team while contributing hands-on code to mortgage and fintech platforms. Own delivery planning, technical direction, and engineering practices across security, testing, CI/CD, and reliability. Requires 7+ years of software engineering experience and 2+ years of technical leadership, with .NET/C#, Angular, and AWS experience preferred.",
+    location: "Hybrid — Sharon, PA or Jacksonville, FL (3 days/week onsite)",
+    salary: "Not listed",
+    listing: "https://www.linkedin.com/jobs/view/4468099054/",
+    date: "2026-09-23",
+  },
+  {
+    title: "Application Support Specialist II",
+    company: "Dark Matter Technologies",
+    desc: "Provide Tier 2 support for enterprise applications, including business intelligence, reporting, and AI-enabled document processing. Investigate production issues using SQL, logs, and API analysis, validate fixes, and improve support documentation and monitoring. Requires at least 5 years of enterprise application support experience. Candidates near Sharon, PA or Jacksonville, FL are preferred; remote work is allowed.",
+    location: "Remote (Sharon, PA or Jacksonville, FL preferred)",
+    salary: "$72,000 - $88,000/yr",
+    listing: "https://www.linkedin.com/jobs/view/4467135848/",
+    date: "2026-09-23",
+  },
+  {
     title: "Database Architect / DBA",
     company: "BlastPoint",
     desc: "Own database architecture, performance, reliability, security, and scalability for BlastPoint’s SaaS platform. This hands-on role partners across engineering, data engineering, DevOps, security, product, and data science to improve schemas, queries, migrations, tenant isolation, monitoring, backups, disaster recovery, and AWS-hosted database infrastructure.",
