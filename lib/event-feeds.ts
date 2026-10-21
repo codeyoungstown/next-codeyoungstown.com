@@ -41,6 +41,18 @@ export function mergeEvents(archive: FeedEvent[], announcements: FeedEvent[]) {
   return [...new Map([...archive, ...announcements].map(event => [event.id, event])).values()];
 }
 
+// Source filenames and status labels do not determine whether an event has passed.
+export function partitionEvents(events: FeedEvent[], now: number) {
+  const upcoming: FeedEvent[] = [];
+  const past: FeedEvent[] = [];
+  for (const event of events) {
+    (Date.parse(event.endTime ?? event.dateTime) > now ? upcoming : past).push(event);
+  }
+  upcoming.sort((a, b) => Date.parse(a.dateTime) - Date.parse(b.dateTime));
+  past.sort((a, b) => Date.parse(b.dateTime) - Date.parse(a.dateTime));
+  return { upcoming, past };
+}
+
 export function buildCalendar(events: FeedEvent[], fallbackTimestamp: string) {
   const lines = [
     'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Code Youngstown//Events//EN',
@@ -65,7 +77,7 @@ export function buildCalendar(events: FeedEvent[], fallbackTimestamp: string) {
 }
 
 export function buildRss(events: FeedEvent[]) {
-  const items = events.slice().sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '')).map(event => {
+  const items = events.slice().sort((a, b) => Date.parse(b.publishedAt ?? b.dateTime) - Date.parse(a.publishedAt ?? a.dateTime)).map(event => {
     const date = new Date(event.dateTime).toLocaleString('en-US', {
       timeZone: 'America/New_York', dateStyle: 'full', timeStyle: 'short',
     });

@@ -59,10 +59,15 @@ generated archive with:
 npm run scrape:events
 ```
 
-Upcoming events are maintained directly in `data/upcoming-events.json`. Entries
-there appear in chronological order in the shared "Upcoming events" section on
-both the home page and the event archive. An empty array displays the standard
-"Nothing announced yet" state.
+Site-managed events are maintained in `data/upcoming-events.json`. The homepage
+and Events page merge those records with `data/events.json`, deduplicate by ID,
+and classify them by date on each page request. The upcoming section is sorted
+oldest first; the past section is newest first. An event becomes past at its
+end time, or at its start time when no end time is available. Source filenames
+and stale status labels do not control these sections. When no future or ongoing
+events remain, the upcoming section displays "Nothing announced yet".
+Finished site-managed records may stay in this file; no manual move or new
+deployment is required for them to appear under Past Events.
 
 ## Event subscriptions
 
@@ -71,11 +76,10 @@ The Events page links to `/events.ics` (calendar subscription) and `/rss.xml`
 when a new version of the site is deployed. Feed responses can be cached for
 five minutes; subscribers refresh on their calendar or RSS app's schedule.
 
-The calendar includes the archive and site-managed announcements, deduplicated
-by `id`, with site-managed entries taking precedence. RSS includes site-managed
-announcements and archived entries that retain `publishedAt`; the imported
-historical archive is not announced as new content. Each feed item links to its
-event on the Events page.
+Both feeds include the complete archive and site-managed events, deduplicated
+by `id`, with site-managed entries taking precedence. RSS sorts by announcement
+time when known, otherwise by event time; an unknown publication date is omitted
+rather than invented. Each feed item links to its event on the Events page.
 
 When adding or editing an event:
 

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { EventRecord } from "../components/Events/EventCard";
+import { getEventListings } from "../lib/events";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
 import NewsletterSignup from "../components/NewsletterSignup";
@@ -9,7 +11,11 @@ import logo from "../public/code-youngstown-white-background-final.png";
 const pageDescription =
   "Connecting software engineers, developers, and coders in the Youngstown, OH area.";
 
-export default function Home() {
+export function getServerSideProps() {
+  return { props: { upcoming: getEventListings().upcoming } };
+}
+
+export default function Home({ upcoming }: { upcoming: EventRecord[] }) {
   return (
     <Layout page="Home" description={pageDescription}>
       <div className="flex justify-center">
@@ -34,6 +40,7 @@ export default function Home() {
         .
       </p>
       <UpcomingEvents
+        events={upcoming}
         className="mx-auto w-full px-4 py-16 sm:px-8 sm:py-20 lg:px-12"
         showDivider={false}
       />

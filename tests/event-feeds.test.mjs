@@ -51,3 +51,28 @@ test('merging archive and site announcements deduplicates with site edits taking
   assert.doesNotMatch(buildCalendar([], fallback), /BEGIN:VEVENT/);
   assert.doesNotMatch(buildRss([]), /<item>/);
 });
+
+test('event sections follow actual dates rather than source file or stale status', async () => {
+  const { partitionEvents } = await import('../lib/event-feeds.ts');
+  assert.equal(typeof partitionEvents, 'function');
+  const records = mergeEvents(
+    [{ ...event, id: 'future-in-archive', status: 'PAST', dateTime: '2026-12-01T18:00:00-05:00' }],
+    [{ ...event, id: 'expired-announcement', dateTime: '2026-10-20T18:00:00-04:00' },
+     { ...event, id: 'ongoing', dateTime: '2026-10-21T17:00:00-04:00', endTime: '2026-10-21T20:00:00-04:00' }],
+  );
+  const now = Date.parse('2026-10-21T18:00:00-04:00');
+  const { upcoming, past } = partitionEvents(records, now);
+  assert.deepEqual(upcoming.map(e => e.id), ['ongoing', 'future-in-archive']);
+  assert.deepEqual(past.map(e => e.id), ['expired-announcement']);
+  const afterEnd = partitionEvents(records, Date.parse('2026-10-21T20:00:00-04:00'));
+  assert.deepEqual(afterEnd.past.map(e => e.id), ['ongoing', 'expired-announcement']);
+});
+
+test('RSS retains undated historical records and orders them by event time', () => {
+  const rss = buildRss([
+    { ...event, id: 'oldest', publishedAt: undefined, dateTime: '2014-09-24T19:00:00-04:00' },
+    { ...event, id: 'latest', publishedAt: undefined, dateTime: '2026-04-23T18:00:00-04:00' },
+  ]);
+  assert.equal((rss.match(/<item>/g) || []).length, 2);
+  assert.ok(rss.indexOf('latest@') < rss.indexOf('oldest@'));
+});

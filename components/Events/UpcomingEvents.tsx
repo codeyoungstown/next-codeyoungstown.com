@@ -1,16 +1,13 @@
-import upcomingEventsData from "../../data/upcoming-events.json";
 import EventCard, { EventRecord } from "./EventCard";
-
-const upcomingEvents = (upcomingEventsData as EventRecord[])
-  .slice()
-  .sort((a, b) => a.dateTime.localeCompare(b.dateTime));
 
 export default function UpcomingEvents({
   className = "",
   showDivider = true,
+  events,
 }: {
   className?: string;
   showDivider?: boolean;
+  events: EventRecord[];
 }) {
   return (
     <section
@@ -25,9 +22,9 @@ export default function UpcomingEvents({
         </h2>
       </div>
 
-      {upcomingEvents.length > 0 ? (
+      {events.length > 0 ? (
         <div className="grid gap-6 md:grid-cols-2">
-          {upcomingEvents.map((event) => (
+          {events.map((event) => (
             <EventCard event={event} expanded key={event.id} />
           ))}
         </div>

@@ -13,9 +13,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   res.setHeader('Cache-Control', 'public, max-age=0, s-maxage=300');
   res.setHeader('X-Content-Type-Options', 'nosniff');
   const events = mergeEvents(archive.events, announcements);
-  const announcementIds = new Set(announcements.map(event => event.id));
   const body = calendar
     ? buildCalendar(events, archive.scrapedAt)
-    : buildRss(events.filter(event => event.publishedAt || announcementIds.has(event.id)));
+    : buildRss(events);
   return res.status(200).send(req.method === 'HEAD' ? '' : body);
 }

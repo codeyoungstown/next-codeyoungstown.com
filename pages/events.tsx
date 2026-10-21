@@ -4,15 +4,16 @@ import Head from "next/head";
 import EventCard, { EventRecord } from "../components/Events/EventCard";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
-import archive from "../data/events.json";
+import { getEventListings } from "../lib/events";
 
 const pageDescription =
   "Upcoming and past Code Youngstown meetups, talks, workshops, and community gatherings.";
 
-export default function Events() {
-  const events = (archive.events as EventRecord[])
-    .slice()
-    .sort((a, b) => b.dateTime.localeCompare(a.dateTime));
+export function getServerSideProps() {
+  return { props: getEventListings() };
+}
+
+export default function Events({ upcoming, past }: { upcoming: EventRecord[]; past: EventRecord[] }) {
 
   return (
     <Layout page="Events" description={pageDescription}>
@@ -39,7 +40,7 @@ export default function Events() {
             <span>Subscribe via RSS</span>
           </a>
         </div>
-        <UpcomingEvents className="mt-10" />
+        <UpcomingEvents events={upcoming} className="mt-10" />
       </section>
 
       <section
@@ -53,7 +54,7 @@ export default function Events() {
           <span className="pb-1 text-gray-400">Newest first</span>
         </div>
         <div className="space-y-6">
-          {events.map((event) => (
+          {past.map((event) => (
             <EventCard event={event} key={event.id} />
           ))}
         </div>
