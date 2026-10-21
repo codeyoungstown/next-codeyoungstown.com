@@ -1,7 +1,8 @@
-import { faCalendarPlus, faRss } from "@fortawesome/free-solid-svg-icons";
+import { faRss } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import EventCard, { EventRecord } from "../components/Events/EventCard";
+import CalendarSubscription from "../components/Events/CalendarSubscription";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
 import { getEventListings } from "../lib/events";
@@ -25,13 +26,7 @@ export default function Events({ upcoming, past }: { upcoming: EventRecord[]; pa
         <h1 className="m-2 text-3xl">Events</h1>
         <p className="mb-2 text-md sm:text-xl">{pageDescription}</p>
         <div className="mt-3 flex flex-col items-center text-sm text-gray-400">
-          <a
-            className="inline-flex items-center gap-2 rounded-sm py-1 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-            href="/events.ics"
-          >
-            <FontAwesomeIcon icon={faCalendarPlus} className="h-4 w-4" aria-hidden="true" />
-            <span>Subscribe to this calendar</span>
-          </a>
+          <CalendarSubscription />
           <a
             className="inline-flex items-center gap-2 rounded-sm py-1 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
             href="/rss.xml"

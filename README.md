@@ -103,9 +103,10 @@ When adding or editing an event:
   as UTC, so calendar apps display them in the viewer's timezone.
 
 Subscribe by URL to receive future updates; importing a downloaded `.ics` file
-creates a one-time copy. The calendar link opens `/events.ics` using a regular
-HTTP(S) request. To subscribe in a calendar app, use
-`https://codeyoungstown.com/events.ics` as the subscription URL.
+creates a one-time copy. The Events page's calendar button opens a dialog with
+a copyable subscription URL, Apple and Google Calendar instructions, and a
+separate one-time download link. The subscription URL is
+`https://codeyoungstown.com/events.ics`; downloads use `/events.ics` over HTTP(S).
 
 Run `npm test` for feed formatting, timezone, identity, and cancellation checks
 (Node 22.18+ or Node 24 is needed for the native TypeScript test loader).
