@@ -63,3 +63,44 @@ Upcoming events are maintained directly in `data/upcoming-events.json`. Entries
 there appear in chronological order in the shared "Upcoming events" section on
 both the home page and the event archive. An empty array displays the standard
 "Nothing announced yet" state.
+
+## Event subscriptions
+
+The Events page links to `/events.ics` (calendar subscription) and `/rss.xml`
+(RSS announcements). Both are served from the checked-in event data and update
+when a new version of the site is deployed. Feed responses can be cached for
+five minutes; subscribers refresh on their calendar or RSS app's schedule.
+
+The calendar includes the archive and site-managed announcements, deduplicated
+by `id`, with site-managed entries taking precedence. RSS includes site-managed
+announcements and archived entries that retain `publishedAt`; the imported
+historical archive is not announced as new content. Each feed item links to its
+event on the Events page.
+
+When adding or editing an event:
+
+- Keep `id` unchanged when rescheduling or renaming it, including when moving it
+  into the archive. IDs identify calendar entries and RSS items permanently.
+  Before removing a finished announcement from `upcoming-events.json`, move
+  its complete record into `data/historical-events.json` with status `PAST`,
+  then run `npm run scrape:events` to rebuild the archive. Keep its publication
+  and revision metadata. Do not edit only the generated `data/events.json`,
+  since the next scrape overwrites it. Keep cancelled events in the same way.
+- Add `publishedAt` as an ISO timestamp with an offset when first announcing it.
+  Keep that timestamp when editing or archiving. The existing announcement uses
+  its first repository publication commit timestamp.
+- Set `updatedAt` to the edit's ISO timestamp and increment `sequence` (starting
+  at 1) when changing calendar details. Imported legacy calendar entries use the
+  archive's `scrapedAt` timestamp until explicit metadata is available.
+- Use `status: "CANCELLED"` for cancellations and retain the record so calendar
+  subscribers can receive the cancellation.
+- Supply `endTime` when known. A null end time is omitted from the calendar;
+  no duration is guessed. Event timestamps include UTC offsets and are exported
+  as UTC, so calendar apps display them in the viewer's timezone.
+
+Subscribe by URL to receive future updates; importing a downloaded `.ics` file
+creates a one-time copy. The calendar button opens `webcal://`; apps that do not
+handle that protocol can use `https://codeyoungstown.com/events.ics` directly.
+
+Run `npm test` for feed formatting, timezone, identity, and cancellation checks
+(Node 22.18+ or Node 24 is needed for the native TypeScript test loader).

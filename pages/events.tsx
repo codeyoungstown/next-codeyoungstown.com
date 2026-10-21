@@ -1,3 +1,6 @@
+import { faCalendarPlus, faRss } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Head from "next/head";
 import EventCard, { EventRecord } from "../components/Events/EventCard";
 import UpcomingEvents from "../components/Events/UpcomingEvents";
 import Layout from "../components/Layout";
@@ -13,9 +16,29 @@ export default function Events() {
 
   return (
     <Layout page="Events" description={pageDescription}>
+      <Head>
+        <link rel="alternate" type="application/rss+xml" title="Code Youngstown Events" href="/rss.xml" />
+        <link rel="alternate" type="text/calendar" title="Code Youngstown Events" href="/events.ics" />
+      </Head>
       <section className="mx-auto max-w-5xl px-4 pb-8 pt-8 sm:px-6 sm:pt-12">
         <h1 className="m-2 text-3xl">Events</h1>
         <p className="mb-2 text-md sm:text-xl">{pageDescription}</p>
+        <div className="mt-3 flex flex-col items-center text-sm text-gray-400">
+          <a
+            className="inline-flex items-center gap-2 rounded-sm py-1 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+            href="webcal://codeyoungstown.com/events.ics"
+          >
+            <FontAwesomeIcon icon={faCalendarPlus} className="h-4 w-4" aria-hidden="true" />
+            <span>Subscribe to this calendar</span>
+          </a>
+          <a
+            className="inline-flex items-center gap-2 rounded-sm py-1 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
+            href="/rss.xml"
+          >
+            <FontAwesomeIcon icon={faRss} className="h-4 w-4" aria-hidden="true" />
+            <span>Subscribe via RSS</span>
+          </a>
+        </div>
         <UpcomingEvents className="mt-10" />
       </section>
 

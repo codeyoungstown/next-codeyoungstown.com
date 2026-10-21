@@ -10,7 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "scrape:events": "node scripts/scrape-meetup-events.mjs"
+    "scrape:events": "node scripts/scrape-meetup-events.mjs",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test tests/*.test.mjs"
   },
   "dependencies": {
     "@fontsource/open-sans": "^5.3.0",
