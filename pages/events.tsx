@@ -27,7 +27,7 @@ export default function Events({ upcoming, past }: { upcoming: EventRecord[]; pa
         <div className="mt-3 flex flex-col items-center text-sm text-gray-400">
           <a
             className="inline-flex items-center gap-2 rounded-sm py-1 transition-colors hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-            href="webcal://codeyoungstown.com/events.ics"
+            href="/events.ics"
           >
             <FontAwesomeIcon icon={faCalendarPlus} className="h-4 w-4" aria-hidden="true" />
             <span>Subscribe to this calendar</span>
