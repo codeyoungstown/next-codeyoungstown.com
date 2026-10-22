@@ -53,19 +53,28 @@ export function partitionEvents(events: FeedEvent[], now: number) {
   return { upcoming, past };
 }
 
+// Bump the exported revision when changing calendar-wide event details so
+// existing subscribers can recognize the update without changing event UIDs.
+const calendarRevision = 1;
+const calendarRevisedAt = Date.parse('2026-10-21T17:50:01Z');
+
 export function buildCalendar(events: FeedEvent[], fallbackTimestamp: string) {
   const lines = [
     'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Code Youngstown//Events//EN',
     'CALSCALE:GREGORIAN', 'X-WR-CALNAME:Code Youngstown Events',
   ];
   for (const event of events.slice().sort((a, b) => a.dateTime.localeCompare(b.dateTime))) {
-    const modified = event.updatedAt ?? event.publishedAt ?? fallbackTimestamp;
+    const modified = new Date(Math.max(
+      Date.parse(event.updatedAt ?? event.publishedAt ?? fallbackTimestamp),
+      calendarRevisedAt,
+    )).toISOString();
+    const end = new Date(Date.parse(event.dateTime) + 2 * 60 * 60 * 1000).toISOString();
     lines.push(
       'BEGIN:VEVENT', `UID:${calendarText(eventUid(event))}`,
       `DTSTAMP:${calendarDate(modified)}`, `LAST-MODIFIED:${calendarDate(modified)}`,
-      `SEQUENCE:${event.sequence ?? 0}`, `DTSTART:${calendarDate(event.dateTime)}`,
+      `SEQUENCE:${(event.sequence ?? 0) + calendarRevision}`, `DTSTART:${calendarDate(event.dateTime)}`,
     );
-    if (event.endTime) lines.push(`DTEND:${calendarDate(event.endTime)}`);
+    lines.push(`DTEND:${calendarDate(end)}`);
     lines.push(
       `SUMMARY:${calendarText(event.title)}`, `DESCRIPTION:${calendarText(event.description)}`,
       `LOCATION:${calendarText(event.location)}`, `URL:${eventUrl(event)}`,

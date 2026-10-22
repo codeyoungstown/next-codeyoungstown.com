@@ -13,14 +13,15 @@ const fallback = '2026-08-19T20:47:53.484Z';
 test('calendar preserves identity through edits and exports UTC times and cancellations', () => {
   const first = buildCalendar([event], fallback);
   const edited = buildCalendar([{ ...event, title: 'Moved', status: 'CANCELLED', sequence: 1,
-    updatedAt: '2026-10-22T12:00:00Z', endTime: '2026-11-03T20:00:00-05:00' }], fallback);
+    updatedAt: '2026-10-22T12:00:00Z', endTime: '2026-11-03T21:00:00-05:00' }], fallback);
   assert.match(first, /UID:sample@codeyoungstown.com\r\n/);
   assert.match(edited, /UID:sample@codeyoungstown.com\r\n/);
   assert.match(first, /DTSTART:20261103T230000Z\r\n/);
-  assert.doesNotMatch(first, /DTEND:/);
+  assert.match(first, /DTEND:20261104T010000Z\r\n/);
+  assert.match(first, /LAST-MODIFIED:20261021T175001Z\r\n/);
   assert.match(edited, /DTEND:20261104T010000Z\r\n/);
   assert.match(edited, /STATUS:CANCELLED\r\n/);
-  assert.match(edited, /SEQUENCE:1\r\n/);
+  assert.match(edited, /SEQUENCE:2\r\n/);
   assert.match(edited, /LAST-MODIFIED:20261022T120000Z\r\n/);
 });
 
@@ -75,4 +76,11 @@ test('RSS retains undated historical records and orders them by event time', () 
   ]);
   assert.equal((rss.match(/<item>/g) || []).length, 2);
   assert.ok(rss.indexOf('latest@') < rss.indexOf('oldest@'));
+});
+
+
+test('calendar duration is two elapsed hours across daylight saving changes', () => {
+  const calendar = buildCalendar([{ ...event, dateTime: '2026-11-01T01:30:00-04:00' }], fallback);
+  assert.match(calendar, /DTSTART:20261101T053000Z\r\n/);
+  assert.match(calendar, /DTEND:20261101T073000Z\r\n/);
 });

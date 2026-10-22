@@ -98,9 +98,11 @@ When adding or editing an event:
   archive's `scrapedAt` timestamp until explicit metadata is available.
 - Use `status: "CANCELLED"` for cancellations and retain the record so calendar
   subscribers can receive the cancellation.
-- Supply `endTime` when known. A null end time is omitted from the calendar;
-  no duration is guessed. Event timestamps include UTC offsets and are exported
-  as UTC, so calendar apps display them in the viewer's timezone.
+- Supply `endTime` when known for the website's date classification. Calendar
+  feed entries always last two hours from `dateTime`, including archived events.
+  Event timestamps include UTC offsets and are exported as UTC, so calendar apps
+  display them in the viewer's timezone. Calendar-wide changes carry a revision
+  and modification timestamp so subscribers can recognize updated entries.
 
 Subscribe by URL to receive future updates; importing a downloaded `.ics` file
 creates a one-time copy. The Events page's calendar button opens a dialog with
